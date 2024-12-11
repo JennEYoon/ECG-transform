@@ -3,8 +3,13 @@
 ### 0. ECGTransform pre-processed data, .pt format
 PyTorch library
 torch.save(x.pt), torch.load(x.pt)  
-MIT - train, test, validate  79mb  
-PTB - train, test, validate   10mb  
+MIT - train.pt, test.pt, val.pt  79mb  
+PTB - train.pt, test.pt, val.pt   10mb  
+
+MIT data 5 classes, PTB data only 2 classes (N normal, M mal)  
+Most training was done on MIT data, then generalized to PTB data,   
+but PTB data is of much higher quality, 15 channels vs 2 channels, 
+and measuring device is medical grade vs ambulatory (noisy).  
 
 ### 1. MIT BIH
 48 30-minute recordings from 2-channel ECG ambulatory 24-hour monitor (noisy), from 47 unique people.  
@@ -16,6 +21,7 @@ Digitized to 360 samples per second, 11 bit resolution,
 ### 2. PTB
 594 high resolution 15 lead ECG from 294 subjects, digitized to 1000 samples per second, 
 Used in 1995 paper, Germany. Recording before then. When?  
+
 
 ### Physionet/CinC Challenge 2017  
 MatLab all formats, data, code.  .m format  
