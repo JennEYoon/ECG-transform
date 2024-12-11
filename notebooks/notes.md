@@ -16,3 +16,6 @@ Uses PyTorch DataLoader class.
 
 Original files are available as .csv  from Kaggle, other sources.  
 
+Physio/CiniC 2017 Challenge data & sample notebook
+
+ * sample notebook, simple nn: https://www.kaggle.com/code/luigisaetta/ecgnotebookphy1-binary 
