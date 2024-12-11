@@ -1,0 +1,2 @@
+all items in data folder .gitignore added.
+test, added gitignore file directly to data folder

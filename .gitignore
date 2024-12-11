@@ -2,5 +2,19 @@
 __pycache__/
 *.py[cod]
 *$py.class
+.ipynb_checkpoints/*
+desktop.ini
 
+# ignore all folder  
+data/*  
 
+# except rule  
+!data/notes_gitkeep.*
+
+# exclude everything in this folder 
+Areteus.us/data/*
+
+# except to this rule  
+!Areteus.us/data/notes_gitkeep.*
+
+*.Zone_Identifier
