@@ -19,9 +19,10 @@ Digitized to 360 samples per second, 11 bit resolution,
 
 
 ### 2. PTB
-594 high resolution 15 lead ECG from 294 subjects, digitized to 1000 samples per second, 
-Used in 1995 paper, Germany. Recording before then. When?  
+594 high resolution 15 lead ECG from 294 subjects, digitized to 1000 samples per second, recording dates 1990 - 1997, in Germany. Much better, newer tech, high precision measuring device.  
+Used in 1995 paper, Germany.   
 
+Original data downloaded, binary format except header file in text format.  
 
 ### Physionet/CinC Challenge 2017  
 MatLab all formats, data, code.  .m format  
