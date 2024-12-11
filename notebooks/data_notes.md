@@ -26,4 +26,5 @@ Used in 1995 paper, Germany. Recording before then. When?
 ### Physionet/CinC Challenge 2017  
 MatLab all formats, data, code.  .m format  
 Single channel data. 
-
+ * .csv from kaggle: https://www.kaggle.com/datasets/luigisaetta/physionet2017ecg/data  
+ * sample notebook, simply nn: https://www.kaggle.com/code/luigisaetta/ecgnotebookphy1-binary  
