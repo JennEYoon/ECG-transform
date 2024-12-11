@@ -1,6 +1,6 @@
 # data  
 
-### 0. ECGTransform pre=processed data, .pt format
+### 0. ECGTransform pre-processed data, .pt format
 PyTorch library
 torch.save(x.pt), torch.load(x.pt)  
 MIT - train, test, validate  79mb  
