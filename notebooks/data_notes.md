@@ -1,9 +1,10 @@
 # data  
 
 ### 0. ECGTransform pre=processed data, .pt format
-PyTorch torch.save(x.pt), torch.load(x.pt)  
-MIT - train, test, validate  79mb
-PTB - train, test, validate   10mb
+PyTorch library
+torch.save(x.pt), torch.load(x.pt)  
+MIT - train, test, validate  79mb  
+PTB - train, test, validate   10mb  
 
 ### 1. MIT BIH
 48 30-minute recordings from 2-channel ECG ambulatory 24-hour monitor (noisy), from 47 unique people.  
