@@ -11,7 +11,9 @@ Most training was done on MIT data, then generalized to PTB data,
 but PTB data is of much higher quality, 15 channels vs 2 channels, 
 and measuring device is medical grade vs ambulatory (noisy).  
 
-### 1. MIT BIH
+### 1. MIT BIH  
+https://www.physionet.org/content/mitdb/1.0.0/
+
 48 30-minute recordings from 2-channel ECG ambulatory 24-hour monitor (noisy), from 47 unique people.  
 Recorded at BIH Lab (Beth Isreal Hospital), Boston 1975-79 period. Old tech, very old.  
 Digitized to 360 samples per second, 11 bit resolution, 
