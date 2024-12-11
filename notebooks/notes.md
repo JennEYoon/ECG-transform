@@ -16,6 +16,9 @@ Uses PyTorch DataLoader class.
 
 Original files are available as .csv  from Kaggle, other sources.  
 
+MIT-BIH - simple heart beat visualization notebook, kaggle:  
+https://www.kaggle.com/code/protobioengineering/getting-started-visualizing-patient-100-s-ecg  
+
 Physio/CiniC 2017 Challenge data & sample notebook
 
  * sample notebook, simple nn: https://www.kaggle.com/code/luigisaetta/ecgnotebookphy1-binary 
