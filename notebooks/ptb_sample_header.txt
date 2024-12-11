@@ -1,0 +1,1 @@
+s0010_43.hea  is ptb header file for a patient
