@@ -29,7 +29,8 @@ Used in 1995 paper, Germany.
 Original data downloaded, binary format except header file in text format.  
 
 ### Physionet/CinC Challenge 2017  
+https://www.kaggle.com/datasets/luigisaetta/physionet2017ecg/data  
+
 MatLab all formats, data, code.  .m format  
 Single channel data. 
- * .csv from kaggle: https://www.kaggle.com/datasets/luigisaetta/physionet2017ecg/data  
  * sample notebook, simply nn: https://www.kaggle.com/code/luigisaetta/ecgnotebookphy1-binary  
