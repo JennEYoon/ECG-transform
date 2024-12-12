@@ -6,10 +6,10 @@ __pycache__/
 desktop.ini
 
 # ignore all folder  
-data/*  
+/data/*  
 
 # except rule  
-!data/notes_gitkeep.*
+!/data/notes_gitkeep.*
 
 # exclude everything in this folder 
 Areteus.us/data/*
