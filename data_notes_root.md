@@ -10,6 +10,7 @@ MIT data 5 classes, PTB data only 2 classes (N normal, M mal)
 Most training was done on MIT data, then generalized to PTB data,   
 but PTB data is of much higher quality, 15 channels vs 2 channels, 
 and measuring device is medical grade vs ambulatory (noisy).  
+Also 2 doctors "corrected" many unreadable data for AI Computer training.  
 
 ### 1. MIT BIH
 48 30-minute recordings from 2-channel ECG ambulatory 24-hour monitor (noisy), from 47 unique people.  
