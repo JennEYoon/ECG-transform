@@ -1,3 +1,8 @@
+
+Google Drive data uploaded, shared folder: Kaggle preprocessed datasets    
+ * https://drive.google.com/drive/folders/10g2ykTyd34b3VZ_TBanyEUpubhPhqhKb?usp=sharing  
+ * csv format, from Kaggle, preprocessed, MIT and PTB sources, 125 Hertz downsampled, both sources. 
+
 all items in data folder .gitignore added.
 test, added gitignore file directly to data folder
 

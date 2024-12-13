@@ -11,8 +11,21 @@ Most training was done on MIT data, then generalized to PTB data,
 but PTB data is of much higher quality, 15 channels vs 2 channels, 
 and measuring device is medical grade vs ambulatory (noisy).  
 
-### 1. Kaggle, pre-processed, .csv format, MITBIH and PTB    
-/kaggle/input/heartbeat  
+### 1. Kaggle, pre-processed, .csv format, MITBIH and PTB data   
+
+https://www.kaggle.com/datasets/shayanfazeli/heartbeat/data
+
+Jennifer Yoon Google Drive share link:   
+ * https://drive.google.com/drive/folders/10g2ykTyd34b3VZ_TBanyEUpubhPhqhKb?usp=sharing  
+
+Info:  
+ * csv format, from Kaggle, preprocessed, MIT and PTB sources, 125 Hertz downsampled, both sources, each sample is one heart beat, (centered using peaks, assumed), zero padded and cropped, fixed dimension to 188 items, last item in row is class label, each row is one sample.  
+
+ * MIT 109,446 samples, 
+   five label categories ['N': 0, 'S':1, 'V':2, 'F':3, 'Q':4]   
+   (2 channels is source data, both apprear in Kaggle data?)  
+ * PTB 14,552 samples, two classes, in separate files, not part of data.  
+   (Q. how many lead channels were kept???)  
 
 ### 2. MIT BIH  
 https://www.physionet.org/content/mitdb/1.0.0/
