@@ -11,7 +11,10 @@ Most training was done on MIT data, then generalized to PTB data,
 but PTB data is of much higher quality, 15 channels vs 2 channels, 
 and measuring device is medical grade vs ambulatory (noisy).  
 
-### 1. MIT BIH  
+### 1. Kaggle, pre-processed, .csv format, MITBIH and PTB    
+/kaggle/input/heartbeat  
+
+### 2. MIT BIH  
 https://www.physionet.org/content/mitdb/1.0.0/
 
 48 30-minute recordings from 2-channel ECG ambulatory 24-hour monitor (noisy), from 47 unique people.  
@@ -20,7 +23,7 @@ Digitized to 360 samples per second, 11 bit resolution,
 2 physicians annotated each sample, clear up unreadable sections for computer to read.  
 
 
-### 2. PTB
+### 4. PTB
 https://physionet.org/content/ptbdb/1.0.0/  
 
 594 high resolution 15 lead ECG from 294 subjects, digitized to 1000 samples per second, recording dates 1990 - 1997, in Germany. Much better, newer tech, high precision measuring device.  
@@ -28,7 +31,7 @@ Used in 1995 paper, Germany.
 
 Original data downloaded, binary format except header file in text format.  
 
-### Physionet/CinC Challenge 2017  
+### 4. Physionet/CinC Challenge 2017  
 https://www.kaggle.com/datasets/luigisaetta/physionet2017ecg/data  
 
 MatLab all formats, data, code.  .m format  
