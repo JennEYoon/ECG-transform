@@ -1,0 +1,2 @@
+PTB dataset 2 classes,  
+reaches 98% accuracy with just random forest, no deep learning needed! 
