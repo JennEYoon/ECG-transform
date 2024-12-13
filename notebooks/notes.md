@@ -1,5 +1,5 @@
 # my test folder, Jennifer Yoon  
-## main branch, project for Jason Yoon, ECG signal, live feed, 12 channel.  
+## main branch, project for Jason Yoon, ECG signal, live feed, 12-19 channel.  
 ### dates period: Sept-Dec 2024   
 
 ### Link to PDF ECGTransforms paper  
