@@ -1,6 +1,8 @@
 # Microsoft OneNote program file folder  
-File not viewable on Github.  
-Download .one files to local computer and open using browser/MS-Office for Microsoft OneNote.  
+This file is not viewable on Github.  
+
+To view, (1) download .one files to local computer   
+and (2) open using MS-Office OneNote on browser or from locally installed program(s).  
 
 Temporary working directory for storing web clippings, images, png files, text, calendar, misc items  
 
