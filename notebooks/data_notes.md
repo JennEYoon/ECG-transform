@@ -14,6 +14,7 @@ and measuring device is medical grade vs ambulatory (noisy).
 ### 1. Kaggle, pre-processed, .csv format, MITBIH and PTB data   
 
 https://www.kaggle.com/datasets/shayanfazeli/heartbeat/data
+https://www.kaggle.com/datasets/shayanfazeli/heartbeat
 
 Jennifer Yoon Google Drive share link:   
  * https://drive.google.com/drive/folders/10g2ykTyd34b3VZ_TBanyEUpubhPhqhKb?usp=sharing  
