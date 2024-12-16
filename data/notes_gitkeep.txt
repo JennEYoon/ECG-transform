@@ -1,7 +1,3 @@
-all items in data folder .gitignore added.
-test, added gitignore file directly to data folder
+gitignore applied to all data files in this folder.  
+Files NOT uploaded to Github.  
 
-
-
-test - see if gitignore exception rule applies.
-Alright!!! Know this file was modified, git status!!!  
