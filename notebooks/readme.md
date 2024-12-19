@@ -1,4 +1,5 @@
-# my test folder, Jennifer Yoon  
+# notebooks folder, my test notebooks, downloaded notebooks  
+### Owner: Jennifer Yoon  
 ## main branch, project for Jason Yoon, ECG signal, live feed, 12-19 channel.  
 ### dates period: Sept-Dec 2024   
 
