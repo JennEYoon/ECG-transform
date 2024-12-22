@@ -36,8 +36,7 @@ Recorded at BIH Lab (Beth Isreal Hospital), Boston 1975-79 period. Old tech, ver
 Digitized to 360 samples per second, 11 bit resolution, 
 2 physicians annotated each sample, clear up unreadable sections for computer to read.  
 
-
-### 4. PTB
+### 3. PTB
 https://physionet.org/content/ptbdb/1.0.0/  
 
 594 high resolution 15 lead ECG from 294 subjects, digitized to 1000 samples per second, recording dates 1990 - 1997, in Germany. Much better, newer tech, high precision measuring device.  
@@ -49,5 +48,9 @@ Original data downloaded, binary format except header file in text format.
 https://www.kaggle.com/datasets/luigisaetta/physionet2017ecg/data  
 
 MatLab all formats, data, code.  .m format  
-Single channel data. 
+Single channel data. Contributed from a device manufacturer, name to add later.  
  * sample notebook, simply nn: https://www.kaggle.com/code/luigisaetta/ecgnotebookphy1-binary  
+
+### 5. Other Kaggle, etc data sources  
+
+Various notebooks at Kaggle provide links to pre-processed MIT and PTB source datasets, with different processing methods, sampled at different hertz, and mostly saved to .csv formats.  Some are binary file formats.  
