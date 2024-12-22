@@ -23,3 +23,6 @@ https://www.kaggle.com/code/protobioengineering/getting-started-visualizing-pati
 Physio/CiniC 2017 Challenge data & sample notebook
 
  * sample notebook, simple nn: https://www.kaggle.com/code/luigisaetta/ecgnotebookphy1-binary 
+
+### My PyTorch-Practice repo, for review on library  
+https://github.com/JennEYoon/pytorch-practice/tree/main  
