@@ -48,8 +48,8 @@ Original data downloaded, binary format except header file in text format.
 Try numpy to read binary numerical data, row at a time.  
 OpenAI instructions saved.  
 
-<s><u>Waveform visualizer, PTB data source</u></s>
-<img src="ptb_sample/s0021bre.jpg" , width=600>
+   > <s>Waveform visualizer, PTB data source</s>
+     <img src="ptb_sample/s0021bre.jpg" , width=600px>
 
 ### 4. Physionet/CinC Challenge 2017  
 https://www.kaggle.com/datasets/luigisaetta/physionet2017ecg/data  
