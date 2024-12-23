@@ -48,7 +48,7 @@ Original data downloaded, binary format except header file in text format.
 Try numpy to read binary numerical data, row at a time.  
 OpenAI instructions saved.  
 
-### Waveform visualizer, PTB data source
+### * Waveform visualizer, PTB data source
 <img src="/ptb_sample/s0021bre.jpg">
 
 ### 4. Physionet/CinC Challenge 2017  
