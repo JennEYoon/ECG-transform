@@ -20,12 +20,12 @@ Jennifer Yoon Google Drive share link:
  * https://drive.google.com/drive/folders/10g2ykTyd34b3VZ_TBanyEUpubhPhqhKb?usp=sharing  
 
 Info:  
- * csv format, from Kaggle, preprocessed, MIT and PTB sources, 125 Hertz downsampled, both sources, each sample is one heart beat, (centered using peaks, assumed), zero padded and cropped, fixed dimension to 188 items, last item in row is class label, each row is one sample.  
+ * csv format, from Kaggle, preprocessed, MIT and PTB sources, 125 Hertz downsampled, both sources.  Each row is a sample and is fixed width of 188 columns.  Last column is a classification label (1 is abnormal, 0 is normal).  Each sample is approximately 1.5 seconds long, usually starts at the beginning of a major pumping action.  Samples that are longer than 1.5 seconds are cropped, shorter samples are zero padded, to fix row length to 188.     
 
  * MIT 109,446 samples, 
    five label categories ['N': 0, 'S':1, 'V':2, 'F':3, 'Q':4]   
    (2 channels is source data, both apprear in Kaggle data?)  
- * PTB 14,552 samples, two classes, in separate files, not part of data.  
+ * PTB 14,552 samples, two classes, in separate files.  
    (Q. how many lead channels were kept???)  
 
 ### 2. MIT BIH  
