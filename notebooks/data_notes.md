@@ -49,6 +49,7 @@ Try numpy to read binary numerical data, row at a time.
 OpenAI instructions saved.  
 
 #### Waveform visualizer, PTB data source   
+Leads: (i, ii, iii, avr, avl, avf), (v1, v2, v3, v4, v5, v6), (vx, vy, vz)  
 <img src="ptb_sample/s003lre.jpg" width="600px" >  
 
 ### 4. Physionet/CinC Challenge 2017  
