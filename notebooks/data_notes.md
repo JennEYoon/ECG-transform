@@ -26,7 +26,9 @@ Info:
    five label categories ['N': 0, 'S':1, 'V':2, 'F':3, 'Q':4]   
    (2 channels is source data, both apprear in Kaggle data?)  
  * PTB 14,552 samples, two classes, in separate files.  
-   (Q. how many lead channels were kept???)  
+   (Q. how many lead channels were kept???)
+
+ * These samples are too far chopped into a 1.5 secon time frame, would be better to get a few comtinuous seconds on the PTB abnormal dataset.  Look at source data, unprocessed further by Kaggle.  Chopped ok for training base model, but PTB will ne difficult to classify into different arrythemias without lead id.  Whick of 12 leads are being shown?  
 
 ### 2. MIT BIH  
 https://www.physionet.org/content/mitdb/1.0.0/
