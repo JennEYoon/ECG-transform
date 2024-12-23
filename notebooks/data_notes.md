@@ -49,7 +49,7 @@ Try numpy to read binary numerical data, row at a time.
 OpenAI instructions saved.  
 
    > <s>Waveform visualizer, PTB data source</s>
-     <img src="ptb_sample/s0021bre.jpg" , width=600px>
+     <img src="ptb_sample/s0021bre.jpg" width="600px" />
 
 ### 4. Physionet/CinC Challenge 2017  
 https://www.kaggle.com/datasets/luigisaetta/physionet2017ecg/data  
