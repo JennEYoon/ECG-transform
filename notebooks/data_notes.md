@@ -6,6 +6,15 @@ torch.save(x.pt), torch.load(x.pt)
 MIT - train.pt, test.pt, val.pt  79mb  
 PTB - train.pt, test.pt, val.pt   10mb  
 
+***PTB *.pt data load success! Jan 3, 2025***   
+train.pt, test.pt - structure is a dict, torch object.  
+Keys 'samples' and 'labels'. 
+samples.values is a 3d array, col length 186, row length is sample numbers, varies by file, decimal numbers.  
+labeles.values is 1d array, values are 1.0 or 0.0, float 64.  
+
+> Next: find model weights, which foundation model was used?
+> AI from paper and source code   
+
 MIT data 5 classes, PTB data only 2 classes (N normal, M mal)  
 Most training was done on MIT data, then generalized to PTB data,   
 but PTB data is of much higher quality, 15 channels vs 2 channels, 
