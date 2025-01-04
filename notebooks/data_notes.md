@@ -52,6 +52,11 @@ Recorded at BIH Lab (Beth Isreal Hospital), Boston 1975-79 period. Old tech, ver
 Digitized to 360 samples per second, 11 bit resolution, 
 2 physicians annotated each sample, clear up unreadable sections for computer to read.  
 
+Fist channel is mostly MLII, modified limb lead 2.   
+"The signal obtained from the modified lead II (MLII) ECG lead, which uses electrodes placed on the right arm and left leg, is the most commonly used signal in clinical practice for medical diagnosis. This lead provides a clear and consistent view of the electrical activity of the heart, particularly its rhythm, which is important for identifying both normal and abnormal heart functions in patients." https://www.mdpi.com/2076-3417/14/20/9307  
+
+
+
 ### 3. PTB
 https://physionet.org/content/ptbdb/1.0.0/  
 
