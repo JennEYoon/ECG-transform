@@ -13,7 +13,10 @@ Author provided files, ex. train.pt, is a data file that has been serialized int
 Keys are 'samples' and 'labels'.   
 samples.values is a 3d array, col length 186, row length is sample numbers, varies by file, decimal numbers.  
 labeles.values is 1d array, values are 1.0 or 0.0, float 64.  
-
+```
+    Shape of samples: torch.Size([2909, 1, 186])
+    Shape of samples: torch.Size([9308, 1, 186])
+```
 > Next: find model weights, which foundation model was used?
 > AI from paper and source code   
 
