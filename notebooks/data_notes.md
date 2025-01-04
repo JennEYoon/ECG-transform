@@ -8,14 +8,14 @@ PTB - train.pt, test.pt, val.pt   10mb
 
 ***PTB *.pt data load success! Jan 3, 2025***   
 train.pt, test.pt - structure is a dict, torch object.  
-Author provided files, ex. train.pt, is a data file that has been serialized into binary format (byte read, write) using PyTorch format. Although PyTorch *.pt can be used to save model and training weights, these don't seem to be provided.  Model parameters and hyperparameters are provided in the code.  May need to run the model and train to reproduce the weights.  But author depended on a foundation model, so that needs to be searched.   
+Author provided files, ex. train.pt, is a data file that has been serialized into binary format (byte read, byte write) using PyTorch format. Although PyTorch *.pt can be used to save model and training weights, these don't seem to be provided.  Model parameters and hyperparameters are provided in the code.  May need to run the model and train to reproduce the weights.  But author depended on a foundation model, so that needs to be researched.   
 
 Keys are 'samples' and 'labels'.   
 samples.values is a 3d array, col length 186, row length is sample numbers, varies by file, decimal numbers.  
 labeles.values is 1d array, values are 1.0 or 0.0, float 64.  
 ```
-    Shape of samples: torch.Size([2909, 1, 186])
-    Shape of samples: torch.Size([9308, 1, 186])
+  test.pt>   Shape of samples: torch.Size([2909, 1, 186])
+  train.pt>  Shape of samples: torch.Size([9308, 1, 186])
 ```
 > Next: find model weights, which foundation model was used?
 > AI from paper and source code   
@@ -42,7 +42,7 @@ Info:
  * PTB 14,552 samples, two classes, in separate files.  
    (Q. how many lead channels were kept???)
 
- * These samples are too far chopped into a 1.5 secon time frame, would be better to get a few comtinuous seconds on the PTB abnormal dataset.  Look at source data, unprocessed further by Kaggle.  Chopped ok for training base model, but PTB will ne difficult to classify into different arrythemias without lead id.  Whick of 12 leads are being shown?  
+ * These samples are too much chopped into a 1.5 second time frame (1-1.5 full heart beats, would be better to get a few continuous seconds on the PTB abnormal dataset.  Look at source data, unprocessed further by Kaggle.  Chopped ok for training base model, but PTB will be difficult to classify into different arrythemias without lead id.  Which of 12 leads are being shown?  
 
 ### 2. MIT BIH  
 https://www.physionet.org/content/mitdb/1.0.0/
@@ -61,19 +61,22 @@ Used in 1995 paper, Germany.
 Original data downloaded, binary format except header file in text format.  
 Try numpy to read binary numerical data, row at a time.  
 OpenAI instructions saved.  
+PyTorch can also process binary numerical files.  
+Filename identifies lead.  
 
-#### Waveform visualizer, PTB data source   
-Leads: (i, ii, iii, avr, avl, avf), (v1, v2, v3, v4, v5, v6), (vx, vy, vz)  
-<br/>  
-
-<img src="ptb_sample/s003lre.jpg" width="600px" >  
+#### PTB Waveform visualizer, PTB data from source   
+Leads: (i, ii, iii, avr, avl, avf), (v1, v2, v3, v4, v5, v6), (vx, vy, vz)    
+ * file format is binary, read using Numpy or PyTorch.
+ * Sample Image, Waveform Visualizer, PTB website  
+   <img src="ptb_sample/s003lre.jpg" width="600px" >  
 
 ### 4. Physionet/CinC Challenge 2017  
 https://www.kaggle.com/datasets/luigisaetta/physionet2017ecg/data  
 
 MatLab all formats, data, code.  .m format  
 Single channel data. Contributed from a device manufacturer, name to add later.  
- * sample notebook, simply nn: https://www.kaggle.com/code/luigisaetta/ecgnotebookphy1-binary  
+ * sample notebook, simply nn: https://www.kaggle.com/code/luigisaetta/ecgnotebookphy1-binary
+ * binary classification, normal vs abnoral, not binary file format. Read csv used.  
 
 ### 5. Other Kaggle, etc data sources  
 
