@@ -86,3 +86,8 @@ Single channel data. Contributed from a device manufacturer, name to add later.
 ### 5. Other Kaggle, etc data sources  
 
 Various notebooks at Kaggle provide links to pre-processed MIT and PTB source datasets, with different processing methods, sampled at different hertz, and mostly saved to .csv formats.  Some are binary file formats.  
+
+### Heart Beat, idealized pattern  
+**Figure 1** shows the signal of a normal heartbeat, which consists of the P wave, QRS complex and T and U waves, indicators that reflect the heart’s electrical activities, including repolarization and depolarization of the atrium and ventricle.
+<img srs="ECG-img.jpg" width=600px >  
+Applsci 14 09307 g001
