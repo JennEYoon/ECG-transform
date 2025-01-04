@@ -8,7 +8,7 @@ PTB - train.pt, test.pt, val.pt   10mb
 
 ***PTB *.pt data load success! Jan 3, 2025***   
 train.pt, test.pt - structure is a dict, torch object.  
-Keys 'samples' and 'labels'. 
+Keys are 'samples' and 'labels'.   
 samples.values is a 3d array, col length 186, row length is sample numbers, varies by file, decimal numbers.  
 labeles.values is 1d array, values are 1.0 or 0.0, float 64.  
 
