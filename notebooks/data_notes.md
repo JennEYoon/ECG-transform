@@ -8,6 +8,8 @@ PTB - train.pt, test.pt, val.pt   10mb
 
 ***PTB *.pt data load success! Jan 3, 2025***   
 train.pt, test.pt - structure is a dict, torch object.  
+Author provided files, ex. train.pt, is a data file that has been serialized into binary format (byte read, write) using PyTorch format. Although PyTorch *.pt can be used to save model and training weights, these don't seem to be provided.  Model parameters and hyperparameters are provided in the code.  May need to run the model and train to reproduce the weights.  But author depended on a foundation model, so that needs to be searched.   
+
 Keys are 'samples' and 'labels'.   
 samples.values is a 3d array, col length 186, row length is sample numbers, varies by file, decimal numbers.  
 labeles.values is 1d array, values are 1.0 or 0.0, float 64.  
