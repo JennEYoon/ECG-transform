@@ -39,3 +39,8 @@ Fist channel is mostly MLII, modified limb lead 2.
 "The signal obtained from the modified lead II (MLII) ECG lead, which uses electrodes placed on the right arm and left leg, is the most commonly used signal in clinical practice for medical diagnosis. This lead provides a clear and consistent view of the electrical activity of the heart, particularly its rhythm, which is important for identifying both normal and abnormal heart functions in patients." Applsci 14 09307 g001, https://www.mdpi.com/2076-3417/14/20/9307
 
 > See: https://github.com/JennEYoon/ECG-transform/blob/main/notebooks/data_notes.md   
+
+## Ready for Device Data, When?  
+
+Jason promised 5 minute recordings by Jan 7, 2025. Where is this?  
+Also comparison to Hospital ECG data from Mexico?  
