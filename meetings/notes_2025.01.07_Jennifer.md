@@ -44,3 +44,12 @@ Fist channel is mostly MLII, modified limb lead 2.
 
 Jason promised 5 minute recordings by Jan 7, 2025. Where is this?  
 Also comparison to Hospital ECG data from Mexico?  
+
+Added: Jason will look for Chinese ECG data files, thousands of samples, labeled arrythmia classes?  
+Added: Alondra will work on getting device recordings, right arm + left leg, plus any one chest aread lead.  
+       For 2 lead minimum (just like MIT dataset)  
+
+Rodrigo: Jennifer thinks, helpful to do more broad research on ECG models, Jennifer only scratched the surface.  
+         Kaggle, YouTube. Many simple models available.  
+
+       
