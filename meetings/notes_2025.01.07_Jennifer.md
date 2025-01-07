@@ -28,8 +28,8 @@ it seems there is no need for saved model checkpoints, saved model weights, or f
 The project is simple enough that none of these are needed.  
 
 Ready to run the ECGTransform model using *.pt dataset files provided.  
-PTB dataset *.pt files transformed into .csv files for running on 1D CNN model above.   
-(Converted *.csv files in Google Drive: https://drive.google.com/drive/folders/10g2ykTyd34b3VZ_TBanyEUpubhPhqhKb?usp=sharing  )
+PTB dataset *.pt files transformed into *.csv files for running on 1D CNN model above.   
+> https://drive.google.com/drive/folders/1jOf2oLHqy5TZJlQHtxZr3ECUsCY662uY?usp=drive_link
 
 > See: https://github.com/JennEYoon/ECG-transform/blob/main/notebooks/load_data_test_pt.ipynb  
 
