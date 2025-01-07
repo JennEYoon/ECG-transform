@@ -13,7 +13,7 @@ Training dataset accuracy 98.87% on last epoch.
 Test dataset accyract 98.43%, only slightly lower.  
 
 These numbers are remarkably good for a very simple CNN model.  
-Next working on PTB dataset. Refirnatted into .csv format and ready to try training.  
+Next working on PTB dataset - reformatted into .csv format and ready to try training.  
 
 > See: https://github.com/JennEYoon/ECG-transform/blob/main/notebooks/ecg-1Dcnn_classifier.ipynb  
 
