@@ -1,4 +1,4 @@
-Q) Why does PyTorch tensors have arrays with 1, wash as (9308, 1, 186) above?
+Q) Why does PyTorch tensors have arrays with 1 dimension as in (9308, 1, 186) above?
 
 A Chat-GPT) In PyTorch, a tensor with a shape of `(9308, 1, 186)` may arise due to a few common reasons related to how dimensions are handled, particularly in cases involving batch processing, data preprocessing, or specific operations like broadcasting. Let me break down why such a shape might occur:
 
