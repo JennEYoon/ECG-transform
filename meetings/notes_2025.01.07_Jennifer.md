@@ -11,7 +11,7 @@ Took 15 minutes to run on Colab T4 GPU
 10 epochs, batch size 64  
 Training dataset accuracy 98.87% on last epoch.  
 Test dataset accyract 98.43%, only slightly lower.  
-  Jennifer note - maybe just running more epochs can lead to higher accuracy? Without using more complex models? Is overfitting a problem?  Augmented data a possible solution?  
+  * Jennifer note - maybe just running more epochs can lead to higher accuracy? Without using more complex models? Is overfitting a problem?  Augmented data a possible solution?  
 
 These numbers are remarkably good for a very simple CNN model.  
 Next working on PTB dataset - reformatted into .csv format and ready to try training.  
