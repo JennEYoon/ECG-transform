@@ -11,6 +11,7 @@ Took 15 minutes to run on Colab T4 GPU
 10 epochs, batch size 64  
 Training dataset accuracy 98.87% on last epoch.  
 Test dataset accyract 98.43%, only slightly lower.  
+  Jennifer note - maybe just running more epochs can lead to higher accuracy? Without using more complex models? Is overfitting a problem?  Augmented data a possible solution?  
 
 These numbers are remarkably good for a very simple CNN model.  
 Next working on PTB dataset - reformatted into .csv format and ready to try training.  
@@ -46,10 +47,11 @@ Jason promised 5 minute recordings by Jan 7, 2025. Where is this?
 Also comparison to Hospital ECG data from Mexico?  
 
 Added: Jason will look for Chinese ECG data files, thousands of samples, labeled arrythmia classes?  
+   * Jason sent Chinese data possible link - WhatsApp. To follow up.
+     
 Added: Alondra will work on getting device recordings, right arm + left leg, plus any one chest aread lead.  
-       For 2 lead minimum (just like MIT dataset)  
+For 2 lead minimum (just like MIT dataset)  
 
-Rodrigo: Jennifer thinks, helpful to do more broad research on ECG models, Jennifer only scratched the surface.  
-         Kaggle, YouTube. Many simple models available.  
+Jennifer thinks, it may be helpful to do more broad research on ECG models, Jennifer only scratched the surface. Kaggle, YouTube. Many simple models available. 
 
        
