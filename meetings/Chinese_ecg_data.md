@@ -43,3 +43,6 @@ We present a large 12-lead ECG dataset with standardized diagnostic statements c
 Liu, Hui; Wang, Yinglong; Chen, Da; Zhang, Xiyu; Li, Huijie; Bian, Lipan; et al. (2022). A large-scale multi-label 12-lead electrocardiogram database with standardized diagnostic statements. figshare. Collection. https://doi.org/10.6084/m9.figshare.c.5779802.v1  
 https://doi.org/10.6084/m9.figshare.c.5779802.v1
 
+https://springernature.figshare.com/collections/A_large-scale_multi-label_12-lead_electrocardiogram_database_with_standardized_diagnostic_statements/5779802/1  
+Dataset download links, at bottom of page.  
+Associated paper PDF saved to "papers" folder on repo.  
