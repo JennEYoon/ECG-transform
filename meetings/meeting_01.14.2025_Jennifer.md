@@ -17,8 +17,10 @@ Takes 30 second recording.  Some device saves upto 1000 images on device itself,
   * KardiaMobile 6-lead, $150   
 <img src="https://github.com/JennEYoon/ECG-transform/blob/main/images/KardiaMobile_6.png" width=600px >
 
-### still WIP  
-ECGTransform original code, testing various methods.  Rodrigo sent me Colab Jupyter nb version.  
-PTB dataset run on 1Dcnn simple model.  To try running more epochs (currently 10 used) to see if accuracy can improve without overfitting data.  
+### others WIP    
+  * ECGTransform original code, testing various methods.
+    - Rodrigo sent me Colab Jupyter nb version.  
+  * PTB dataset run on 1Dcnn simple model.
+    - To try running more epochs (currently 10 used) to see if accuracy can improve without overfitting data.  
 
 
