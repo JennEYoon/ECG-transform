@@ -1,0 +1,60 @@
+Category,Code,Description
+A,1,Normal ECG
+C,21,Sinus tachycardia
+C,22,Sinus bradycardia
+C,23,Sinus arrhythmia
+D,30,Atrial premature complex(es)
+D,31,"Atrial premature complexes, nonconducted"
+D,36,Junctional premature complex(es)
+D,37,Junctional escape complex(es)
+E,50,Atrial fibrillation
+E,51,Atrial flutter
+E,54,Junctional tachycardia
+F,60,Ventricular premature complex(es)
+H,80,Short PR interval
+H,81,AV conduction ratio N:D
+H,82,Prolonged PR interval
+H,83,"Second-degree AV block, Mobitz type I (Wenckebach)"
+H,84,"Second-degree AV block, Mobitz type II"
+H,85,2:1 AV block
+H,86,"AV block, varying conduction"
+H,87,"AV block, advanced (high-grade)"
+H,88,"AV block, complete (third-degree)"
+I,101,Left anterior fascicular block
+I,102,Left posterior fascicular block
+I,104,Left bundle-branch block
+I,105,Incomplete right bundle-branch block
+I,106,Right bundle-branch block
+I,108,Ventricular preexcitation
+J,120,Right-axis deviation
+J,121,Left-axis deviation
+J,125,Low voltage
+K,140,Left atrial enlargement
+K,142,Left ventricular hypertrophy
+K,143,Right ventricular hypertrophy
+L,145,ST deviation
+L,146,ST deviation with T-wave change
+L,147,T-wave abnormality
+L,148,Prolonged QT interval
+L,152,TU fusion
+L,153,ST-T change due to ventricular hypertrophy
+L,155,Early repolarization
+M,160,Anterior MI
+M,161,Inferior MI
+M,165,Anteroseptal MI
+M,166,Extensive anterior MI
+Modifier,308,Occasional
+Modifier,310,Frequent
+Modifier,330,Acute
+Modifier,331,Recent
+Modifier,332,Old
+Modifier,340,Couplets
+Modifier,341,In a bigeminal pattern
+Modifier,342,In a trigeminal pattern
+Modifier,346,With a rapid ventricular response
+Modifier,347,With a slow ventricular response
+Modifier,349,With aberrancy
+Modifier,350,Polymorphic
+Modifier,362,Depression
+Modifier,363,Elevation
+Modifier,367,Inversion
