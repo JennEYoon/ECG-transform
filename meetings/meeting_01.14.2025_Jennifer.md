@@ -15,6 +15,7 @@ Can view ECG chart on user's phone.
 Takes 30 second recording.  Some device saves upto 1000 images on device itself, others save to user's phone memory.  
 
     > <img src="../images/KardiaMobile_6.png" width=600px >  
+<img src="https://github.com/JennEYoon/ECG-transform/blob/main/images/KardiaMobile_6.png" width=600px
 
 ### still WIP  
 ECGTransform original code, testing various methods.  Rodrigo sent me Colab Jupyter nb version.  
