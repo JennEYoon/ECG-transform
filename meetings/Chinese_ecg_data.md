@@ -45,4 +45,8 @@ https://doi.org/10.6084/m9.figshare.c.5779802.v1
 
 https://springernature.figshare.com/collections/A_large-scale_multi-label_12-lead_electrocardiogram_database_with_standardized_diagnostic_statements/5779802/1  
 Dataset download links, at bottom of page.  
-Associated paper PDF saved to "papers" folder on repo.  
+
+Jennifer - Dataset downloaded, seems good, in H5 format.  
+2.5 GB tar file.  
+Descriptions and example code, and original article also downloaded.  
+
