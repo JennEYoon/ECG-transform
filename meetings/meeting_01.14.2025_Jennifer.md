@@ -14,7 +14,7 @@ ECG image is sent to a cardiologist to reply with a reading, if subscripted to t
 Can view ECG chart on user's phone.  
 Takes 30 second recording.  Some device saves upto 1000 images on device itself, others save to user's phone memory.  
 
-    > <img src="../images/KardiaMobile_6.png" width=600px >  
+  * KardiaMobile 6-lead, $150   
 <img src="https://github.com/JennEYoon/ECG-transform/blob/main/images/KardiaMobile_6.png" width=600px >
 
 ### still WIP  
