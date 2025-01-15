@@ -23,4 +23,10 @@ Takes 30 second recording.  Some device saves upto 1000 images on device itself,
   * PTB dataset run on 1Dcnn simple model.
     - To try running more epochs (currently 10 used) to see if accuracy can improve without overfitting data.  
 
+### to do:  
+Rodrigo - send startup Google Cloud credits info  
+me - email setup continue, phone, desktop  
+me - apply to startup Google Cloud credits     
 
+Rodrigo - review long survey paper, other 12 lead ECG data sources.   
+me - Chinese 12-lead data continue   
