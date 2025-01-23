@@ -100,11 +100,10 @@ https://www.mdpi.com/2076-3417/14/20/9307
  * data info to add  
 
 
-
 ### 7. Rodrigo's 12-lead datasets, survey research paper PDF  
 
- * Survey paper PDF:  papers/SPH_ECGdata_Nature_s41597-022-01403-5.pdf
- * 
+ * Survey paper PDF: papers/SPH_ECGdata_Nature_s41597-022-01403-5.pdf
+ * 6 new datasets, 12-lead. Rodrigo Uploaded to shared Google Drive.  
 
 
 
