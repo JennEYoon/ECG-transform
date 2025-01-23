@@ -96,9 +96,9 @@ https://www.mdpi.com/2076-3417/14/20/9307
 
 ### 6. Chinese large labeled 12-lead dataset  
 
- * Copy of SPH paper: ../papers/SPH_ECGdata_Nature_s41597-022-01403-5.pdf
- * https://springernature.figshare.com/collections/_/5779802
- * https://pmc.ncbi.nlm.nih.gov/articles/PMC9174207/#CR18  
+ * Copy: https://github.com/JennEYoon/ECG-transform/blob/main/papers/SPH_ECGdata_Nature_s41597-022-01403-5.pdf
+ * source: https://springernature.figshare.com/collections/_/5779802
+ * data:   https://pmc.ncbi.nlm.nih.gov/articles/PMC9174207/#CR18  
  * data info to add  
 
 
