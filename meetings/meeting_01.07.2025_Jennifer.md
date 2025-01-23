@@ -53,5 +53,6 @@ Added: Alondra will work on getting device recordings, right arm + left leg, plu
 For 2 lead minimum (just like MIT dataset)  
 
 Jennifer thinks, it may be helpful to do more broad research on ECG models, Jennifer only scratched the surface. Kaggle, YouTube. Many simple models available. 
-
+  * Rodrigo followed up on this (Jan 14), found survey paper with many ECG training models tried before.
+  * Rodrigo (Jan 14) also found possible alternate data source for 12-lead data, other than Chinese dataset.    
        
