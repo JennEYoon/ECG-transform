@@ -93,3 +93,14 @@ Various notebooks at Kaggle provide links to pre-processed MIT and PTB source da
 <img src="ECG-img.png" width=400px >  
 Applsci 14 09307 g001
 https://www.mdpi.com/2076-3417/14/20/9307  
+
+### 6. Chinese large labeled 12-lead dataset  
+
+
+
+
+### 7. Rodrigo's 12-lead datasets, survey research paper PDF  
+
+
+
+
