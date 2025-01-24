@@ -99,8 +99,7 @@ https://www.mdpi.com/2076-3417/14/20/9307
  * Copy: ../papers/SPH_ECGdata_Nature_s41597-022-01403-5.pdf
  * source: https://springernature.figshare.com/collections/_/5779802
  * data:   https://pmc.ncbi.nlm.nih.gov/articles/PMC9174207/#CR18  
- * data info to add  
-
+ * data, uploaded to shared Google Drive, also on local repo.  
 
 ### 7. Rodrigo's 12-lead datasets, survey research paper PDF  
 
