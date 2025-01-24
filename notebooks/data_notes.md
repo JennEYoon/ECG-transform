@@ -90,7 +90,7 @@ Various notebooks at Kaggle provide links to pre-processed MIT and PTB source da
 
 ### Heart Beat, idealized pattern  
 **Figure 1** shows the signal of a normal heartbeat, which consists of the P wave, QRS complex and T and U waves, indicators that reflect the heart’s electrical activities, including repolarization and depolarization of the atrium and ventricle.
-<img src="ECG-img.png" width=400px >  
+<img src="../images/ECG-img.png" width=400px >  
 Applsci 14 09307 g001
 https://www.mdpi.com/2076-3417/14/20/9307  
 
