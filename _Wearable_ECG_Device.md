@@ -8,7 +8,7 @@ Author: Jennifer Yoon
 
 Photos of Device:  
 
-### Img1-full shirt  
+  * Img1-full shirt  
     <img src="https://github.com/JennEYoon/ECG-transform/blob/main/images/device_img1_shirt.jpg" width = 400px >
 
 ### img2 - check are, v1 to v6 leads  
