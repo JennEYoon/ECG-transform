@@ -8,16 +8,16 @@ Author: Jennifer Yoon
 
 Photos of Device:  
 
-  * ***Img1-full shirt***
+  * ***Img1 - full t-shirt***
       
     <img src="images/device_img1_shirt.jpg" width = 400px >
 
-  * ***img2 - check are, v1 to v6 leads***  
+  * ***img2 - chest area, v1 to v6 leads***  
     
     <img src="images/device_img2_chest.jpg" width = 400px >
 
 
-  * ***img3 - closeup of processor chip, v1, v2 leads***  
+  * ***img3 - close-up of processor chip and v1, v2 leads***  
     
     <img src="images/device_img3_closeup.jpg" width = 400px >
 
