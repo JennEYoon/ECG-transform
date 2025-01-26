@@ -50,3 +50,22 @@ Jennifer - Dataset downloaded, seems good, in H5 format.
 2.5 GB tar file.  
 Descriptions and example code, and original article also downloaded.  
 
+## Copy text msg:  
+please give me link to the open source largest size Chinese ECG labeled recordings often used for AI classification research.
+ChatGPT said:
+ChatGPT
+### The Shandong Provincial Hospital (SPH) 12-lead ECG Database  
+is a large-scale, open-source dataset from China, widely utilized in AI classification research. It comprises 25,770 ECG records from 24,666 patients, each labeled with standardized diagnostic statements conforming to the American Heart Association (AHA) recommendations. 
+PMC
+
+This dataset is accessible through Figshare:
+
+SPH 12-lead ECG Database
+Additionally, the China Physiological Signal Challenge 2018 (CPSC 2018) dataset is another significant open-source Chinese ECG dataset. It contains 10,330 ECG recordings, each lasting between 6 to 60 seconds, annotated with 23 different arrhythmia types. 
+PMC
+
+This dataset is available on PhysioNet:
+
+### CPSC 2018 Dataset
+Both datasets are valuable resources for developing and evaluating AI algorithms in ECG classification tasks. 
+ * To find this.  
