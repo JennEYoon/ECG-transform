@@ -50,7 +50,9 @@ Jennifer - Dataset downloaded, seems good, in H5 format.
 2.5 GB tar file.  
 Descriptions and example code, and original article also downloaded.  
 
-## Copy text msg:  
+\-\-\-   
+
+## Copy of original text msg:  
 please give me link to the open source largest size Chinese ECG labeled recordings often used for AI classification research.
 ChatGPT said:
 ChatGPT
