@@ -1,4 +1,6 @@
-To untar a .tar.gz file in Python, you can use the tarfile module: 
+To untar a .tar.gz file in Python, you can use the tarfile module:   
+
+```python
 import tarfile
 
 def untar_data(filename, extract_path="."):
@@ -9,6 +11,7 @@ def untar_data(filename, extract_path="."):
 
 # Example usage:
 untar_data("my_data.tar.gz", "extracted_data")
+```
 
 Explanation: 
 
