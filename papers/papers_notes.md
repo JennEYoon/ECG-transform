@@ -1,6 +1,6 @@
 # Papers
 
-https://physionet.org/content/challenge-2017/1.0.0/
+# https://physionet.org/content/challenge-2017/1.0.0/
 
 
 # dl-ECG-Classifier repo, all 4 branches  
