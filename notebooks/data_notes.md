@@ -96,14 +96,14 @@ https://www.mdpi.com/2076-3417/14/20/9307
 
 ### 6. Chinese large labeled 12-lead dataset  
 
- * Copy: ../papers/SPH_ECGdata_Nature_s41597-022-01403-5.pdf
+ * Copy: <a href="../papers/SPH_ECGdata_Nature_s41597-022-01403-5.pdf">Chinese 12-lead PDF</a>
  * source: https://springernature.figshare.com/collections/_/5779802
  * data:   https://pmc.ncbi.nlm.nih.gov/articles/PMC9174207/#CR18  
  * data, uploaded to shared Google Drive, also on local repo.  
 
 ### 7. Rodrigo's 12-lead datasets, survey research paper PDF  
 
- * Survey paper PDF: ../papers/SPH_ECGdata_Nature_s41597-022-01403-5.pdf
+ * Survey paper: <a href="../papers/Analysis of techniques for ECG signal.pdf" > Survey PDF </a>
  * 6 new datasets, 12-lead. Rodrigo Uploaded to shared Google Drive.  
 
 
