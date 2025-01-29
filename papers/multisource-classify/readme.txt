@@ -16,3 +16,11 @@ readme
 
 
  * Table/notes Shandong Provincial Hospital  
+
+
+
+# Data  
+to download from single source, 2021 CinC challenge,  
+All 5 sources, includeds Shandong  
+12.6 GB  
+Not done, includes papers, esp top 2 winning models.  
