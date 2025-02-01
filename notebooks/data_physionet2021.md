@@ -1,4 +1,5 @@
-Data download is havin gissues -wget  
+Data download is having issues -wget  
+Wed Jan 29th.  
 Try AWS s3 with url next  
 
 
