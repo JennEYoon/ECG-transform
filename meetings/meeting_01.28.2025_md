@@ -1,8 +1,8 @@
 # meeting notes   
 
-Rodrigo back on AI. I thought he wa going to work on Aerver side application?  
-He's going to work on Chinese dayaset, after I figured out how to use it.  
-That's OK, try to create sample dataset and run simple model w 5 to 11 categories.  
+Rodrigo back on AI. He was supposed to work on server side application as of last week.     
+He's going to work on Chinese dataset, even though I was on that for 2 weeks.   
+That's OK, I said I will work on creating tiny dataset for experimenting w preprocessing methods.  
 Look for script to preprocess datasets.  
 
 Follow up on PTB dataset, data reformatted to csv.  
