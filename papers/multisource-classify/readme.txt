@@ -26,4 +26,4 @@ All 5 sources, includeds Shandong
 Not done, includes papers, esp top 2 winning models.  
 
 
-Ladt week Rodrigo, ref same source, but file size 4.6 GB.  
+Last week Rodrigo, ref same sources, but file size 4.6 GB.  excl Shandong source
