@@ -1,0 +1,12 @@
+# meeting notes   
+
+Rodrigo back on AI. I thought he wa going to work on Aerver side application?  
+He's going to work on Chinese dayaset, after I figured out how to use it.  
+That's OK, try to create sample dataset and run simple model w 5 to 11 categories.  
+Look for script to preprocess datasets.  
+
+Follow up on PTB dataset, data reformatted to csv.  
+Run 2 class model, then 5 class model, than 11 class model.  
+Use clustering to show label groups from sample data.  
+
+
