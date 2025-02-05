@@ -58,7 +58,8 @@ ChatGPT said:
 ChatGPT
 ### The Shandong Provincial Hospital (SPH) 12-lead ECG Database  
 is a large-scale, open-source dataset from China, widely utilized in AI classification research. It comprises 25,770 ECG records from 24,666 patients, each labeled with standardized diagnostic statements conforming to the American Heart Association (AHA) recommendations. 
-PMC
+PMC  
+ * 25,770 ECG records from 24,666 patients, 2.5 GB tar file.  
 
 This dataset is accessible through Figshare:
 
@@ -70,4 +71,5 @@ This dataset is available on PhysioNet:
 
 ### CPSC 2018 Dataset
 Both datasets are valuable resources for developing and evaluating AI algorithms in ECG classification tasks. 
- * To find this.  
+ * Found. Feb 5, 2025 update. CPSC_2018 and CPSC_2018_extra datasets.
+ * 10K files, 1.92 GB  
