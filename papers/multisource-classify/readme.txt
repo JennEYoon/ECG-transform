@@ -4,7 +4,7 @@ readme
 
  * Paper, multisource  
 
- * repo clones, 4 branches:  
+ * repo forked, 4 branches, from 2021 CinC Challenge paper:  
    https://github.com/JennEYoon/dl-ecg-classifier  
 
  * Table multisource:  
