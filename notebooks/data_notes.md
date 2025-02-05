@@ -112,7 +112,8 @@ Only papers. Had to read each to get data files from original source. A mess.
 Did get all, saved to local computer "main" in data/12lead_datasets folder.  
 7.7GB datasets only, no papers.  
 
- * Img, Table 1, list of main datasets.
+ * Img, Table 1, list of main datasets. Have about 60K unique patient data. Some additional CSPC with unknown number of patients.
+   
    <img src="https://github.com/JennEYoon/ECG-transform/blob/main/notebooks/datasets_2021_table1.png" >Table 1</a> from 2020 challenge paper.
 
  * Img, datasets short descriptions
