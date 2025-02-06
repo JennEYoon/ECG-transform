@@ -106,5 +106,18 @@ https://www.mdpi.com/2076-3417/14/20/9307
  * Survey paper: <a href="../papers/Analysis of techniques for ECG signal.pdf" > Survey PDF </a>
  * 6 new datasets, 12-lead. Rodrigo Uploaded to shared Google Drive.  
 
+## New 12-lead datasets, from Physionet 2020/2021 CinC Challenge.  
+Rodrigo did not provide no actual data files, not zip or tar either.  
+Only papers. Had to read each to get data files from original source. A mess.  
+Did get all, saved to local computer "main" in data/12lead_datasets folder.  
+7.7GB datasets only, no papers.  
 
+ * Img, Table 1, list of main datasets. ***Thus far, have about 60K unique patient data***. Some additional CSPC with unknown number of patients.
+ * So far, 59, 551 patients + CSPC unknown numbers. Plus original PTB and MIT datasets.  
+   <img src="https://github.com/JennEYoon/ECG-transform/blob/main/notebooks/datasets_2021_table1.png" >Table 1</a> from 2020 challenge paper.
+
+ * Img, datasets short descriptions
+   <<img src="https://github.com/JennEYoon/ECG-transform/blob/main/notebooks/datasets_2021.png" >data access</a> 
+   Download link: to be added
+   (I think this is the source that does not work.  Test again later.)  
 
