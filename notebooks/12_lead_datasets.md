@@ -6,12 +6,12 @@ But **none** of them actually have data files, not even .zip or .tar.
 Only papers and some have links, 2 .md text files, paper memos Rodrigo saved.  
 All are from ***year 2020*** Physionet CinC Challenge. All data are from there.  
 
-Took a long time, 6 hrs. Downloaded all dataset from source paper links.  
-All saved to local computer, repo data folder, part of .gitignore (not uploaded to Github).  
-All zip files extracted, examined for errors, organized.  
+Took a long time, 6 hrs. Downloaded all dataset from source paper links. 
+All saved to local computer, repo data folder, part of .gitignore (not uploaded to Github). 
+All zip files extracted, examined for errors, organized. 
 Active datasets copied to **main** folder inside this folder, ***12-lead datasets*** on Google Drive shared.  
 
-All datasets are exact duplicates of datasets found in ***2021*** CinC Challenge.  
+All datasets are exact duplicates of datasets found in ***2021*** CinC Challenge. 
 Only missing from this dataset, Shandong Provincial Hospital SPH 25K dataset. 
 SPH is new to **2021** CinC Challenge.   
 
