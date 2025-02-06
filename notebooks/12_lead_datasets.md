@@ -10,14 +10,16 @@ Took a long time, 6 hrs. Downloaded all dataset from source paper links.
 All saved to local computer, repo data folder, part of .gitignore (not uploaded to Github). 
 All zip files extracted, examined for errors, organized. 
 Active datasets copied to **main** folder inside this folder, ***12-lead datasets*** on Google Drive shared.  
+ * Update Feb 8, 2025: active datasets removed from "12-lead-datasets" folder.
+ * PTB-XL and PTB uploaded to data/ECG-transform/data folder.  
 
 All datasets are exact duplicates of datasets found in ***2021*** CinC Challenge. 
-Only missing from this dataset, Shandong Provincial Hospital SPH 25K dataset. 
+Only missing from this dataset, Shandong Provincial Hospital (SPH) 25K dataset. 
 SPH is new to **2021** CinC Challenge.   
 
 SPH dataset was separately downloaded. “records.tar.gz” zip file in parent folder, Google Drive shared.    
 Uncompressed files in “extracted_files” folder.  
-data/ECG-transform/data/ path.  
+Google Drive shared folder path:  data/ECG-transform/data/
 
 —-------------------------------------------
 
