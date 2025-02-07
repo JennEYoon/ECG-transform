@@ -3,6 +3,7 @@ Folder contents, 12-lead datasets, Google Drive shared.
 
 Jan 23, 2025 Rodrigo uploaded 6 folders to Google Shared Drive.  
 But **none** of them actually have data files, not even .zip or .tar.  
+Blank folders where training data should be.  
 Only papers and some have links.   
 All are from ***year 2020*** Physionet CinC Challenge. All data are from there.  
 
