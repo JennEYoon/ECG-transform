@@ -12,3 +12,7 @@
     * 3h, Feb 5th Wed 00:00 am to 3:00 am, review notes, edit write-up files on datasets, message Jason.  
 Break, done for now.  
 
+ * Feb 5-6, 2025: 3h  
+   * Feb 5 1h, review datasets, write summary docs  
+   * Feb 6 2h, review datasets, upload/download missing data files, organized data folders Google Drive.  
+   
