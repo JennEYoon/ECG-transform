@@ -3,23 +3,23 @@ Folder contents, 12-lead datasets, Google Drive shared.
 
 Jan 23, 2025 Rodrigo uploaded 6 folders to Google Shared Drive.  
 But **none** of them actually have data files, not even .zip or .tar.  
-Only papers and some have links, 2 .md text files, paper memos Rodrigo saved.  
+Only papers and some have links.   
 All are from ***year 2020*** Physionet CinC Challenge. All data are from there.  
 
 Took a long time, 6 hrs. Downloaded all dataset from source paper links. 
 All saved to local computer, repo data folder, part of .gitignore (not uploaded to Github). 
 All zip files extracted, examined for errors, organized. 
-Active datasets copied to **main** folder inside this folder, ***12-lead datasets*** on Google Drive shared.  
- * Update Feb 8, 2025: active datasets removed from "12-lead-datasets" folder.
+  
+ * Update Feb 8, 2025: active datasets uploaded to Google Drive.  
  * PTB-XL and PTB uploaded to data/ECG-transform/data folder.  
 
 All datasets are exact duplicates of datasets found in ***2021*** CinC Challenge. 
 Only missing from this dataset, Shandong Provincial Hospital (SPH) 25K dataset. 
 SPH is new to **2021** CinC Challenge.   
 
-SPH dataset was separately downloaded. “records.tar.gz” zip file in parent folder, Google Drive shared.    
+SPH dataset was separately downloaded. “records.tar.gz” zip file in parent folder, Google Drive.    
 Uncompressed files in “extracted_files” folder.  
-Google Drive shared folder path:  data/ECG-transform/data/
+Google Drive: data/ECG-transform/data/
 
 —-------------------------------------------
 
@@ -63,7 +63,7 @@ The original records were collected from patients undergoing tests for coronary 
 
 This database consists of 75 annotated recordings extracted from 32 Holter records. Each record is 30 minutes long and contains 12 standard leads, each sampled at 257 Hz,
 
-5) Physionet 2020 Challenge - New. 
+5) Physionet 2020 Challenge - summary, group of PDFs submitted for challenge.   
 Does not include Shandong Provincial Hospital 2020 dataset.  
 All others are exact duplicates of datasets found in 2021 year CinC challenge, link from Shandong paper, source 2021 CinC.  
 
