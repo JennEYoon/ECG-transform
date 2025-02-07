@@ -12,4 +12,4 @@ Access the files
 
 Still downloading after 5-6 hours!  
 -- update, action terminated with server side error.  
--- use 2020 CinC datasets, previously downloaded from source by myself.  
+-- use 2020 CinC datasets, I had previously downloaded from Physionet source.  
