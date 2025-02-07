@@ -9,7 +9,7 @@ Date:    Feb 5, 2025 Wednesday, 00:10 am
  * Figures saved: <a ref="https://github.com/JennEYoon/ECG-transform/tree/main/notebooks/ptb_sample" >ptb_sample folder</a>  
    https://github.com/JennEYoon/ECG-transform/tree/main/notebooks/ptb_sample  
 
- * Google Drive, data folder: to be added  
+ * Google Drive path: /data/ECG-transform/data/ptb-xl/  
 
 #### Dataset Overview:   
 Total files, 21,837  Storage: 2.58GB disc space  
