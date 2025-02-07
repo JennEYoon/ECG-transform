@@ -32,7 +32,7 @@ https://www.kaggle.com/datasets/shayanfazeli/heartbeat/data
 https://www.kaggle.com/datasets/shayanfazeli/heartbeat  
 
 Jennifer Yoon Google Drive share link:   
- * https://drive.google.com/drive/folders/10g2ykTyd34b3VZ_TBanyEUpubhPhqhKb?usp=sharing  
+ * hidden.  
 
 Info:  
  * csv format, from Kaggle, preprocessed, MIT and PTB sources, 125 Hertz downsampled, both sources.  Each row is a sample and is fixed width of 188 columns.  Last column is a classification label (1 is abnormal, 0 is normal).  Each sample is approximately 1.5 seconds long, usually starts at the beginning of a major pumping action.  Samples that are longer than 1.5 seconds are cropped, shorter samples are zero padded, to fix row length to 188.     
