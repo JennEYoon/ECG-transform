@@ -3,7 +3,7 @@ Jennifer, Jason, Rodrigo
 
 Jennifer's Progress main points:  
 
-### Chinese Dataset  
+### Chinese Dataset, Shandong Provincial Hospital (SPH) dataset      
 Quick review, looks good. Downloaded H5 format datafiles and associated meta data.  
 Read article about dataset, how acquired.  
 Possibility of having a new data source for different classes of heart arrhthmias.   
@@ -29,4 +29,4 @@ me - email setup continue, phone, desktop
 me - apply to startup Google Cloud credits     
 
 Rodrigo - review long survey paper, other 12 lead ECG data sources.   
-me - Chinese 12-lead data continue   
+me - Chinese 12-lead data continue, SPH dataset.     
