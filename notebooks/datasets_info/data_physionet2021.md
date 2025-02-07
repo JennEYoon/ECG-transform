@@ -13,3 +13,4 @@ Access the files
 Still downloading after 5-6 hours!  
 -- update, action terminated with server side error.  
 -- use 2020 CinC datasets, I had previously downloaded from Physionet source.  
+   Are exact duplicates of 2021 CinC Challenge, except missing SPH dataset new to 2021 CinC.  
