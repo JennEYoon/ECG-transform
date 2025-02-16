@@ -1,4 +1,4 @@
-# code copy from ChatGPT session, Feb 14-16, 2025.  
+# ChatGPT session, Feb 14-16, 2025.  Splitting ECG data  
 
 Q.) I would like to split 10 second ECG signals into 1.5 second windows with the large waveform centered in the window. Sampling rate is 125 herts. Can you suggest example code and Python libraries that may be useful? Also any links to Jupyter notebook code with data splitting, max wave centering, and zero padding will be nice to have. 
 
