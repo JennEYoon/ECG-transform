@@ -61,12 +61,16 @@ If you're looking for a Jupyter notebook with ECG preprocessing, I can search fo
 A.) Certainly! To assist you further, here are some resources that provide detailed examples of ECG signal processing, including peak detection, windowing, and zero-padding, implemented in Python and available as Jupyter Notebooks:
 
 1. **Pan-Tompkins ECG Signal Processing**: This repository offers a step-by-step implementation of the Pan-Tompkins algorithm for detecting R-peaks in ECG signals. The process includes preprocessing, filtering, differentiation, squaring, moving average filtering, and peak detection. citeturn0search0
+https://github.com/ParisaSolouki/Pan-Tompkins-ECG-Signal-Processing-step-by-step-?utm_source=chatgpt.com  
 
 2. **Event Detection – R-Peaks (ECG)**: Hosted by PLUX Biosignals, this Jupyter Notebook focuses on detecting R-peaks in ECG signals using the Pan-Tompkins algorithm. It provides a comprehensive guide to event detection in ECG data. citeturn0search1
+https://support.pluxbiosignals.com/knowledge-base/event-detection-r-peaks-ecg/?utm_source=chatgpt.com 
 
 3. **BIOBSS - ECG Signal Processing**: This Google Colab notebook demonstrates how to use the BIOBSS library for ECG signal processing and feature extraction, including peak detection and other relevant analyses. citeturn0search4
+https://colab.research.google.com/github/obss/BIOBSS/blob/main/examples/ecg_processing.ipynb?utm_source=chatgpt.com
 
 4. **R Peak Detection in ECGs Using Stationary Wavelet Transform**: This tutorial notebook utilizes Python and NumPy to detect R-peaks in ECG signals using the stationary wavelet transform method. It also includes performance metrics calculation. citeturn0search2
+https://github.com/PathofData/EcgAnalyzer?utm_source=chatgpt.com
 
 These resources should provide you with comprehensive examples and code implementations to help you split your 10-second ECG signals into 1.5-second windows, center the large waveform within each window, and apply zero-padding as needed.  
 
