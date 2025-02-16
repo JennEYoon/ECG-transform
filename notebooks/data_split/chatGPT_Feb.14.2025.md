@@ -60,6 +60,8 @@ If you're looking for a Jupyter notebook with ECG preprocessing, I can search fo
 
 A.) Certainly! To assist you further, here are some resources that provide detailed examples of ECG signal processing, including peak detection, windowing, and zero-padding, implemented in Python and available as Jupyter Notebooks:
 
+> Links real, seems useful
+
 1. **Pan-Tompkins ECG Signal Processing**: This repository offers a step-by-step implementation of the Pan-Tompkins algorithm for detecting R-peaks in ECG signals. The process includes preprocessing, filtering, differentiation, squaring, moving average filtering, and peak detection. citeturn0search0
 https://github.com/ParisaSolouki/Pan-Tompkins-ECG-Signal-Processing-step-by-step-?utm_source=chatgpt.com  
 
@@ -82,11 +84,13 @@ A.) While specific examples of splitting ECG signals into 1.5-second windows on 
 
 **Hugging Face:**
 
-- **ECG Datasets**: Hugging Face hosts various ECG datasets that you can utilize for your analysis. For instance, the [PTB-XL dataset](https://huggingface.co/datasets/ptbxl) contains a large collection of 12-lead ECG records.  -- 404, fake link. Has some PTB-XL small, small train. Not sure if these are split into windows.  
+- **ECG Datasets**: Hugging Face hosts various ECG datasets that you can utilize for your analysis. For instance, the [PTB-XL dataset](https://huggingface.co/datasets/ptbxl) contains a large collection of 12-lead ECG records.
+> 404, fake link. Has some PTB-XL small, small train. Not sure if these are split into windows.  
 
 **Kaggle:**
 
 - **ECG Data and Notebooks**: Kaggle offers datasets and community-contributed notebooks related to ECG signal processing. While they may not specifically address 1.5-second windowing, they provide a foundation for ECG analysis. For example, the [ECG Heartbeat Categorization Dataset](https://www.kaggle.com/datasets/shayanfazeli/heartbeat) includes ECG recordings, and accompanying notebooks demonstrate preprocessing techniques.
+> Not useful, already downloaded .csv formats.
 
 To achieve your goal of splitting ECG signals into 1.5-second windows with centered large waveforms, you can adapt the general ECG preprocessing techniques found in these resources. This involves detecting significant peaks (such as R-peaks) and segmenting the signal around these points to create your desired windows.
 
