@@ -44,7 +44,12 @@ Some paper smoothed ECG signal using cublic-spline. Does this help with AI model
 
  1. Do a simple splitting notebooks using SciPy and Numpy.  
 
- 2. Show notebook with key issues - copy  
+ 2. downloaded notebook, ECG signal process and identify peaks: 
+
+https://github.com/JennEYoon/ECG-transform/blob/main/notebooks/split_data/Pan_tompkins_%20step%20by%20step%20.ipynb  
+ * Image, peaks identified on source
+<img src="" > 
+
 
  3. If have time, Vis-App "live-feed" simulation.
     * Plotly and Voila
