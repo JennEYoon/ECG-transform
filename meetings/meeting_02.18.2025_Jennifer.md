@@ -46,7 +46,8 @@ Some paper smoothed ECG signal using cubic-spline. Does this help with AI modeli
 
  3. Reference notebook, ECG signal filtering, smoothing, and peaks marking:  
     <a href="https://github.com/JennEYoon/ECG-transform/blob/main/notebooks/split_data/Pan_tompkins_%20step%20by%20step%20.ipynb" >peaks notebook</a>   
-     - Note: uses wsdb library - Python library for identifying peaks in ECG data.  
+     - Note: uses wfdb library - Python library for identifying peaks in ECG data.
+     - Notebook processes 1-signal. Can easily expand to 12-lead signals.  
 
  * Image, peaks identified on source
 <img src="https://github.com/JennEYoon/ECG-transform/blob/main/notebooks/ptb_sample/ECG_peaks.png" > 
