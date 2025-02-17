@@ -7,3 +7,7 @@ I'm using PTB-XL as a first case. Will use 1.5 seconds and 125 hertz downsampled
 Huggingface may have pre-processed PTB-XL dataset, from ChatGPT. To investigate later.  
 First use SciPy code to creat a simple script for splitting data into uniform segments. 
 
+Physionet Python library for processing ECG data (split, R-peak finding, noise reduction, filtering)  
+https://wfdb.readthedocs.io/en/latest/  
+Use later on. 
+
