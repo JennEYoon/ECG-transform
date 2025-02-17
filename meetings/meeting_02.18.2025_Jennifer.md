@@ -44,16 +44,15 @@ Some paper smoothed ECG signal using cublic-spline. Does this help with AI model
 
  1. Do a simple splitting notebooks using SciPy and Numpy.  
 
- 2. downloaded notebook, ECG signal process and identify peaks: 
+ 2. copied notebook, ECG signal process and identify peaks: 
 
 https://github.com/JennEYoon/ECG-transform/blob/main/notebooks/split_data/Pan_tompkins_%20step%20by%20step%20.ipynb  
  * Image, peaks identified on source
-<img src="" > 
+<img src="https://github.com/JennEYoon/ECG-transform/blob/main/notebooks/ptb_sample/ECG_peaks.png" > 
 
-
- 3. If have time, Vis-App "live-feed" simulation.
+ 3. If have time, website hosted Vis-App "live-feed" simulation.
     * Plotly and Voila
-    * Embed in website (iframe, static and dynamic Plotly)  
+    * Embed in website (iframe, dynamic Plotly OK)  
 
 Data fed in from URL hosted source.  
 Initially data fed in from local file. Moving window, continuous update and every 5 second update options.  
