@@ -6,8 +6,8 @@ notebook for loading .mat dataset, plotting.  PTB-XL few samples, 12-leads.
 https://github.com/JennEYoon/ECG-transform/blob/main/notebooks/load_mat.ipynb  
 
 <p>
-> figure large, 1st patinet, all 12 leads, 10 seconds
-> <img src="" width=600px  >
+**figure large, 1st patinet, all 12 leads, 10 seconds**  
+  <img src="https://github.com/JennEYoon/ECG-transform/blob/main/notebooks/ptb_sample/patient1_12lead.png" width=600px  >
 </p>
 
 <p>
