@@ -2,6 +2,19 @@ how to embed interactive charts on website
 
 ChatGPT session, Feb 16, 2025
 
+### Summary, Me  
+
+ * Me - on datasciY.com:
+   Export chart to html, iframe to insert. Interactivity kept.
+   Host notebook on Colab/Binder/Kaggle. Or on Amazon S3 and Sagemaker?  
+
+ * Jason ECG livefeed, vis heart rate:
+   - Plotly + Voila:
+     Create standalone app from Jupyter nb. Run Voila on server. Kaggle serve nb free. Can host an Amazon Sagemaker? AWS S3 bucket.
+     Good for simple dash board, vis app.
+   - Streamlit:
+     Custom dashboard with minimal code. Python ML Vis framework.  
+
 Q.) When embedding notebook results in a website, what are some tools for adding interactive charts? I would like to use Plotly. What are some examples other people have used to embed a data science notebook in a website?
 
 A. 1)  
