@@ -1,5 +1,5 @@
 # Wearable ECG Device  
-### a work in process, proprietary prototype  
+### a work in process, prototype ECG monitoring device 
 
 This is a description of the in-development prototype device, with 12-19 electrical leads. Jason Yoon of Areteus.us is the primary hardware engineer. (See <a href="https://www.areteus.us/">Areteus.us</a>) The device will be attached to a stretchy shirt, and the whole shirt can be put on or taken off. Device reads electrical signals upto 2 inches away from skin. Current iteration is for 12-19 leads. Standard hospital ECG readers usually have 12 electrical leads.  Of course the hospital readers are much larger and is not wearable. This device is designed to allow continuous wear, except for when immersing in water, ex. showering, bathing or swimming. 
 
