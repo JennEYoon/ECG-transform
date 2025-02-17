@@ -4,21 +4,23 @@ Github: https://github.com/JennEYoon/ECG-transform/edit/main/README.md
 Author: Jennifer E Yoon   
 Date Range: Nov 2024 - 2025
 
-### 1. Quick Repo Description:  
+### 1. Quick Project Description:  
 This repo contains a deep learning project for Areteus.us. (See https://www.areteus.us/)   
-Areteus is developing a novel ECG heart rate detection wearable device. It's novel factors are (1) it is continuously wearable at home and (2) it is comparable to hospital machines in number of signals. This AI project will develop a customized AI model to classify live feeds of heart rate signals coming out of the wearable ECG device. An interactive visualization app will also be hosted online.     
+Areteus is developing a novel ECG heart rate detection wearable device. It's novel factors are: (1) continuously wearable at home and (2) comparable to hospital machines (12 or more signals). This AI project will customize ECG classification model(s) for Areteus's novel device. Visualization app showing live-feed ECG signals is also planned.  
 
-### 2. Device photos:  
-< link to page >  
+### 2. Device Information:  
+See <a href="https://github.com/JennEYoon/ECG-transform/blob/main/_Wearable_ECG_Device.md" >_Wearable_ECG_Device.md</a>  
+https://github.com/JennEYoon/ECG-transform/blob/main/_Wearable_ECG_Device.md
 
 ### 3. Literature and Public Datasets research:  
 
-3.A) ECGTransform paper and Github repo:  
+3.A) Review ECGTransform paper, original paper provided by Areteus:  
 
+Paper review, datasets review.  
 * MIT dataset
 * PTB dataset
 
-3.B) Other training models, simpler models:    
+3.B) Other papers, training models, simpler models:    
 * Simple CNN
 * ResNet34
 * RandomForest model  
@@ -26,7 +28,11 @@ Areteus is developing a novel ECG heart rate detection wearable device. It's nov
 3.C) Other public datasets:  
 Chinese datasets  
 PTB-XL large dataset  
-Physionet challenge as data sources.  
+Physionet challenge as data sources, paper sources.  
+
+3.D) ECG data splitting and processing methods research: 
+
+Currently here.  
 
 ### 4. AI Model Development and Testing:    
 
@@ -37,4 +43,7 @@ Physionet challenge as data sources.
 
 ### 6. App and Website Hosting, Report Writing:  
 
-
+* documentation started
+* organization started
+* Embedding visualization (notebooks, plots) on website research 
+* Interactive python viz libraries research  
