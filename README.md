@@ -5,6 +5,7 @@ Author: Jennifer E Yoon
 Date Range: Nov 2024 - 2025
 
 ### 1. Quick Project Description:  
+
 This repo contains a deep learning project for Areteus.us. (See https://www.areteus.us/)   
 Areteus is developing a novel ECG heart rate detection wearable device. It's novel factors are: (1) continuously wearable at home and (2) comparable to hospital machines (12 or more signals). This AI project will customize ECG classification model(s) for Areteus's novel device. Visualization app showing live-feed ECG signals is also planned.  
 
@@ -21,17 +22,16 @@ https://github.com/JennEYoon/ECG-transform/blob/main/_Wearable_ECG_Device.md
 ### 3. Literature and Public Datasets research:  
 
 3.A) Review ECGTransform paper, original paper provided by Areteus:  
-
 Paper review, datasets review.  
 * MIT dataset
 * PTB dataset
 
-3.B) Other papers, training models, simpler models:    
+3.B) Research other ECG papers, training models, simpler models:    
 * Simple CNN
-* ResNet34
-* RandomForest model  
+* ResNet
+* RandomForest   
 
-3.C) Other public datasets:  
+3.C) Research other large datasets:  
 Chinese datasets  
 PTB-XL large dataset  
 Physionet challenge as data sources, paper sources.  
