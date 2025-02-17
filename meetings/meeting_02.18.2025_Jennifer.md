@@ -5,7 +5,7 @@
 60,000 + unique patient data. All clean. Mostly in .mat (MATLAB) format. Chinese Shandong Provincial Hospital(SPH) is only dataset in a different format. This dataset downloaded separately from .tar compressed file.  
 
  * Table, datasets we have:
-   <img src="notebooks/datasets_info/datasets_2021_table1.png" width=500px >
+   <img src="https://github.com/JennEYoon/ECG-transform/blob/main/notebooks/datasets_info/datasets_2021_table1.png" width=500px >
 
 ### PTB-XL dataset discuss  
 
