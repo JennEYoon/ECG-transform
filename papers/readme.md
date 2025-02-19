@@ -22,7 +22,8 @@
 
 ### Success of using AI to classify ECG, perhaps better than human doctors/technitians paper  
  - from Bill Katz link
-
+https://www.nature.com/articles/s41591-025-03516-x
+<a href="" >AI vs Humans paper</a>  
 
 ### Survey paper and ECG analysis models that have been tried, historical context 
  - Rodrigo provided link.  
