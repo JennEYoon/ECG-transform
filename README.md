@@ -7,7 +7,7 @@ Date Range: Nov 2024 - 2025
 ### 1. Quick Project Description:  
 
 This repo contains a deep learning project for Areteus. (See https://www.areteus.us/)   
-Areteus is developing a novel ECG heart rate detection wearable device. It's novel factors are: (1) continuously wearable at home and (2) comparable to hospital machines (12 or more signals). This AI project will customize ECG classification model(s) for Areteus's novel device. Visualization app showing live-feed ECG signals is also planned.  
+Areteus is developing a novel wearable ECG (heart rate signals) monitoring device. It's novel factors are: (1) continuously wearable at home and (2) comparable to hospital machines (12 or more signals). This AI project will customize ECG classification model(s) for Areteus's novel device. Visualization app showing live-feed ECG signals is also planned.  
 
 ### 2. Device Information:  
 
@@ -22,6 +22,9 @@ https://github.com/JennEYoon/ECG-transform/blob/main/_Wearable_ECG_Device.md
 ### 3. Literature and Public Datasets research:  
 
 3.A) Review ECGTransform paper, original paper provided by Areteus:  
+
+See a copy of author's repo: ECGTransForm folder.  
+
 Paper review, datasets review.  
 * MIT dataset
 * PTB dataset
