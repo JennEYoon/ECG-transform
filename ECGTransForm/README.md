@@ -1,3 +1,7 @@
+### Jennifer Yoon, this is a copy of Eldele's Github repo.  
+Here for reference purposes while developing my own models. 
+Copy location, github.com/JennEYoon/ECG-transform/ECGTransForm folder.  
+
 # ECGTransForm: Empowering Adaptive ECG Arrhythmia Classification Framework with Bidirectional Transformer [[Paper](https://www.sciencedirect.com/science/article/pii/S1746809423011473)] [[Cite](#citation)]
 #### *by: Hany El-Ghaish, Emadeldeen Eldele*
 #### This work is accepted for publication in the Biomedical Signal Processing and Control.
