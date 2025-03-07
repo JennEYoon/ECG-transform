@@ -6,7 +6,7 @@ Date Range: Nov 2024 - 2025
 
 ### 1. Quick Project Description:  
 
-This repo contains a deep learning project for Areteus.us. (See https://www.areteus.us/)   
+This repo contains a deep learning project for Areteus. (See https://www.areteus.us/)   
 Areteus is developing a novel ECG heart rate detection wearable device. It's novel factors are: (1) continuously wearable at home and (2) comparable to hospital machines (12 or more signals). This AI project will customize ECG classification model(s) for Areteus's novel device. Visualization app showing live-feed ECG signals is also planned.  
 
 ### 2. Device Information:  
