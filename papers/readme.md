@@ -12,7 +12,12 @@
 
 
 ### Physionet CinC challenge papers, 2020 and 2021.  
+ * papers link, 2020 CinC: https://moody-challenge.physionet.org/2020/results/  
+ * 1st rank Transformer paper: https://www.cinc.org/archives/2020/pdf/CinC2020-107.pdf
+ * 2nd rank ResNet paper: https://www.cinc.org/archives/2020/pdf/CinC2020-112.pdf
 
+*** to do: look for papers from 2021 CinC, any later CinC.  
+Archive papers seems delayed by several years. 
 
 ### Simple ECG CNN notebook and paper(?)  
 
