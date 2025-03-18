@@ -15,6 +15,8 @@ Added ECGTransForm_dataset to git repo
 
 ### 12-lead datasets & code:  
 local file only.  
+12-lead datasets, all 2020 CinC plus SPH Shandong hospital dataset.  
+12-lead_models, have code used in papers, 2020 CinC challenge. Python files. 
 
 ### Prototype data file - Alondra   
 local file only. Private dataset  
