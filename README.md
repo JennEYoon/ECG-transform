@@ -14,12 +14,14 @@ Areteus is developing a novel wearable ECG (heart rate signals) monitoring devic
 2.A) Areteus Device: See <a href="https://github.com/JennEYoon/ECG-transform/blob/main/_Wearable_ECG_Device.md" >_Wearable_ECG_Device.md</a>  
 https://github.com/JennEYoon/ECG-transform/blob/main/_Wearable_ECG_Device.md
 
+Device output data format: work in process. Sample data file.  
+
 2.B) to write, hospital ECG devices  
 
 2.C) at-home ECG devices  
 
 
-### 3. Literature and Public Datasets research:  
+### 3. Stage 1: Literature and Public Datasets research:  
 
 3.A) Review ECGTransform paper, original paper provided by Areteus:  
 
@@ -34,23 +36,28 @@ Paper review, datasets review.
 * ResNet
 * RandomForest   
 
-3.C) Research other large datasets:  
+3.C) How to handle 12-leads, splitting data: 
+* peak centering, baseline zero calibration  
+* ignore other filtering at this time (squaring to remove negative numbers, standardizing peak to peak distance)
+* library, wsfl - for ECG data processing, standarizing.  
+
+### 4. Stage 2: Deeper Literature and Datasets research, 12-leads models:  
 Chinese datasets  
 PTB-XL large dataset  
-Physionet challenge as data sources, paper sources.  
-
-3.D) ECG data splitting and processing methods research: 
+2020 Physionet CinC challenge 
+ - datasets 
+ - winning models & papers
 
 Currently here.  
 
-### 4. AI Model Development and Testing:    
+### 5. AI Model Customizing and Testing:    
 
 
 
-### 5. Key Findings:  
+### 6. Key Findings:  
 
 
-### 6. App and Website Hosting, Report Writing:  
+### 7. App and Website Hosting, Report Writing:  
 
 * documentation started
 * organization started
