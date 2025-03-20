@@ -20,6 +20,6 @@ local file only.
 
 ### Prototype data file - Alondra   
 local file only. Private dataset  
-
+To parse and convert into usable signal  
 
 
