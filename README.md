@@ -14,7 +14,8 @@ Areteus is developing a novel wearable ECG (heart rate signals) monitoring devic
 2.A) Areteus Device: See <a href="https://github.com/JennEYoon/ECG-transform/blob/main/_Wearable_ECG_Device.md" >_Wearable_ECG_Device.md</a>  
 https://github.com/JennEYoon/ECG-transform/blob/main/_Wearable_ECG_Device.md
 
-Device output data format: work in process. Sample data file.  
+Device output data format: work in process. 
+Alondra, April 2025 - Sample data file in hexadecimal, text file format.   
 
 2.B) to write, hospital ECG devices  
 
