@@ -63,4 +63,4 @@ Currently here.
 * organization started
 * Embedding visualization (notebooks, plots) on website research
 * Flutter and Dart, AWS cloud hosting - quick reviews   
-* Interactive python viz libraries research  
+* Interactive python viz libraries (Plotly, Bokeh) research  
