@@ -61,5 +61,6 @@ Currently here.
 
 * documentation started
 * organization started
-* Embedding visualization (notebooks, plots) on website research 
+* Embedding visualization (notebooks, plots) on website research
+* Flutter and Dart, AWS cloud hosting - quick reviews   
 * Interactive python viz libraries research  
