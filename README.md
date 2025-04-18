@@ -15,12 +15,13 @@ Areteus is developing a novel wearable ECG (heart rate signals) monitoring devic
 https://github.com/JennEYoon/ECG-transform/blob/main/_Wearable_ECG_Device.md
 
  * Device output data format: work in process.  
-   Alondra, April 2025 - Sample data file in hexadecimal, text file format.
- * To write up this section.  
-
+ * Alondra, April 2025 - Sample data file in hexadecimal, text file format.
+   
 2.B) hospital ECG devices  
 
 2.C) at-home ECG devices  
+
+ *** To write up introductory information about device. ***   
 
 ### 3. Stage 1: Literature and Public Datasets research:  
 
@@ -42,7 +43,7 @@ Datsets used:
  * library: wsfl - for ECG data processing, standarizing.
  * Also scikit-learn for testing my own splitting methods.   
 
- *** To write up Stage 1, parta A, B, C. Ready for write up. ***   
+ *** To write up Stage 1, parts A, B, C. Ready for write up. ***   
 
 ### 4. Stage 2: Deeper Literature and Datasets research, 12-leads models:  
 Chinese datasets  
