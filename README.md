@@ -67,6 +67,6 @@ PTB-XL large dataset
 * Embedding visualization (notebooks, plots) on website research
 * Cloudflare - Flutter and Dart, AWS cloud hosting - quick reviews   
 * Interactive python viz libraries (Plotly, Bokeh) research
-* brainstorm data formats, uploading streaming data in packets, chunks.  
+* brainstorm data formats, uploading streaming data in packets, chunks, to hosted app/visualization.  
 
 
