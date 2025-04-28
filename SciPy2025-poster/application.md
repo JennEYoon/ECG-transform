@@ -34,5 +34,5 @@ This project explored customizing AI models to classify ECG signals, by addressi
 
 ## Image:  
 Areteus protototype ECG device, close0-up of chip, V1, and V2 contacts.    
-<img src="https://github.com/JennEYoon/ECG-transform/blob/main/images/ECG-device-sm.png" width=200px >
+<img src="https://github.com/JennEYoon/ECG-transform/blob/main/images/ECG-device-sm.png" width=300px >
 
