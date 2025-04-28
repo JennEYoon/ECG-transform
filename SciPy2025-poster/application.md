@@ -1,5 +1,5 @@
-# SciPy 2025 application  
-As of March 7, 2025 8:30am ET, edited.    
+# SciPy 2025 application   
+As of March 7, 2025 8:20am ET, edited  
 
 ## Proposal Title  
 AI for wearable ECG prototype - quantified health
@@ -14,7 +14,6 @@ Hospital-grade 12-signal ECG machines are bulky and expensive, while at-home dev
  
   * Github https://github.com/JennEYoon/ECG-transform  
   * Areteus (https://areteus.us/)
-
 
 ## Description (284 words)
 
@@ -33,6 +32,7 @@ In January 2025, I discovered much larger 12-signal datasets from PhysioNet chal
 ### Impact & Next Steps:   
 This project explored customizing AI models to classify ECG signals, by addressing dataset challenges and multi-signal modeling strategies. Future steps include continuing model refinement and deploying a streaming ECG classifier app.  
 
-## Images:  
-img: close-up, Areteus protototype ECG device  
-<img src="https://github.com/JennEYoon/ECG-transform/blob/main/images/device_img3_closeup.jpg" width=150 px>
+## Image:  
+Areteus protototype ECG device, close0-up of chip, V1, and V2 contacts.    
+<img src="https://github.com/JennEYoon/ECG-transform/blob/main/images/ECG-device-sm.png" width=200px >
+
