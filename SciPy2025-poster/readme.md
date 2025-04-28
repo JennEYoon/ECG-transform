@@ -9,3 +9,4 @@ Plan to finish poster by June 30, 2025.
 Q&A slot to be assigned during July 9-11, 2025   
 To record a short video for poster presentation.  
 
+Read <a href="https://github.com/JennEYoon/ECG-transform/blob/main/SciPy2025-poster/application.md" > SciPy application </a>
