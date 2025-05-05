@@ -23,7 +23,7 @@ https://github.com/JennEYoon/ECG-transform/blob/main/_Wearable_ECG_Device.md
 
  *** To write up introductory information about device. ***   
 
-### 3. Stage 1: Literature and Public Datasets research:  
+### 3. Stage 1: Literature and Public Datasets Research:  
 
 3.A) Review ECGTransform paper, original paper provided by Areteus:  
 See a copy of author's repo: ECGTransForm folder.  
@@ -45,7 +45,7 @@ Datsets used:
 
  *** To write up Stage 1, parts A, B, C. Ready for write up. ***   
 
-### 4. Stage 2: Deeper Literature and Datasets research, 12-leads models:  
+### 4. Stage 2: Deeper Literature and Datasets Research, 12-leads models:  
 Chinese datasets  
 PTB-XL large dataset  
 2020 Physionet CinC challenge 
@@ -64,9 +64,9 @@ PTB-XL large dataset
 
 * documentation started
 * organization started
-* Embedding visualization (notebooks, plots) on website research
-* Cloudflare - Flutter and Dart, AWS cloud hosting - quick reviews   
-* Interactive python viz libraries (Plotly, Bokeh) research
-* brainstorm data formats, uploading streaming data in packets, chunks, to hosted app/visualization.  
-
+* Embedding visualization (notebooks, website, apps) - to research  
+* Interactive python viz libraries (Plotly, Bokeh) - to research  
+  \-\-\-  
+* Areteus: Cloudflare - Flutter and Dart, AWS - AI model/app hosting - get overview   
+* Areteus and me: Brainstorm data formats, uploading streaming data in packets or chunks, database schemas - to research
 
