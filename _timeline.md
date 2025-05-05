@@ -24,5 +24,5 @@
  * call Alondra, get more samples
  * reformat device output sample, convert to csv.
  * SciPy - get dates, formats info.  
-
+ * Grace class final project, May 31, 2025 due. ResNet + SE notebooks, visualizations. Some interactive charts.   
 
