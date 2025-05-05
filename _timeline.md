@@ -2,11 +2,11 @@
 
  * Project start, Jason - Oct - Nov 2024
  * Stage 1: Initial research - Dec 2024 - January 2025
- * Stage 2: Deeper research, 12-signal datasets & papers - February - April 2025  
- * Stage 2B: develop ResNet + SE model, 12-signal: May 2025 +
+ * Stage 2: Deeper research, 12-signal datasets & papers - February - March 2025  
+ * Stage 2B: Develop ResNet + SE model, 12-signal: May - June 2025  
  * Demo AI classification models: July 2025
- * Areteus device, detailed testing: August - October 2025
- * Areteus, deploy app, live signals & AI classifications: Nov 2025  
+ * Areteus device, detailed testing: August - September 2025
+ * Areteus AI app deploy, live signals & continuous AI classifications: Nov 2025  
    
 SciPy 2025 Conference:  
  * SciPy talk proposal submit - March 5-7, 2025
