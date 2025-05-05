@@ -16,6 +16,7 @@ https://github.com/JennEYoon/ECG-transform/blob/main/_Wearable_ECG_Device.md
 
  * Device output data format: work in process.  
  * Alondra, April 2025 - Sample data file in hexadecimal, text file format.
+ * Contact Alondra - get more samples, Areteus device, 10 seconds or longer.  
    
 2.B) Hospital ECG devices  
 
@@ -46,11 +47,12 @@ Datsets used:
  *** To write up Stage 1, parts A, B, C. Ready for write up. ***   
 
 ### 4. Stage 2: Deeper Literature and Datasets Research, 12-leads models:  
-Chinese datasets  
-PTB-XL large dataset  
-2020 Physionet CinC challenge 
- - datasets 
- - winning models & papers
+
+ * PTB-XL large dataset
+ * SPH large dataset (Shandong Provincial Hospital)
+ * Papers from 2020 and 2021 Physionet CinC challenges 
+   - winning models & papers
+   - datasets descriptions  
 
  *** Currently here. To write current review of models, datasets. ***    
 
