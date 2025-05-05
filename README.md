@@ -7,7 +7,7 @@ SciPy 2025: virtual poster presentation, July 9-11, 2025.
 ### 1. Quick Project Description:  
 
 This repo contains a deep learning project for a wearable, ECG prototype.   
-Areteus (https://www.areteus.us/) is developing a novel wearable ECG (heart rate monitoring) device. It's novel factors are: (1) continuously wearable at home and (2) comparable to hospital machines (12 or more signals, high quality & low noise). This AI project will customize ECG classification model(s) for the Areteus device. A demo of final AI model will show live-feed ECG signals from the Areteus device, and sample diagnostic classifications using public datasets.  
+Areteus (https://www.areteus.us/) is developing a novel wearable ECG (heart rate monitoring) device. It's novel factors are: (1) continuously wearable at home and (2) comparable to hospital machines (12 or more signals, high quality & low noise). This AI project will customize ECG classification model(s) for the Areteus device. A demo of final AI model will show live-feed ECG signals from the Areteus device, and sample diagnostic classifications using public, hospital datasets.  
 
 ### 2. Device Information:  
 
