@@ -5,7 +5,9 @@
  * Stage 1: Initial research - Nov 2024 - January 2025
  * Stage 2: Deeper research, 12-signal datasets & papers - February - March 2025  
  * Stage 2B: Develop ResNet + SE model, 12-signal: May 2025
-    - May need to revisit Transformer models for 12-signal,
+    - compare w simpler ResNet, 12-signals treat as 12-dim channel inputs.
+    - compare w simple CNN, but with longer epochs, 2 and 6 classes, then 24-27 classes. 
+    - Review Transformer+ 2nd stage models for 12-signals, papers,
     - re-run ECGTransform paper/model w 2-classes PTB 12-signal (small, original) dataset, 6-classes MIT 2-signal dataset.  
  * Stage 2C: Report writing, SciPy poster presentation prep: June 2025
  * Demo AI models, hospital datasets: July 2025
