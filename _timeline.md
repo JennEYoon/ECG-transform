@@ -2,7 +2,7 @@
 
 ### AI models, datasets research and customization:  
  * Project start, Jason meet - Oct - Nov 2024
- * Stage 1: Initial research - Dec 2024 - January 2025
+ * Stage 1: Initial research - Nov 2024 - January 2025
  * Stage 2: Deeper research, 12-signal datasets & papers - February - March 2025  
  * Stage 2B: Develop ResNet + SE model, 12-signal: May - June 2025  
  * Demo AI classification models: July 2025
