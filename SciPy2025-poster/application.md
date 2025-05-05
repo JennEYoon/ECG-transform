@@ -33,6 +33,6 @@ In January 2025, I discovered much larger 12-signal datasets from PhysioNet chal
 This project explored customizing AI models to classify ECG signals, by addressing dataset challenges and multi-signal modeling strategies. Future steps include continuing model refinement and deploying a streaming ECG classifier app.  
 
 ## Image:  
-Areteus protototype ECG device, close-up of chip, V1, and V2 contacts.    
+Areteus ECG protototype, close-up of signal processing chip, V1, and V2 contacts (near heart).    
 <img src="https://github.com/JennEYoon/ECG-transform/blob/main/images/ECG-device-sm.png" width=300px >
 
