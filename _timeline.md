@@ -22,7 +22,7 @@
 ### ToDos  
 
  * call Alondra, get more samples
- * reformat Alondra sample, convert to csv.
+ * reformat device output sample, convert to csv.
  * SciPy - get dates, formats info.  
 
 
