@@ -1,7 +1,7 @@
 # AI models for wearable ECG prototype - quantified health
 
 Author: Jennifer E. Yoon   
-Timeline: link to be added  
+Timeline: <a href="_timeline.md" > _timeline.md </a> 
 SciPy 2025: virtual poster presentation, July 9-11, 2025.  
 
 ### 1. Quick Project Description:  
