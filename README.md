@@ -65,7 +65,7 @@ PTB-XL large dataset
 * documentation started
 * organization started
 * Embedding visualization (notebooks, website, apps) - to research  
-* Interactive python viz libraries (Plotly, Bokeh) - to research  
+* Interactive python viz libraries (Plotly, Bokeh, Voila) - to research  
   \-\-\-  
 * Areteus: Cloudflare - Flutter and Dart, AWS - AI model/app hosting - get overview   
 * Areteus and me: Brainstorm data formats, uploading streaming data in packets or chunks, database schemas - to research
