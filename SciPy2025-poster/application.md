@@ -25,7 +25,7 @@ In November 2024, I spoke with my brother, Jason Yoon (Areteus), who had been de
 I began by replicating the paper’s results and investigating alternative models on Kaggle and Hugging Face. Surprisingly, simple CNNs and even Random Forests achieved similar accuracy. Examining data sources, I found that MIT-BIH, contained doctor-corrected signals, while PTB dataset, despite having 12-signals, were not leveraged. Also, these widely used datasets had limited patient numbers and diversity.   
  
 ### Key Questions Emerged:   
-Would these models scale to larger, more diverse datasets? How would they handle 12–19 signals from Areteus’ ECG device?  
+Would these models scale to larger, more diverse datasets? How would they handle 12–19 signals from the Areteus ECG device?  
  
 In January 2025, I discovered much larger 12-signal datasets from PhysioNet challenges with 60,000 to 80,000 patients. In February, I discovered many papers using 12-signal large datasets, all dated 2024. What a difference a year made! On these research papers, ResNets performed best, while Transformers remained strong. Transformers may be well suited for a two-stage training: first, learning signal patterns agnostic to signal identity, then refining the model by using one-hot encoding to separate by signal identity.  
  
