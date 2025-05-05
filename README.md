@@ -16,7 +16,7 @@ https://github.com/JennEYoon/ECG-transform/blob/main/_Wearable_ECG_Device.md
 
  * Device output data format: work in process.  
  * Alondra, April 2025 - Sample data file in hexadecimal, text file format.
- * Contact Alondra - get more samples, Areteus device, 10 seconds or longer.  
+ * To get more samples, Areteus device, 10 seconds or longer - Alondra call.   
    
 2.B) Hospital ECG devices  
 
@@ -64,8 +64,8 @@ Datsets used:
 
 ### 7. App and Website Hosting, Report Writing:  
 
-* documentation started
-* organization started
+* documentation - started
+* organization - started
 * Embedding visualization (notebooks, website, apps) - to research  
 * Interactive python viz libraries (Plotly, Bokeh, Voila) - to research  
   \-\-\-  
