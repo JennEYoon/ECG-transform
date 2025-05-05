@@ -1,4 +1,4 @@
-# AI models for wearable ECG prototype - Quantified Health
+# AI models for wearable ECG prototype - quantified health
 
 Author: Jennifer E. Yoon   
 Timeline: link to be added  
