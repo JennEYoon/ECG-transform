@@ -1,10 +1,10 @@
 # AI models for wearable ECG prototype - quantified health
 
 Author: Jennifer E. Yoon   
-Timeline: <a href="_timeline.md" > _timeline.md </a> 
-SciPy 2025: virtual poster presentation, July 9-11, 2025.  
+Timeline: <a href="_timeline.md" > _timeline.md </a>   
+SciPy 2025 Conference: virtual poster presentation, July 9-11, 2025     
 
-### 1. Quick Project Description:  
+### 1. Quick Project Description:   
 
 This repo contains a deep learning project for a wearable, ECG prototype.   
 Areteus (https://www.areteus.us/) is developing a novel wearable ECG (heart rate monitoring) device. It's novel factors are: (1) continuously wearable at home and (2) comparable quality to hospital machines (12 or more signals, low noise). This AI project will customize ECG classification model(s) for the Areteus device. A demo of final AI model will show streaming diagnostic classifications using hospital datasets. Later, will deploy app showing live signals from Areteus device(s) and continuously updated diagnostic classifications.  
