@@ -7,7 +7,8 @@
  * Stage 2B: Develop ResNet + SE model, 12-signal: May 2025
     - compare w plain ResNet, 12-signals treat as 12-dim channel inputs.
     - compare w simple CNN, but with longer epochs, 2 and 6 classes, then 24-27 classes.
-    - compare w Transformer-based 12-signal models.  
+    - compare w Transformer-based 12-signal models.
+    - try 6 and 12 classes for higher accuracy. Test datasets from different hospitals, 12-signal large.  
  * Stage 2C: Report writing, SciPy poster presentation prep: June 2025
  * Demo AI models, hospital datasets: July 2025
  * Areteus device, detailed testing, AI model refinements: August - September 2025
