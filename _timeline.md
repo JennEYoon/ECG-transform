@@ -5,7 +5,7 @@
  * Stage 1: Initial research - Nov 2024 - January 2025
  * Stage 2: Deeper research, 12-signal datasets & papers - February - March 2025  
  * Stage 2B: Develop ResNet + SE model, 12-signal: May 2025
-    - compare w simpler ResNet, 12-signals treat as 12-dim channel inputs.
+    - compare w plain ResNet, 12-signals treat as 12-dim channel inputs.
     - compare w simple CNN, but with longer epochs, 2 and 6 classes, then 24-27 classes.
     - compare w Transformer-based 12-signal models.  
  * Stage 2C: Report writing, SciPy poster presentation prep: June 2025
