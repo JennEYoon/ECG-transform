@@ -17,9 +17,9 @@ https://github.com/JennEYoon/ECG-transform/blob/main/_Wearable_ECG_Device.md
  * Device output data format: work in process.  
  * Alondra, April 2025 - Sample data file in hexadecimal, text file format.
    
-2.B) hospital ECG devices  
+2.B) Hospital ECG devices  
 
-2.C) at-home ECG devices  
+2.C) Home-use ECG devices  
 
  *** To write up introductory information about device. ***   
 
