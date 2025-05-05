@@ -16,9 +16,8 @@
    
 ### SciPy 2025 Conference:  
  * SciPy talk proposal submit - March 5-7, 2025
- * Accepted for virtual poster - April 26, 2025
  * Work on virtual poster, record videos: May - June 2025
- * Present virtual poster: July 9-11, 2025  
+ * Present: July 9-11, 2025  
 
 ### ToDos  
 
