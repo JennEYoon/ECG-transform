@@ -39,8 +39,8 @@ Related papers and Jupyter notebooks, using MIT and PTB datasets.
  * RandomForest 
 
 Q) How to make full use of 12-leads in PTB data? How to split raw data into samples? What filter or processing should be used? What Python libraries might be useful?:  
-
-A) * Use only peak centering and baseline zero calibration for now.  
+A) Answers, after discussions with Areteus:  
+   * Use only peak centering and baseline zero calibration for now.  
    * ignore other filters at this time (e.g., squaring to remove negative numbers, standardizing peak to peak distance, standardizing peak amplitude across patients)   
    * library: wsfl - for ECG data processing, standarizing.   
    * library: scikit-learn - good enough for testing my own data splitting and filtering methods.   
