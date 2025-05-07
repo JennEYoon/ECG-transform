@@ -30,20 +30,19 @@ Areteus (https://www.areteus.us/) is developing a novel wearable ECG (heart rate
  * paper
  * Datasets: MIT (link), PTB (link)  
 
-Related papers and Jupyter notebooks, using same datasets.  
+Related papers and Jupyter notebooks, using MIT and PTB datasets.  
  * ResNet Kim et al. :
- * Survey paper, historical: link to add  
-
-Related Jupyter notebooks, using same datasets(s)  
+ * Another paper :  
+ * Survey paper, historical: 
  * Simple CNN
- * ResNet
- * RandomForest   
+ * Simple ResNet
+ * RandomForest 
 
-Q) How to handle 12-leads (PTB dataset only)? How to split raw data into samples, and how to filter or process the data?: 
- * peak centering, baseline zero calibration  
- * ignore other filtering at this time (squaring to remove negative numbers, standardizing peak to peak distance)
- * library: wsfl - for ECG data processing, standarizing.
- * Also scikit-learn for testing my own splitting methods.   
+Q) How to make full use of 12-leads in PTB data? How to split raw data into samples? What filter or processing should be used? What Python libraries might be useful?: 
+A) * Use only peak centering and baseline zero calibration for now.  
+   * ignore other filters at this time (e.g., squaring to remove negative numbers, standardizing peak to peak distance, standardizing peak amplitude across patients)
+   * library: wsfl - for ECG data processing, standarizing.
+   * library: scikit-learn - good enough for testing my own data splitting and filtering methods.   
 
  *** To write up Stage 1, parts A, B, C. Ready for write up. ***   
 
