@@ -33,12 +33,8 @@ Areteus (https://www.areteus.us/) is developing a novel wearable ECG (heart rate
 Related papers and Jupyter notebooks, using same datasets.  
  * ResNet Kim et al. :
  * Survey paper, historical: link to add  
- * Simple CNN notebook:  
- * Random Forest notebook:  
- * Simple ResNet notebook:  
 
-
-3.B) Research other ECG papers, training models, simpler models:    
+Related Jupyter notebooks, using same datasets(s)  
  * Simple CNN
  * ResNet
  * RandomForest   
