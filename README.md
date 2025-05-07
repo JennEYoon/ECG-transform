@@ -28,9 +28,19 @@ Areteus (https://www.areteus.us/) is developing a novel wearable ECG (heart rate
 3.A) Review ECGTransform paper, original paper provided by Areteus:  
 See a copy of author's repo: ECGTransForm folder.  
 
-Datsets used:  
+Datsets, smaller, older, not all 12-channels:  
  * MIT dataset
  * PTB dataset
+
+ * ECGTransform paper: link to add
+ * ECGTransform github repo: link to add
+ * ResNet Kim et al. :
+ * Survey paper, historical: link to add  
+ * Simple CNN notebook:  
+ * Random Forest notebook:  
+ * Simple ResNet notebook:  
+
+
 
 3.B) Research other ECG papers, training models, simpler models:    
  * Simple CNN
