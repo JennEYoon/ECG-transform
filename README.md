@@ -39,7 +39,7 @@ Related Jupyter notebooks, using same datasets(s)
  * ResNet
  * RandomForest   
 
-Q) How to handle 12-leads? splitting data?: 
+Q) How to handle 12-leads (PTB dataset only)? How to split raw data into samples, and how to filter or process the data?: 
  * peak centering, baseline zero calibration  
  * ignore other filtering at this time (squaring to remove negative numbers, standardizing peak to peak distance)
  * library: wsfl - for ECG data processing, standarizing.
