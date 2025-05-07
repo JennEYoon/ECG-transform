@@ -11,8 +11,7 @@ Areteus (https://www.areteus.us/) is developing a novel wearable ECG (heart rate
 
 ### 2. Device Information:  
 
-2.A) Areteus Device: See <a href="https://github.com/JennEYoon/ECG-transform/blob/main/_Areteus_ECG_Device.md" >Areteus ECG device </a>  
-https://github.com/JennEYoon/ECG-transform/blob/main/_Wearable_ECG_Device.md
+2.A) Areteus Device: <a href="https://github.com/JennEYoon/ECG-transform/blob/main/_Areteus_ECG_Device.md" >Areteus ECG device </a>.
 
  * Device output data format: work in process.  
  * Alondra, April 2025 - Sample data file in hexadecimal, text file format.
