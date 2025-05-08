@@ -69,13 +69,13 @@ Selected papers and notebooks:
 
  *** Currently here. To write current review of models, datasets. ***    
 
-### 5. AI Model Customizing and Testing:    
+### 5. Device Signals Testing and AI Model Refinements:    
 
 
 ### 6. Key Findings:  
 
 
-### 7. App and Website Hosting, Report Writing:  
+### 7. Deploy App on Cloud and Report Writing:  
 
 * documentation - started
 * organization - started
