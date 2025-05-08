@@ -1,4 +1,4 @@
-# Example Posters from prior years, formatting info   
+# Example Posters from other people, formatting info   
 
 ### Example Posters, prior SciPy Conferences:  
 Table of contents:   
