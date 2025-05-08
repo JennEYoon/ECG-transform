@@ -55,12 +55,12 @@ Selected large, 12-signal datasets:
  * PTB-XL large dataset
  * SPH large dataset (Shandong Provincial Hospital)
 
-Selected paper and notebooks:  
+Selected papers and notebooks:  
  * ResNet+SE paper: link  
    - Notebook implementation: my customization  
    - Dataset selection and processing choices:
  * Simple ResNet model for comparison:
-   - ResNet34, 20 epochs, 12-signals treated as 12-channel input data.  
+   - ResNet34, 20-50 epochs, 12-signals treated as 12-channel input data.  
  * Transformers+RNN:
    - Notebook implementation:
    - Datasets (same as previous)
