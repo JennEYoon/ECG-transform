@@ -9,10 +9,10 @@
     - compare w simple CNN, but with longer epochs, 2 and 6 classes, then 24-27 classes.
     - compare w Transformer-based 12-signal models.
     - try 6 and 12 classes for higher accuracy. Test datasets from different hospitals, 12-signal large.  
- * Stage 2C: Report writing, SciPy poster presentation prep: June 2025
- * Demo AI models, hospital datasets: July 2025
- * Areteus device, detailed testing, AI model refinements: August - September 2025
- * Areteus AI app deploy, device live signals & continuous AI classifications: Nov 2025  
+ * Stage 2C: SciPy virtual poster presentation prep: June 2025
+ * Stage 2D: develop Demo of AI models on hospital datasets: July 2025
+ * Stage 3: Areteus device, detailed testing, AI model refinements: August - September 2025
+ * Deploy Areteus AI app, live device signals & continuous AI classifications: Nov 2025  
    
 ### SciPy 2025 Conference:  
  * SciPy talk proposal submit - March 5-7, 2025
