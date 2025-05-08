@@ -49,11 +49,23 @@ A) Answers, after discussions with Areteus:
 
 ### 4. Stage 2: Deeper Literature and Datasets Research, 12-leads models:  
 
+Overview of new efforts to collect large 12-signal ECG datasets for use in AI models, from different hospitals in different countries. Attempts to unify ECG diagnostic classifications. Attempts to collect high quality signals from diverse populations.   
+
+Selected large, 12-signal datasets:  
  * PTB-XL large dataset
  * SPH large dataset (Shandong Provincial Hospital)
- * Papers from 2020 and 2021 Physionet CinC challenges 
-   - winning models & papers
-   - datasets descriptions  
+
+Selected paper and notebooks:  
+ * ResNet+SE paper: link  
+   - Notebook implementation: my customization  
+   - Dataset selection and processing choices:
+ * Simple ResNet model for comparison:
+   - ResNet34, 20 epochs, 12-signals treated as 12-channel input data.  
+ * Transformers+RNN:
+   - Notebook implementation:
+   - Datasets (same as previous)
+ * Original ECGTransform model - customized for large, 12-signal datasets.
+ * Simple CNN model on large datasets for comparison  
 
  *** Currently here. To write current review of models, datasets. ***    
 
@@ -67,8 +79,8 @@ A) Answers, after discussions with Areteus:
 
 * documentation - started
 * organization - started
-* Embedding visualization (notebooks, website, apps) - to research  
-* Interactive python viz libraries (Plotly, Bokeh, Voila) - to research  
+* Embedding visualization (notebooks, website, apps)    
+* Interactive python viz libraries (Plotly, Bokeh, Voila)  
   \-\-\-  
 * Areteus: Cloudflare - Flutter and Dart, AWS - AI model/app hosting - get overview   
 * Areteus and me: Brainstorm data formats, uploading streaming data in packets or chunks, database schemas - to research
