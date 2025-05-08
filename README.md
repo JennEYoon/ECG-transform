@@ -47,7 +47,7 @@ A) Answers, after discussions with Areteus:
 
  *** To write up Stage 1, parts A, B, C. Ready for write up. ***   
 
-### 4. Stage 2: Deeper Literature and Datasets Research, 12-leads models:  
+### 4. Stage 2: Deeper Literature and Datasets Research, 12-signal models:  
 
 Overview of new efforts to collect large 12-signal ECG datasets for use in AI models, from different hospitals in different countries. Attempts to unify ECG diagnostic classifications. Attempts to collect high quality signals from diverse populations.   
 
