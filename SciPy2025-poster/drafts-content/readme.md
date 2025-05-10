@@ -4,7 +4,7 @@
 
 ### Plan of Action  
  * Explore poster formats.
- * Get SciPy poster specs.
+ * Get SciPy poster specs - emails sent 5/9/2025  
  * Develop ResNet+SE model nb portion
  * Write other parts, think about images
  * Add interactive graphs using Plotly, Bokeh, Voila.  
