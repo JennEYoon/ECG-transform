@@ -12,7 +12,8 @@ To record videos for poster presentation (5-minute, 30-minute, Q&A possible topi
 Read <a href="https://github.com/JennEYoon/ECG-transform/blob/main/SciPy2025-poster/application.md" > SciPy application </a>
 
 ### Poster Templates, Examples:  
-
+ * Emailed SciPy organizers - waiting
+ * Review 2024 Poster and Papers, Proceedings from SciPy 2024 Conference.  
 
 
 
