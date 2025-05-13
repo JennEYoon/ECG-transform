@@ -10,7 +10,7 @@
     - compare w Transformer-based 12-signal models.
     - try 6 and 12 classes for higher accuracy.
     - compare datasets from different hospitals, systematic bias?   
- * Develop Demo of final AI on hospital dataset: July 2025
+ * Develop Demo of final AI on hospital dataset: July - August 2025
  * Areteus device testing and AI model refinements: August - September 2025
  * Deploy Areteus AI app, live device signals & continuous AI classifications: Nov 2025 
    
