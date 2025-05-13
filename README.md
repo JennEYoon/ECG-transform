@@ -61,7 +61,8 @@ Selected papers and notebooks:
  * ResNet+SE paper: Zheng et al
    - Too many layers, custom large kernals. Initially try simpler ReNet + few SE blocks.  
    - input to first Conv layer, (12, 4096)  12-signals ARE input as 12-dim channel input.
-   - used random splitting and zero padding, has overlaps. I will use peak centering without overlap, and zero padding.   
+   - used random splitting and zero padding, has overlaps. I will use peak centering without overlap, and zero padding.
+   - Reduce prediction classes from 24 to 2 and 6 classes. Get higher accuracy with simpler model architecture? Less layers.  
    - Notebook implementation: my customization  
    - Dataset selection and processing choices:
  * Simple ResNet model for comparison:
