@@ -62,7 +62,7 @@ Selected papers and notebooks:
    - Too many layers, custom large kernals. Initially try simpler ReNet + few SE blocks.  
    - input to first Conv layer, (12, 4096)  12-signals ARE input as 12-dim channel input.
    - used random splitting and zero padding, has overlaps. I will use peak centering without overlap, and zero padding.
-   - 16 seconds, 257 hz. I will use 10 seconds a xx Hz. 
+   - 16 seconds, 257 hz. I will use 10 seconds a 125 Hz. 
    - Reduce prediction classes from 24 to 2 and 6 classes. Get higher accuracy with simpler model architecture? Less layers.  
    - Notebook implementation: my customization  
    - Dataset selection and processing choices:
