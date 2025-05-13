@@ -5,17 +5,17 @@
 ### Online presentation during SciPy 2025 Conference, July 9-11, 2025.  
 
 Poster proposal accepted, April 27, 2025  
- * Proceeding due June 5, 2025 Friday, no paper, only abstract + Poster, License, Affiliation, Links. 
+ * Proceeding due June 5, 2025 Friday, no 8 page paper, only abstract + Poster    
 Plan to finish poster by June 30, 2025.  
 Q&A slot to be assigned during July 9-11, 2025   
-To record videos for poster presentation (5-minute, 30-minute, Q&A possible topics)   
+To record videos for poster presentation (5-minute, 30-minute, Q&A possible topics)
+Final proceedings edit Oct 15, 2024. 
 
 Read <a href="https://github.com/JennEYoon/ECG-transform/blob/main/SciPy2025-poster/application.md" > SciPy application </a>
 
 ### Poster Templates, Examples:  
- * Emailed SciPy organizers - waiting
+ * Emailed SciPy organizers - vague on dates, format.  
  * Review 2024 Poster and Papers, Proceedings from SciPy 2024 Conference.  
-
 
 
 ### Github repo organization & visualization examples, formats:   
