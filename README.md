@@ -58,7 +58,10 @@ Selected large, 12-signal datasets:
  * SPH large dataset (Shandong Provincial Hospital)
 
 Selected papers and notebooks:  
- * ResNet+SE paper: link  
+ * ResNet+SE paper: Zheng et al
+   - Too many layers, custom large kernals. Initially try simpler ReNet + few SE blocks.  
+   - input to first Conv layer, (12, 4096)  12-signals ARE input as 12-dim channel input.
+   - used random splitting and zero padding, has overlaps. I will use peak centering without overlap, and zero padding.   
    - Notebook implementation: my customization  
    - Dataset selection and processing choices:
  * Simple ResNet model for comparison:
