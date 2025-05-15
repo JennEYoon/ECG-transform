@@ -10,11 +10,6 @@ desktop.ini
 
 # except rule  
 !/data/notes_gitkeep*.*
-
-# exclude everything in this folder 
-Areteus.us/data/*
-
-# except to this rule  
-!Areteus.us/data/notes_gitkeep.*
+!/data/public/*  
 
 *.Zone_Identifier
