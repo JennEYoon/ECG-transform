@@ -26,9 +26,9 @@ Areteus (https://www.areteus.us/) is developing a novel wearable ECG (heart rate
 ### 3. Stage 1: Literature and Public Datasets Research:  
 
 3.A) Review ECGTransform paper, original paper provided by Areteus.  
- * ECGTransForm Repo, authors'
- * paper
- * Datasets: MIT (link), PTB (link)  
+ * ECGTransForm Repo   
+ * Original paper   
+ * Datasets: MIT-BIH (link), PTB (link)  
 
 3.B] Related papers and Jupyter notebooks, using MIT and PTB datasets.  
  * ResNet Kim et al. :
