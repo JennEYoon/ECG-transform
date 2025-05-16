@@ -59,11 +59,11 @@ Selected large, 12-signal datasets:
 
 Selected papers and notebooks:  
  * ResNet+SE paper: Zhao et al
-   - Too many layers, custom large kernals. Initially try simpler ReNet + few SE blocks.  
-   - input to first Conv layer, (12, 4096)  12-signals ARE input as 12-dim channel input.
+   - Too many layers, custom large kernals. Initially try simpler ResNet + few SE blocks.  
+   - input to first convolutional layer is (12, 4096). 12-signals ARE input as 12-dim channel.  
    - used random splitting and zero padding, has overlaps. I will use peak centering without overlap, and zero padding.
-   - 16 seconds, 257 hz. I will use 10 seconds and 125 Hz, PTB-XL (5000 hz, 10 sec)   
-   - Reduce prediction classes from 24 to 2 and 6 classes. Get higher accuracy with simpler model architecture? Less layers.  
+   - 16 seconds, 257 hz. I will use 10 seconds and 125 Hz, PTB-XL (5000 hz, 10 sec).     
+   - Reduce prediction classes from 24 to 2 and 6 classes. Get higher accuracy when using  simpler model architecture? When using less layers or more standard sized kernel filters (3x3 or 6x6). The large expansion of classes from 2 or 6 in previous stage to 24 seems to decrease overall model acuuracy even with much more complex atchitectures and heavy customizations.  
    - Notebook implementation: my customization  
    - Dataset selection and processing choices:
  * Simple ResNet model for comparison:
@@ -73,6 +73,7 @@ Selected papers and notebooks:
    - Datasets (same as previous)
  * Original ECGTransform model for comparison, on large, 12-signal datasets.    
  * Simple CNN model on large datasets for comparison, 20-50 epochs        
+
 
 ### 5. Key Findings:   
 
