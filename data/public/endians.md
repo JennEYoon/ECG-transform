@@ -2,7 +2,7 @@
 By Crystal Bedell  
 https://www.techtarget.com/searchnetworking/definition/big-endian-and-little-endian  
 
-What is big-endian and little-endian?
+### What is big-endian and little-endian?   
 The term endianness describes the order in which computer memory stores a sequence of bytes. Endianness can be either big or small, and the adjectives refer to the value stored first.
 
 Big-endian is an order in which the big end -- the most significant value in the sequence -- is first, at the lowest storage address. Little-endian is an order in which the little end, the least significant value in the sequence, is first.
@@ -16,3 +16,9 @@ For people who use languages that read left-to-right, big-endian seems like the 
 An argument for little-endian order is that as the numeric value increases, additional digits might need to be added to the left. For example, a higher nonexponential number has more digits, so an addition of two numbers often requires moving all the digits of a big-endian ordered number in storage. This addition moves everything to the right.
 
 In a number stored in little-endian fashion, the least significant bytes can stay where they are and new digits are added to the right at a higher address. This means some computer operations might be simpler and faster to perform.
+
+### Bit order
+Within both big-endian and little-endian byte orders, the bits within each byte are big-endian. This means the bit stream represented by a given number of stored bytes doesn't attempt to be big- or little-endian. For example, whether hexadecimal 4F is put in storage first or last with other bytes in a given storage address range, the bit order within the byte will be 01001111.  
+
+
+
