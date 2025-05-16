@@ -73,3 +73,22 @@ Ok that's great.  I can go from here. Thank you for explaining it to me.  Take c
 no problem, have a nice day :)
 You too.  🌞sun  
 
+### 5/15 Th update:  
+Header bytes are 20 not 16, in updated chip specs.  
+Device ID 8 bytes, random init 4 bytes, Unix Date-time 8 bytes.  
+OK now everything fits in Feb 19 hex recording.  
+
+Today's 2 hex files, together is 7mb, I think not repeat yesterday's binary file.  
+So 15 samples, 10 seconds long, each block ends with "DONE". 125 numbers x 8 channels per half second, 300 hertz per second x 8 channels. Lead 1 to 8 in order, Rt.arm-Lf.arm, Rt.arm-Lf.leg, V1, V2, V3, V4, V5, V6.  
+
+Yesterday's binary unbroken text file, 7mb.  
+Can now convert to hex with confidence. 
+20 header bytes, 125 samples, 27-byte data (8 channel).  
+Each half second sample ends in "DONE"   
+"\"\   
+I can convert later if Alondra does not convert to hex first.  
+14.7 samples, 10 seconds long.
+
+Together will make about 30 samples, each 10 seconds long, taken from one human, Alondra.  
+Enough sample size to meet large or large numbers and central tendency minimal threshold.  
+Healthy young woman subject, recorded over a 2-day period.  
