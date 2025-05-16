@@ -30,7 +30,7 @@ Areteus (https://www.areteus.us/) is developing a novel wearable ECG (heart rate
  * Original paper   
  * Datasets: MIT-BIH (link), PTB (link)  
 
-3.B] Related papers and Jupyter notebooks, using MIT and PTB datasets.  
+3.B) Related papers and Jupyter notebooks, using MIT and PTB datasets.  
  * ResNet Kim et al. :
  * Another paper :  
  * Survey paper, historical: 
