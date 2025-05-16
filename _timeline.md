@@ -18,7 +18,7 @@
  * SciPy talk proposal submit - March 5-7, 2025
  * Accepted for virtual poster - April 27, 2025   
  * Work on virtual poster (ResNet+SE model build) - May - June 2025
- * Submit poster to proceedings - June 5, 2025  
+ * Submit poster to proceedings - due June 6, 2025 Friday.  
  * Record videos, slide deck, blog post - June - July 7, 2025
  * Present: July 9-11, 2025  
 
