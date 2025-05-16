@@ -15,7 +15,7 @@ Areteus (https://www.areteus.us/) is developing a novel wearable ECG (heart rate
 
  * Device output data format: work in process.  
  * Alondra, April 2025 - Sample data file in hexadecimal, text file format. A single 5 second recording. Verified header bytes info. Verified device output format.  
- * Alondra, May 2025 - 10 second long samples, 30 in total, taken over 2 days. Half in hexadecimal, half in raw binary text files. Satisfies minimum sample size for Central Limit Theorum and Law of Large Numbers. Later, to expand subjects, some with known heart abnormalities.     
+ * Alondra, May 2025 - 10 second long recordings, 30 in total, taken over 2 days. Half in hexadecimal, half in raw binary text files. Satisfies minimum sample size for Central Limit Theorum and Law of Large Numbers. Later, to expand subjects, some with known heart abnormalities.     
    
 2.B) Hospital ECG devices  
 
