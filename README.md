@@ -72,10 +72,7 @@ Selected papers and notebooks:
    - Notebook implementation:
    - Datasets (same as previous)
  * Original ECGTransform model for comparison, on large, 12-signal datasets.    
- * Simple CNN model on large datasets for comparison, 20-50 epochs     
-
- *** Currently here. To write as I go ***    
-Refinements:    
+ * Simple CNN model on large datasets for comparison, 20-50 epochs        
 
 ### 5. Key Findings:   
 
