@@ -36,7 +36,7 @@ Areteus (https://www.areteus.us/) is developing a novel wearable ECG (heart rate
  * Survey paper, historical: 
  * Simple CNN
  * Simple ResNet
- * RandomForest 
+ * Random Forest 
 
 3.C) Data Processing Issues.   
 How to make full use of 12-signals in PTB data? How to split raw data into samples? What filter or processing should be used? What Python libraries might be useful?:  
