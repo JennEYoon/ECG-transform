@@ -75,11 +75,12 @@ Selected papers and notebooks:
  * Simple CNN model on large datasets for comparison, 20-50 epochs     
 
  *** Currently here. To write as I go ***    
+Refinements:    
 
-### 5. Device Signals Testing and AI Model Refinements:    
+### 5. Key Findings:   
 
 
-### 6. Key Findings:  
+### 6. Device Signals Testing and AI Model Refinement:  
 
 
 ### 7. Deploy App on Cloud and Report Writing:  
