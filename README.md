@@ -56,7 +56,7 @@ Data processing choices, after discussions with Areteus:
 Overview of new efforts to collect large 12-signal ECG datasets for use in AI models, from different hospitals in different countries. Attempts to unify ECG diagnostic classifications. Attempts to collect high quality signals from diverse populations.   
 
 Selected large, 12-signal datasets:  
- * PTB-XL large dataset
+ * PTB-XL large dataset (Physikalisch-Technische Bundesanstalt)
  * SPH large dataset (Shandong Provincial Hospital)
 
 Selected papers and notebooks:  
