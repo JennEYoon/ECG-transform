@@ -18,7 +18,7 @@ An argument for little-endian order is that as the numeric value increases, addi
 In a number stored in little-endian fashion, the ***least significant bytes can stay where they are*** and ***new digits are added to the right*** at a higher address. This means some computer operations might be simpler and faster to perform.
 
 ### Bit order
-Within both big-endian and little-endian byte orders, the bits within each byte are big-endian. This means the bit stream represented by a given number of stored bytes doesn't attempt to be big- or little-endian. For example, whether hexadecimal 4F is put in storage first or last with other bytes in a given storage address range, the bit order within the byte will be 01001111. [0100 = 4, 1111 & F] 
+Within both big-endian and little-endian byte orders, the bits within each byte are big-endian. This means the bit stream represented by a given number of stored bytes doesn't attempt to be big- or little-endian. For example, whether hexadecimal 4F is put in storage first or last with other bytes in a given storage address range, the bit order within the byte will be 01001111. [0100 = 4, 1111 = F] 
 
 From: Gulliver's Travels, Lilliputian King who required their party to break their egg shell from the small-end, vs rebellion party who broke their egg shell from the large-end. (What about people who crack their eggs in the middle? I am a middle-endian! centralian? mid-crackian?)
 
