@@ -18,14 +18,15 @@
  * SciPy talk proposal submit - March 5-7, 2025
  * Accepted for virtual poster - April 27, 2025   
  * Work on virtual poster (ResNet+SE model build) - May - June 2025
- * Submit poster to proceedings - due June 6, 2025 Friday.  
+ * Submit poster to conference organizers - About June 30 - July 4, 2025    
  * Record videos, slide deck, blog post - June - July 7, 2025
  * Present: July 9-11, 2025  
 
 ### ToDos  
 
- * call Alondra, get more samples
+ * call Alondra, get more samples - done.  
  * reformat device output sample, convert to csv.
  * SciPy - get dates, formats info.  
- * Grace class final project, May 31, 2025 due. ResNet + SE notebooks, visualizations. Some interactive charts.   
+ * Grace class final project, May 31, 2025 due.
+   * ResNet + SE notebooks, visualizations. Some interactive charts.   
 
