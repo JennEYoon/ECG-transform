@@ -18,3 +18,8 @@ Work in process, May 2025
   \-\-\-  
 * Areteus: Cloudflare - Flutter and Dart, AWS - AI model/app hosting - get overview   
 * Areteus and me: Brainstorm data formats, uploading streaming data in packets or chunks, database schemas - to research
+
+
+### 5/19/2025 note:  
+Removed ECGTransform repo copy. Keep copy locally.  
+Updated main readme.md 5h  
