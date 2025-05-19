@@ -1,12 +1,14 @@
-# AI for wearable ECG prototype  
+# AI for ECG prototype  
 
 Author: Jennifer E. Yoon   
 Timeline: <a href="_timeline.md" > _timeline.md </a>   
-Client Company: Areteus  
+Client Company: Areteus (https://areteus.us/)   
 
 ### SciPy 2025 Conference: virtual poster presentation, July 9-11, 2025     
-  * Title: AI models for wearable ECG prototype - quantified health
-  * Abstract: 
+  * Title: AI for wearable ECG prototype - quantified health
+  * Abstract: I will share my experience customizing AI models for a wearable ECG (electrocardiogram) prototype, including Transformers, ResNets, and Random Forests. While intended for data science students and practitioners, anyone interested in wearable devices or quantified health is welcome. Listeners will gain practical insights to apply in their own AI projects.  
+
+Hospital-grade 12-signal ECG machines are bulky and expensive, while at-home devices capture only 1–6 asynchronous signals. The Areteus wearable ECG is designed for continuous home use, recording 12–19 synchronous signals. It is especially useful for detecting abnormal heartbeats during sleep and strenuous exercise.  
   * scipy poposal: <link>   
   * conference: https://www.scipy2025.scipy.org/  
   * tags: #SciPy-2025  #ECG-prototype  #AI  #quantified-health  
