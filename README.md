@@ -1,10 +1,15 @@
-# AI models for wearable ECG prototype - quantified health
+# AI for wearable ECG prototype  
 
 Author: Jennifer E. Yoon   
 Timeline: <a href="_timeline.md" > _timeline.md </a>   
-SciPy 2025 Conference: virtual poster presentation, July 9-11, 2025     
-https://www.scipy2025.scipy.org/  
-#SciPy-2025  #ECG-prototype  #AI  #quantified-health  
+Client Company: Areteus  
+
+### SciPy 2025 Conference: virtual poster presentation, July 9-11, 2025     
+  * Title: AI models for wearable ECG prototype - quantified health
+  * Abstract: 
+  * scipy poposal: <link>   
+  * conference: https://www.scipy2025.scipy.org/  
+  * tags: #SciPy-2025  #ECG-prototype  #AI  #quantified-health  
 
 ### 1. Quick Project Description:   
 
