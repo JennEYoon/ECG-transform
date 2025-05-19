@@ -1,3 +1,4 @@
+
 # AI for ECG prototype  
 
 Author: Jennifer E. Yoon   
@@ -5,12 +6,14 @@ Timeline: <a href="_timeline.md" > _timeline.md </a>
 Company: Areteus (https://areteus.us/)   
 
 ### SciPy 2025 Conference: virtual poster presentation, July 9-11, 2025     
-  * Title: AI for wearable ECG prototype - quantified health
-  * Abstract: I will share my experience customizing AI models for a wearable ECG (electrocardiogram) prototype, including Transformers, ResNets, and Random Forests. While intended for data science students and practitioners, anyone interested in wearable devices or quantified health is welcome. Listeners will gain practical insights to apply in their own AI projects.  
-Hospital-grade 12-signal ECG machines are bulky and expensive, while at-home devices capture only 1–6 asynchronous signals. The Areteus wearable ECG is designed for continuous home use, recording 12–19 synchronous signals. It is especially useful for detecting abnormal heartbeats during sleep and strenuous exercise.  
-  * proposal: <a href="https://github.com/JennEYoon/ECG-transform/blob/main/SciPy2025-poster/application.md">application</a>  
-  * conference: https://www.scipy2025.scipy.org/  
-  * tags: #SciPy-2025  #ECG-prototype  #AI  #quantified-health  
+ * Title: AI for wearable ECG prototype - quantified health
+ * Abstract: I will share my experience customizing AI models for a wearable ECG (electrocardiogram) prototype, including Transformers, ResNets, and Random Forests. While intended for data science students and practitioners, anyone interested in wearable devices or quantified health is welcome. Listeners will gain practical insights to apply in their own AI projects.  
+Hospital-grade 12-signal ECG machines are bulky and expensive, while at-home devices capture only 1–6 asynchronous signals. The Areteus wearable ECG is designed for continuous home use, recording 12–19 synchronous signals. It is especially useful for detecting abnormal heartbeats during sleep and strenuous exercise.
+ * Areteus ECG protototype, close-up of processing chip, V1, and V2 contacts.    
+<img src="https://github.com/JennEYoon/ECG-transform/blob/main/images/ECG-device-sm.png" width=300px alt="image of processing chip and v1 v2 electrodes" >
+ * proposal: <a href="https://github.com/JennEYoon/ECG-transform/blob/main/SciPy2025-poster/application.md">application</a>  
+ * conference: https://www.scipy2025.scipy.org/  
+ * tags: #SciPy-2025  #ECG-prototype  #AI  #quantified-health  
 
 ### 1. Quick Project Description:   
 
@@ -83,7 +86,6 @@ Selected papers and notebooks:
  * Original ECGTransform model for comparison, on large, 12-signal datasets.    
  * Simple CNN model on large datasets for comparison, 20-50 epochs        
 
-
 ### 5. Key Findings:   
 
 
@@ -92,9 +94,9 @@ Selected papers and notebooks:
 
 ### 7. Deploy App on Cloud and Report Writing:  
 
-* documentation - started
-* organization - started
-* Embedding visualization (notebooks, website, apps) - to research     
-* Interactive python viz libraries (Plotly, Bokeh, Voila) - to research   
+ * documentation - started
+ * organization - started
+ * Embedding visualization (notebooks, website, apps) - to research     
+ * Interactive python viz libraries (Plotly, Bokeh, Voila) - to research   
 
 
