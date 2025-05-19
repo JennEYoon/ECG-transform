@@ -8,7 +8,7 @@ Company: Areteus (https://areteus.us/)
   * Title: AI for wearable ECG prototype - quantified health
   * Abstract: I will share my experience customizing AI models for a wearable ECG (electrocardiogram) prototype, including Transformers, ResNets, and Random Forests. While intended for data science students and practitioners, anyone interested in wearable devices or quantified health is welcome. Listeners will gain practical insights to apply in their own AI projects.  
 Hospital-grade 12-signal ECG machines are bulky and expensive, while at-home devices capture only 1–6 asynchronous signals. The Areteus wearable ECG is designed for continuous home use, recording 12–19 synchronous signals. It is especially useful for detecting abnormal heartbeats during sleep and strenuous exercise.  
-  * proposal: <a href="https://github.com/JennEYoon/ECG-transform/blob/main/SciPy2025-poster/application.md">application</a>     
+  * proposal: <a href="https://github.com/JennEYoon/ECG-transform/blob/main/SciPy2025-poster/application.md">application</a>  
   * conference: https://www.scipy2025.scipy.org/  
   * tags: #SciPy-2025  #ECG-prototype  #AI  #quantified-health  
 
@@ -19,11 +19,12 @@ Areteus (https://www.areteus.us/) is developing a novel wearable ECG (heart rate
 
 ### 2. Device Information:  
 
-2.A) Areteus Device: <a href="https://github.com/JennEYoon/ECG-transform/blob/main/_Areteus_ECG_Device.md" >Areteus ECG device </a>.
+2.A) Areteus ECG device: <a href="https://github.com/JennEYoon/ECG-transform/blob/main/_Areteus_ECG_Device.md" >Areteus ECG device </a>.
 
  * Device output data format: work in process.  
- * Alondra, April 2025 - Sample data file in hexadecimal, text file format. A single 5 second recording. Verified header bytes info. Verified device output format.  
- * Alondra, May 2025 - 10 second long recordings, 30 in total, taken over 2 days. Half in hexadecimal, half in raw binary text files. Satisfies minimum sample size for Central Limit Theorum and Law of Large Numbers. Later, to expand subjects, some with known heart abnormalities.     
+   - First file request, Alondra, single recording, 5 seconds long, hexadecimal format text file.
+   - Second file request, Alondra, 30 recordings, 10 seconds long, hexadecimal and raw binary format text files.
+   - To convert to compatible machine learning input format.  
    
 2.B) Hospital ECG devices  
 
