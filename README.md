@@ -2,7 +2,7 @@
 
 Author: Jennifer E. Yoon   
 Timeline: <a href="_timeline.md" > _timeline.md </a>   
-Client Company: Areteus (https://areteus.us/)   
+Company: Areteus (https://areteus.us/)   
 
 ### SciPy 2025 Conference: virtual poster presentation, July 9-11, 2025     
   * Title: AI for wearable ECG prototype - quantified health
