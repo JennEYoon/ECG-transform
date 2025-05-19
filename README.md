@@ -59,7 +59,7 @@ Data processing choices, after discussions with Areteus:
    * Use only peak centering and baseline zero calibration for now.  
    * Ignore other filters at this time (e.g., squaring to remove negative numbers, standardizing peak to peak distance, standardizing peak amplitude across patients)   
    * library: wsfl - for ECG data processing, standarizing.   
-   * library: scikit-learn - good enough for testing my own data splitting and filtering methods.   
+   * library: scikit-learn - for testing my own data splitting and filtering methods.   
 
  *** Ready for write up. ***   
 
