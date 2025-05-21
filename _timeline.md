@@ -19,7 +19,8 @@
  * Accepted for virtual poster - April 27, 2025   
  * Build & test ResNet+SE model - May 20-31, 2025
    (use for class project, Stanford Tech 07)
- * Optional, submit article to SciPy Proceedings 6000 words - draft due June 6, 2025   
+ * Optional, submit article to SciPy Proceedings - draft due June 6, 2025 Friday    
+    - max 6000 words, Proceedings repo pull request.    
  * Submit poster to conference organizers - About June 30 - July 4, 2025    
  * Create related videos, slide deck, blog post - June - July 7, 2025
  * Present: July 9-11, 2025  
