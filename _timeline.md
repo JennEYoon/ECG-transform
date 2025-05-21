@@ -17,16 +17,19 @@
 ### SciPy 2025 Conference:  
  * SciPy talk proposal submit - March 5-7, 2025
  * Accepted for virtual poster - April 27, 2025   
- * Work on virtual poster (ResNet+SE model build) - May - June 2025
+ * Build & test ResNet+SE model - May 20-31, 2025
+   (use for class project, Stanford Tech 07)
+ * Optional, submit article to SciPy Proceedings 6000 words - draft due June 6, 2025   
  * Submit poster to conference organizers - About June 30 - July 4, 2025    
- * Record videos, slide deck, blog post - June - July 7, 2025
+ * Create related videos, slide deck, blog post - June - July 7, 2025
  * Present: July 9-11, 2025  
 
 ### ToDos  
 
  * call Alondra, get more samples - done.  
  * reformat device output sample, convert to csv.
- * SciPy - get dates, formats info.  
- * Grace class final project, May 31, 2025 due.
+ * SciPy - get dates, formats info. links to poster info, May 13 email. View author video too, optional.   
+ * Grace class final project, May 31, 2025 due. Doesn't have to be final, send link. Finish before class.  
    * ResNet + SE notebooks, visualizations. Some interactive charts.   
-
+   * What story are you telling? most important.
+   * What is one new thing not covered in class? Whole project is new methods.   
