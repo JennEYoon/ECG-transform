@@ -33,3 +33,4 @@
    * ResNet + SE notebooks, visualizations. Some interactive charts.   
    * What story are you telling? most important.
    * What is one new thing not covered in class? Whole project is new methods.   
+   * Data - have more info about data processing methods, decisions. Visuals. Write how the data changed after ML models become available, since 2018-2020. Standardized diagnostic labels.  
