@@ -14,6 +14,9 @@
 ### Slide drafts, Images:  
 
 Make 8-10 blocks  
+ * overall metaphore - adventure game journey, small person going from scene to scene, sometimes climbing mountain.
+ * Unlock knowledge at each level, solve problems at each stage, data issues, model issues, adopting to Areteus device?
+ * 3D image of human toso wearing ECG device, w nodes. Imagined. Use ChatGPT image generation.  
  * sample heart rate, feature pattern
  * placement of 12 leads, diagram
  * data processing - filtering choices, diagram
@@ -21,7 +24,7 @@ Make 8-10 blocks
  * model discussion, resnet simple and resnet+SE blocks
  * ECGTransform (only 2 class for PTB 12-signal data) vs Transformer+RNN
  * Simple CNN, and RandomForest models
- * Device signal processing, if any. Samples. Uploading streaming daya to cloud.
+ * Device signal processing, if any. Samples. Uploading streaming data to cloud.
  * Heart 3D image simulation, beating, adult healthy, vs senior abnormal, various classes
  * Baby heart beating 3D image simulatuion. Calm vs when Crying. Abnormal cases.  
 
