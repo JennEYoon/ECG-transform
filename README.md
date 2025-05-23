@@ -67,8 +67,8 @@ Data processing choices, after discussions with Areteus:
 
 Overview of new efforts to collect large 12-signal ECG datasets for use in AI models, from different hospitals in different countries. Attempts to unify ECG diagnostic classifications. Attempts to collect high quality signals from diverse populations.   
 
-Image: chest leads (V1 to V6)  
-<img src="https://github.com/JennEYoon/ECG-transform/blob/main/images/chest_nodes_img.png" width=500px >
+Image: ECG signal leads positioning (chest: V1 to V6 and V4R, limbs: II, III, AVR, AVL, ...)  
+<img src="https://github.com/JennEYoon/ECG-transform/blob/main/images/chest_nodes_img.png" width=300px >
 
 Chest lead description: 
 V1 = 4th intercostal space right (IC4R), 
