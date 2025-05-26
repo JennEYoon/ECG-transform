@@ -80,7 +80,7 @@ V6 = same height as V4 in axillary line.
 To register V4R, use V3 in the right mid-clavicular line.
 
 Limb lead description:  to write  
-I:  , II   , III   , AVR    , AVL    AVF = to foot  
+I:  , II   , III   , AVL   , AVR    AVF = to foot  
 
 Selected large, 12-signal datasets:  
  * PTB-XL large dataset (Physikalisch-Technische Bundesanstalt)
