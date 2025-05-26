@@ -6,6 +6,10 @@
  * Explore poster formats.
  * Get SciPy poster specs - emails sent 5/9/2025  
  * Develop ResNet+SE model nb portion
+ * Areteus device output, reformat into numbers, arrays. Peak center, baseline zero.
+   Run prediction. Analyze for noise, systematic errors.
+   Augment public data to simulate Areteus output? Train model on augmented data?
+   Need data from patients with different classes of abnormal heartbeats to test device.  
  * Write other parts, think about images
  * Add interactive graphs using Plotly, Bokeh, Voila.  
  * 3D heart simulation using 12-signal chest signals? Similar to geoseismic visualization for oil drilling?  Contrast healthy strong heart to a feeble low-blood volume heart? Does something like this already exist? Maybe for medical education? Appropriate for my use case?
