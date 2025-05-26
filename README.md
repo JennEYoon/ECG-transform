@@ -67,7 +67,7 @@ Data processing choices, after discussions with Areteus:
 
 Overview of new efforts to collect large 12-signal ECG datasets for use in AI models, from different hospitals in different countries. Attempts to unify ECG diagnostic classifications. Attempts to collect high quality signals from diverse populations.   
 
-Image: ECG signal leads positioning (chest: V1 to V6, limbs: I, II, III, AVR, AVL, AVF)  
+Image: ECG signal leads positioning (chest: V1 to V6, limbs: I, II, III, AVL, AVR, AVF)  
 Source: ECGPedia.org, part of CardioNetworks.org  
 <img src="https://github.com/JennEYoon/ECG-transform/blob/main/images/chest_nodes_img.png" width=300px >
 
@@ -79,7 +79,7 @@ V5 = between V4 and V6,
 V6 = same height as V4 in axillary line. 
 To register V4R, use V3 in the right mid-clavicular line.
 
-Limb lead description:  
+Limb lead description:  to write  
 I:  , II   , III   , AVR    , AVL    AVF = to foot  
 
 Selected large, 12-signal datasets:  
