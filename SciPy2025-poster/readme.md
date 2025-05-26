@@ -5,7 +5,7 @@
 ### Online presentation during SciPy 2025 Conference, July 9-11, 2025.  
 
 Poster proposal accepted, April 27, 2025  
- * Proceeding due June 5, 2025 Friday, no 8 page paper, only abstract + Poster    
+ * Proceeding due June 6, 2025 Saturday, only if writing a full article, max 6k words.      
 Plan to finish poster by June 30, 2025.  
 Q&A slot to be assigned during July 9-11, 2025   
 To record videos for poster presentation (5-minute, 30-minute, Q&A possible topics)
