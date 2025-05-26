@@ -36,4 +36,7 @@ Read <a href="https://github.com/JennEYoon/ECG-transform/blob/main/SciPy2025-pos
   Q) Does 12-signal AI model require a totally different approach than 2-signal AI model? Explain.  
   A) More classes, much larger datasets, multiple hospitals. Dataset recording procedure and diagnostic classification labeling may differ systematically from hospital to hospital. About 15-20% loss of accuracy when applying a model trained in one hospital to dataset from a different hospital may happen.  
 
-
+Issue) Areteus data samples small.  
+If data noise is systematic in some way, try modifying public dataset in the same way, then I have many data to train for device.  
+Even if noise is random from device, I may be able to introduce random noise to the public data, and use that to train.  
+Inference, show running test on trained models. Right now only have 1 subject with healthy heart. Plan to get some abnormal heart readings. Hospitals? Friends with past heart attach or current heart condition?   
