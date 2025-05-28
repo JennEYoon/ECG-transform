@@ -32,3 +32,9 @@ Make 8-10 blocks
  * Heart 3D image simulation, beating, adult healthy, vs senior abnormal, various classes
  * Baby heart beating 3D image simulatuion. Calm vs when Crying. Abnormal cases.  
 
+### Squeeze and Excitation block  
+https://youtu.be/3b7kMvrPZX8?si=OEYK6qrFtPrAg8uu  
+paper:  https://arxiv.org/pdf/1709.01507  
+2019  
+
+
