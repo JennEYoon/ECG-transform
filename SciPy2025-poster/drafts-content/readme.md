@@ -13,7 +13,8 @@
  * Write other parts, think about images
  * Add interactive graphs using Plotly, Bokeh, Voila.  
  * 3D heart simulation using 12-signal chest signals? Similar to geoseismic visualization for oil drilling?  Contrast healthy strong heart to a feeble low-blood volume heart? Does something like this already exist? Maybe for medical education? Appropriate for my use case?
- * baby heart simulation 3d, get baby hear rate public data sources, maybe on 2 signal? Helpful in Africa, poor countries, diagnose infant sudden death, heart abnormality in babies.  
+ * baby heart simulation 3d, get baby hear rate public data sources, maybe on 2 signal? Helpful in Africa, poor countries, diagnose infant sudden death, heart abnormality in babies.
+ * Jason called, try to get Areteus recordings from abnormal heart. Pharmay or Hospice near Pt Reyes. By July 1-4, latest, to include inference in SciPy poster.  
 
 ### Slide drafts, Images:  
 
