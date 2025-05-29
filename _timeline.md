@@ -22,7 +22,7 @@
  * Optional, submit article to SciPy Proceedings - draft due June 6, 2025 Friday    
     - max 6000 words, Proceedings repo pull request.    
  * Submit poster to conference organizers - About June 30 - July 8, 2025    
- * Create related videos, slide deck, blog post - June - July 5, 2025
+ * Create related videos, slide deck, blog post - June 2025
  * Present: July 9-11, 2025  
 
 ### ToDos  
