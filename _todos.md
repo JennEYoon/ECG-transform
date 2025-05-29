@@ -1,11 +1,11 @@
-# To Dos, May 2025  
+# To Dos   
 
-ToDos  
+### To Dos May-June 2025
 
  * call Alondra, get more samples - done.  
  * reformat device output sample, convert to csv.
  * SciPy - get dates, formats info. links to poster info, May 13 email. View author video too, optional.   
- * Grace class final project, May 31, 2025 due. Doesn't have to be final, send link. Finish before class.  
+ * Grace class final project, May 31, 2025 due. Doesn't have to be finished, send link. Finish before class on Monday, June 2nd.  
    * ResNet + SE notebooks, visualizations. Some interactive charts.   
    * What story are you telling? most important.
    * What is one new thing not covered in class? Whole project is new methods.   
