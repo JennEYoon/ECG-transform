@@ -21,8 +21,8 @@
    (use for class project, Stanford Tech 07)
  * Optional, submit article to SciPy Proceedings - draft due June 6, 2025 Friday    
     - max 6000 words, Proceedings repo pull request.    
- * Submit poster to conference organizers - About June 30 - July 4, 2025    
- * Create related videos, slide deck, blog post - June - July 7, 2025
+ * Submit poster to conference organizers - About June 30 - July 8, 2025    
+ * Create related videos, slide deck, blog post - June - July 5, 2025
  * Present: July 9-11, 2025  
 
 ### ToDos  
@@ -36,6 +36,10 @@
    * What is one new thing not covered in class? Whole project is new methods.   
    * Data - have more info about data processing methods, decisions. Visuals. Write how the data changed after ML models become available, since 2018-2020. Standardized diagnostic labels.
    * PTB-XL data - load many files, peak center, baseline zero, split and zero pad, save into efficient file format.
-   * Header info, somehow use to create labels matching each data file.
+   * Header info, somehow use to create labels matching each data file. - can directly\ use sample regularization expressions from explore nb or setup ns.  
    * Time file I/O read write. Is it really a problem? Test local GPU and Colab GPU.
-   * Running model - may want to try paid Colab.  
+   * Running model - may want to try paid Colab.
+   * For Grace class, just use g1 folder, 1000 samples,x 10 heartbeats. 10K samples should get good performance.
+  
+
+
