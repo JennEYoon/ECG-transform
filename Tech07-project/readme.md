@@ -12,9 +12,9 @@ May 31, 2025
  * Article: to do  
 
 ### Datasets:  
- * PTB-XL, new large dataset, 12-signals (full name): link
- * MIT-BIT, older small dataset, 2-signals
- * PTB original, older small dataset, 12-signals
+ * PTB-XL, new large dataset, 12-signals: 
+ * MIT-BIT, older small dataset, 2-signals:  
+ * PTB original, older small dataset, 12-signals:  
 
 ### Resources:  
 
