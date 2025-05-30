@@ -1,5 +1,5 @@
 # Stanford Continuing Education, Tech07 Spring 2025  
-## Final Project, ResNet+SE Model  
+## Final Project, AI for Wearable ECG Prototype, ResNet+SE Model  
 
 Jennifer E Yoon  
 May 31, 2025  
