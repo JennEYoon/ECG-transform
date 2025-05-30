@@ -4,4 +4,8 @@
 Jennifer E Yoon  
 May 31, 2025  
 
-
+ * Slides, 2 minute presentation: < link >
+ * Jupyter notebook main:
+ * Jupyter notebook, data processing:
+ * Jupyter notebook, header file processing:
+ * Article: < link >  
