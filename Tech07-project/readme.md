@@ -1,5 +1,5 @@
 # Stanford Continuing Education, Tech07 Spring 2025  
-## Final Project: AI for Wearable ECG Prototype, ResNet+SE Model  
+## Project: AI for Wearable ECG Prototype, ResNet+SE Model  
 
 Jennifer E Yoon  
 May 31, 2025  
@@ -8,8 +8,8 @@ May 31, 2025
  * Jupyter notebook, 12-signals ECG data file processing:
  * Jupyter notebook, header file processing:
  * Jupyter notebook, exploratory data analysis:
- * Jupyter notebook, ResNet+SE model:
- * Article: < link >  
+ * Jupyter notebook, ResNet+SE model: work in progress, not finished  
+ * Article: to do  
 
 ### Datasets:  
  * PTB-XL, new large dataset, 12-signals (full name): link
