@@ -4,10 +4,12 @@
 Jennifer E Yoon  
 May 31, 2025  
 
- * Slides, 2 minute presentation: <a href="https://github.com/JennEYoon/ECG-transform/blob/main/Tech07-project/Jennifer_Yoon_slides.pdf" alt="PDF slides, Tech07 Project">link</a> 
- * Jupyter notebook main:
+ * Slides, 2 minute presentation: <a href="https://github.com/JennEYoon/ECG-transform/blob/main/Tech07-project/Jennifer_Yoon_slides.pdf" alt="PDF slides, Tech07 Project">link</a>
+ * Jupyter notebook, exploratory data analysis:
  * Jupyter notebook, 12-signals ECG data file processing:
  * Jupyter notebook, header file processing:
+ * Jupyter notebook, ResNet+SE model:
+ * Jupyter notebook, CNN - older, small datasets (MIT-BIH, PTB):  
  * Article: < link >  
 
 Datasets:  
