@@ -11,15 +11,18 @@ May 31, 2025
  * Jupyter notebook, ResNet+SE model:
  * Article: < link >  
 
-Datasets:  
+### Datasets:  
  * PTB-XL, new large dataset, 12-signals (full name): link
  * MIT-BIT, older small dataset, 2-signals
  * PTB original, older small dataset, 12-signals
 
-Resources:  
+### Resources:  
 
 ResNet:  
+ * Deep Residual Networks, c. 2015: https://arxiv.org/abs/1512.03385
+ * Yannic Kilcher:  https://www.youtube.com/watch?v=GWt6Fu05voI
 
 SENet:  
-
+ * Squeeze-and-Excitation (SE) Networks, c. 2017: https://arxiv.org/abs/1709.01507
+ * Soroush Mehraban: https://youtu.be/3b7kMvrPZX8?si=g0JY09P5dIPMXwRj
 
