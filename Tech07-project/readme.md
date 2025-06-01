@@ -10,9 +10,9 @@ May 31, 2025
  * Jupyter notebook, exploratory data analysis:- submit draft, to tweak and finish on Monday, 6/1/2025.  
    - one-two signal files, image signals from 12-leads. Patient header file format, strategy for extracting information. Histogram of dataset diagnostic distribution for PTB-XL (use study resource).  
    \-\-\-  
- * Jupyter notebook, 12-signals ECG data file processing: <work in process>
- * Jupyter notebook, header file processing: <work in process>
- * Jupyter notebook, ResNet+SE model: <work in process, not finishe>d  
+ * Jupyter notebook, 12-signals ECG data file processing: < work in process >  
+ * Jupyter notebook, header file processing: < work in process >  
+ * Jupyter notebook, ResNet+SE model: <work in process, not finished>  
 
 
 ### Datasets:  
