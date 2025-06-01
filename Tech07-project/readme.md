@@ -4,7 +4,7 @@
 Jennifer E Yoon  
 May 31, 2025  
 
- * Slides, 2 minute presentation: <a href="https://github.com/JennEYoon/ECG-transform/blob/main/Tech07-project/Jennifer_Yoon_slides.pdf" alt="PDF slides, Tech07 Project">link</a>  
+ * Slides, 2 minute presentation: <a href="https://github.com/JennEYoon/ECG-transform/blob/main/Tech07-project/Jennifer_Yoon_slides_draft.pdf" alt="PDF slides, Tech07 Project">link - draft slide/a>  
     * Add 3 slides, why peak centering vs random cplitting, why ResNet SE - small hump in lesser V lead, swaped in channel pooling, why wearable device, some pre-existing conditions benefit from continuous monitoring at home, health enthu;siasts - quantified health, post workout heart recovery for peak athletic performance, cheaper alternatiev in poor contried, local clinic can filter conditions and recommend going to a big city for hopital ECG machine and doctors.
  * Slides related article - submit draft, to finish on Monday, 6/1/2025.   
  * Jupyter notebook, exploratory data analysis:- submit draft, to tweak and finish on Monday, 6/1/2025.  
