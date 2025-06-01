@@ -27,7 +27,9 @@ Read <a href="https://github.com/JennEYoon/ECG-transform/blob/main/SciPy2025-pos
 
  * short 5 minute overview
  * longer 30 minute talk
- * Q&A - possible questions, prepared with slides.
+ * Q&A - possible questions, prepared with slides.      
+ * Make sure I know ResNet+SE model really well. Compare w CNN.
+   Does CNN fully connected layer have channel depth pooling?  
 
 ### Questions:  
   Q) How does the Areteus ECG device compare to hospital devices and other at-home devices? Potentially higher noise (from device and user movement)? Error from incorrect contact placement by user vs trained technician at hospital?  
