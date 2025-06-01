@@ -8,7 +8,8 @@ May 31, 2025
     * Add 3 slides, why peak centering vs random cplitting, why ResNet SE - small hump in lesser V lead, swaped in channel pooling, why wearable device, some pre-existing conditions benefit from continuous monitoring at home, health enthu;siasts - quantified health, post workout heart recovery for peak athletic performance, cheaper alternatiev in poor contried, local clinic can filter conditions and recommend going to a big city for hopital ECG machine and doctors.
  * Slides related article - submit draft, to finish on Monday, 6/1/2025.   
  * Jupyter notebook, exploratory data analysis:- submit draft, to tweak and finish on Monday, 6/1/2025.  
-   - one-two signal files, image signals from 12-leads. Patient header file format, strategy for extracting information. Histogram of dataset diagnostic distribution for PTB-XL (use study resource).  
+   - one-two signal files, image signals from 12-leads. Patient header file format, strategy for extracting information. Histogram of dataset diagnostic distribution for PTB-XL (use study resource).
+ * Jupyter notebook benchmarking: simple CNN model simple dataset (MIT). 
    \-\-\-  
  * Jupyter notebook, 12-signals ECG data file processing: < work in process >  
  * Jupyter notebook, header file processing: < work in process >  
