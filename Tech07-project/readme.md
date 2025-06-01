@@ -12,7 +12,7 @@ May 31, 2025
    \-\-\-  
  * Jupyter notebook, 12-signals ECG data file processing: < work in process >  
  * Jupyter notebook, header file processing: < work in process >  
- * Jupyter notebook, ResNet+SE model: <work in process, not finished>  
+ * Jupyter notebook, ResNet+SE model: < work in process, not finished >  
 
 
 ### Datasets:  
