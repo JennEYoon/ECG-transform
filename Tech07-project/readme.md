@@ -5,11 +5,15 @@ Jennifer E Yoon
 May 31, 2025  
 
  * Slides, 2 minute presentation: <a href="https://github.com/JennEYoon/ECG-transform/blob/main/Tech07-project/Jennifer_Yoon_slides.pdf" alt="PDF slides, Tech07 Project">link</a>
- * Jupyter notebook, 12-signals ECG data file processing:
- * Jupyter notebook, header file processing:
- * Jupyter notebook, exploratory data analysis:
- * Jupyter notebook, ResNet+SE model: work in progress, not finished  
- * Article: to do  
+    8 Add 3 slides, why peak centering vs random cplitting, why ResNet SE - small hump in lesser V lead, swaped in channel pooling, why wearable device, some pre-existing conditions benefit from continuous monitoring at home, health enthu;siasts - quantified health, post workout heart recovery for peak athletic performance, cheaper alternatiev in poor contried, local clinic can filter conditions and recommend going to a big city for hopital ECG machine and doctors.
+ * Slides related article - submit draft, to finish on Monday, 6/1/2025.   
+ * Jupyter notebook, exploratory data analysis:- submit draft, to tweak and finish on Monday, 6/1/2025.  
+   - one-two signal files, image signals from 12-leads. Patient header file format, strategy for extracting information. Histogram of dataset diagnostic distribution for PTB-XL (use study resource).  
+   \-\-\-  
+ * Jupyter notebook, 12-signals ECG data file processing: <work in process>
+ * Jupyter notebook, header file processing: <work in process>
+ * Jupyter notebook, ResNet+SE model: <work in process, not finishe>d  
+
 
 ### Datasets:  
  * PTB-XL, new large dataset, 12-signals: 
