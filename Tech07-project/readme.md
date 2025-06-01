@@ -9,8 +9,8 @@ May 31, 2025
  * related article, ***Three Whys*** <a href="https://github.com/JennEYoon/ECG-transform/blob/main/Tech07-project/three_whys.md" >draft doc</a>- submit draft, to finish on Monday, 6/1/2025.   
  * Jupyter notebook, exploratory data analysis:- submit draft, to tweak and finish on Monday, 6/1/2025.  
    - one-two signal files, image signals from 12-leads. Patient header file format, strategy for extracting information. Histogram of dataset diagnostic distribution for PTB-XL (use study resource).
- * Jupyter notebook benchmarking: simple CNN model on small dataset (MIT-BIH)
- * Jupyter notebook benchmarking, Random Forest model on small dataset (MIT-BIH and/or PTB original)  
+ * Jupyter notebook comparison: CNN model on small dataset (MIT-BIH)
+ * Jupyter notebook comparison: Random Forest model on small dataset (MIT-BIH and/or PTB original)  
    \-\-\-  
  * Jupyter notebook, 12-signals ECG data file processing: < work in process >  
  * Jupyter notebook, header file processing: < work in process >  
