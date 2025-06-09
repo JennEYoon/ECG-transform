@@ -20,7 +20,7 @@
 Archive papers seems delayed by several years. 
 
 ### Simple ECG CNN notebook and paper(?)  
-
+### ResNets 2015 original paper, SENetworks 2017 paper.  
 
 ### ECG data splitting and filtering paper, notebook  
 
