@@ -5,7 +5,7 @@ Author: Jennifer E. Yoon
 Timeline: <a href="_timeline.md" > _timeline.md </a>   
 Company: Areteus (https://areteus.us/)   
 
-### SciPy 2025 Conference: virtual poster presentation, July 9-11, 2025     
+### SciPy 2025: virtual poster presentation, July 9, 2025     
  * Title: AI for wearable ECG prototype - quantified health
  * Abstract: I will share my experience customizing AI models for a wearable ECG (electrocardiogram) prototype, including Transformers, ResNets, and Random Forests. While intended for data science students and practitioners, anyone interested in wearable devices or quantified health is welcome. Listeners will gain practical insights to apply in their own AI projects.  
 Hospital-grade 12-signal ECG machines are bulky and expensive, while at-home devices capture only 1–6 asynchronous signals. The Areteus wearable ECG is designed for continuous home use, recording 12–19 synchronous signals. It is especially useful for detecting abnormal heartbeats during sleep and strenuous exercise.  
@@ -52,21 +52,14 @@ Areteus (https://www.areteus.us/) is developing a novel wearable ECG (heart rate
  * Simple ResNet
  * Random Forest 
 
-3.C) Data Processing Issues.   
-How to make full use of 12-signals in PTB data? How to split raw data into samples? What filter or processing should be used? What Python libraries might be useful?:  
-
-Data processing choices, after discussions with Areteus:  
-   * Use only peak centering and baseline zero calibration for now.  
-   * Ignore other filters at this time (e.g., squaring to remove negative numbers, standardizing peak to peak distance, standardizing peak amplitude across patients)   
-   * library: wsfl - for ECG data processing, standarizing.   
-   * library: scikit-learn - for testing my own data splitting and filtering methods.   
-
- *** Ready for write up. ***   
+3.C) Issues and Findings at this stage:  
+to write up  
 
 ### 4. Stage 2: Deeper Literature and Datasets Research, 12-signal models:  
 
-Overview of new efforts to collect large 12-signal ECG datasets for use in AI models, from different hospitals in different countries. Attempts to unify ECG diagnostic classifications. Attempts to collect high quality signals from diverse populations.   
+4.A) Overview of new efforts to collect large 12-signal ECG datasets for use in AI models, from different hospitals in different countries. Attempts to unify ECG diagnostic classifications. Attempts to collect high quality signals from diverse populations.   
 
+4.B) Description of ECG contact placements  
 Image: ECG signal leads positioning (chest: V1 to V6, limbs: I, II, III, AVL, AVR, AVF)  
 Source: ECGPedia.org, part of CardioNetworks.org  
 <img src="https://github.com/JennEYoon/ECG-transform/blob/main/images/chest_nodes_img.png" width=300px >
@@ -82,11 +75,11 @@ To register V4R, use V3 in the right mid-clavicular line.
 Limb lead description:  to write  
 I:  , II   , III   , AVL   , AVR    AVF = to foot  
 
-Selected large, 12-signal datasets:  
+4.C) Selected large, 12-signal datasets:  
  * PTB-XL large dataset (Physikalisch-Technische Bundesanstalt)
  * SPH large dataset (Shandong Provincial Hospital)
 
-Selected papers and notebooks:  
+4.D) Selected papers and notebooks:  
  * ResNet+SE paper: Zhao et al
    - Too many layers, custom large kernals. Initially try simpler ResNet + few SE blocks.  
    - input to first convolutional layer is (12, 4096). 12-signals ARE input as 12-dim channel.  
@@ -103,17 +96,38 @@ Selected papers and notebooks:
  * Original ECGTransform model for comparison, on large, 12-signal datasets.    
  * Simple CNN model on large datasets for comparison, 20-50 epochs        
 
-### 5. Key Findings:   
+4.E.1) Data Issues, 12-signal public datasets:  
 
+How to make full use of 12-signals in PTB data? How to split raw data into samples? What filter or processing should be used? What Python libraries might be useful?:  
+
+Data processing choices, after discussions with Areteus:  
+   * Use only peak centering and baseline zero calibration for now.  
+   * Ignore other filters at this time (e.g., squaring to remove negative numbers, standardizing peak to peak distance, standardizing peak amplitude across patients)   
+   * library: wsfl - for ECG data processing, standarizing.   
+   * library: scikit-learn - for testing my own data splitting and filtering methods.   
+
+4.E.2) Data Issues, Areteus device:  
+Machine level data definition  
+Convert hex to numpy array  
+Convert binary to numpy array  
+Test AI classification model - proof of concept, that it works with device output data.  
+
+4.E.3) Data Issues, augmented datasets:  
+Build augmented datasets from public datasets, to mimic device outputs in usage under user error and signal interference.  Test for less than ideal data output.  
+Test AI classification models, mix clean and dirty data.  
+
+
+### 5. Key Findings:   
+From step 4, 12-signal public datasets and Areteus device output & augmented dataset for user error & poor signal quality.  
 
 ### 6. Device Signals Testing and AI Model Refinement:  
-
+July 2025, Jason, Pt Reyes - testing Areteus device on volunteers with abnormal heart beats.  
 
 ### 7. Deploy App on Cloud and Report Writing:  
 
  * documentation - started
  * organization - started
- * Embedding visualization (notebooks, website, apps) - to research     
- * Interactive python viz libraries (Plotly, Bokeh, Voila) - to research   
+ * Embedding visualization (notebooks, website, apps) - July - Oct, 2025     
+ * Interactive python viz libraries (Plotly, Bokeh, Voila) - July - Oct, 2025   
 
 
