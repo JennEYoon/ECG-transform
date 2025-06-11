@@ -2,20 +2,22 @@
 
 ### Title: AI for wearable ECG prototype - quantified health  
 ### Author: Jennnifer E Yoon  
-### Online presentation during SciPy 2025 Conference, July 9-11, 2025.  
+### Online presentation during SciPy 2025 Conference:   
+    July 9, 2025 6-7pm PT  
+### To add: links for future info, Areteus.us and DatasciY.com/ECG for project page  
 
-Poster proposal accepted, April 27, 2025  
- * Proceeding due June 6, 2025 Friday, only if writing an optional full article, max 6k words.
+
+Poster proposal accepted, April 28, 2025  
       
-Plan to finish poster by June 30, 2025.  
-Q&A slot to be assigned during July 9-11, 2025   
+Poster due: June 30, 2025.  
+
 To record videos for poster presentation (5-minute, 30-minute, Q&A possible topics)
 Final proceedings edit Oct 15, 2024. 
 
 Read <a href="https://github.com/JennEYoon/ECG-transform/blob/main/SciPy2025-poster/application.md" > SciPy application </a>
 
 ### Poster Templates, Examples:  
- * Emailed SciPy organizers - vague on dates, format.  
+ * email on formats received, finally! June 10, 2025 Tuesday 3pm  
  * Review 2024 Poster and Papers, Proceedings from SciPy 2024 Conference.  
  * SciPy 2022 rules, physical posters
 
@@ -26,7 +28,7 @@ Read <a href="https://github.com/JennEYoon/ECG-transform/blob/main/SciPy2025-pos
 ### Video examples, formats:  
 
  * short 5 minute overview
- * longer 30 minute talk
+ * longer 25-30 minute talk
  * Q&A - possible questions, prepared with slides.      
  * Make sure I know ResNet+SE model really well. Compare w CNN.
    Does CNN fully connected layer have channel depth pooling?  
@@ -44,3 +46,4 @@ Even if noise is random from device, I may be able to introduce random noise to 
 Inference, show running test on trained models. Right now only have 1 subject with healthy heart. Plan to get some abnormal heart readings. Hospitals? Friends with past heart attach or current heart condition?   
 
 Issue) How to feed large number of data files for splitting and centering data into 1 heart beat per sample. Also add correct label to each sample. 
+
