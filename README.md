@@ -111,6 +111,7 @@ Data processing choices, after discussions with Areteus:
 Machine level data definition  
 Convert hex to numpy array  
 Convert binary to numpy array  
+Limb signals linear combinations from 8 leads, add definition & convert before running AI model.  
 Test AI classification model - proof of concept, that it works with device output data.  
 
 4.E.3) Data Issues, augmented datasets:  
