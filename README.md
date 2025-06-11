@@ -93,7 +93,8 @@ I:  , II   , III   , AVL   , AVR    AVF = to foot
  * Transformers+RNN:
    - Notebook implementation:
    - Datasets (same as previous)
- * Original ECGTransform model for comparison, on large, 12-signal datasets.    
+ * Original ECGTransform model for comparison, on large, 12-signal datasets.
+    - Original ECGTransform model on PTB original dataset, with or without 12-channel depth.  
  * Simple CNN model on large datasets for comparison, 20-50 epochs        
 
 4.E.1) Data Issues, 12-signal public datasets:  
@@ -113,12 +114,13 @@ Convert binary to numpy array
 Test AI classification model - proof of concept, that it works with device output data.  
 
 4.E.3) Data Issues, augmented datasets:  
-Build augmented datasets from public datasets, to mimic device outputs in usage under user error and signal interference.  Test for less than ideal data output.  
+Build augmented datasets from public datasets, to mimic user error and signal interference & dropout.  
+Test for less than ideal data output.  
 Test AI classification models, mix clean and dirty data.  
 
 
 ### 5. Key Findings:   
-From step 4, 12-signal public datasets and Areteus device output & augmented dataset for user error & poor signal quality.  
+From step 4, Areteus device output & augmented dataset (for user error, signal error)   
 
 ### 6. Device Signals Testing and AI Model Refinement:  
 July 2025, Jason, Pt Reyes - testing Areteus device on volunteers with abnormal heart beats.  
