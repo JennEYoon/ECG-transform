@@ -1,5 +1,5 @@
-# ChatGPT Data augmentation strategies  
-
+# Data augmentation strategies  
+Uses AI, Claude Free & Pro, Gemini Pro, ChatGPT Free
 PTB-XL first 1000 sample  
 
 Main prompt:
