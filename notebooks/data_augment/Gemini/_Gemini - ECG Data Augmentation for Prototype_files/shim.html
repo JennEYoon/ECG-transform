@@ -1,0 +1,878 @@
+<!DOCTYPE html>
+<!-- saved from url=(0132)blob:https://0hcrxpsrb02ruc1skmjdf1cft7kqgtr1q2awicik4w9nslpnf3-h766678603.scf.usercontent.goog/e6a24e98-c0a8-46e0-9d21-462217dd749c -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><script>(function(firebaseConfig, initialAuthToken, appId) {
+        window.__firebase_config = firebaseConfig;
+        window.__initial_auth_token = initialAuthToken;
+        window.__app_id = appId;
+            })("\n{\n  \"apiKey\": \"AIzaSyCqyCcs2R2e7AegGjvFAwG98wlamtbHvZY\",\n  \"authDomain\": \"bard-frontend.firebaseapp.com\",\n  \"projectId\": \"bard-frontend\",\n  \"storageBucket\": \"bard-frontend.firebasestorage.app\",\n  \"messagingSenderId\": \"175205271074\",\n  \"appId\": \"1:175205271074:web:2b7bd4d34d33bf38e6ec7b\"\n}\n","eyJhbGciOiJSUzI1NiIsImtpZCI6ImQ2NDJhYjhhOWFhMDBhYmY1N2I3OWZlMTk1ZmQxMDljNTk5ZjE1MDAiLCJ0eXAiOiJKV1QifQ.eyJzdWIiOiJmaXJlYmFzZS1hZG1pbnNkay1mYnN2Y0BiYXJkLWZyb250ZW5kLmlhbS5nc2VydmljZWFjY291bnQuY29tIiwiYXVkIjoiaHR0cHM6XC9cL2lkZW50aXR5dG9vbGtpdC5nb29nbGVhcGlzLmNvbVwvZ29vZ2xlLmlkZW50aXR5LmlkZW50aXR5dG9vbGtpdC52MS5JZGVudGl0eVRvb2xraXQiLCJ1aWQiOiIwNDEyMDk0MDUxMTk3MDk1MjA5OSIsImFwcElkIjoiIiwiaXNzIjoiZmlyZWJhc2UtYWRtaW5zZGstZmJzdmNAYmFyZC1mcm9udGVuZC5pYW0uZ3NlcnZpY2VhY2NvdW50LmNvbSIsImV4cCI6MTc0OTY5NzU0NywiaWF0IjoxNzQ5NjkzOTQ3LCJhbGciOiJSUzI1NiJ9.LgQXJ925zvS_-8SPvr_vv5lSBXo4EvuawkounpBJsKg_gdeboG-xMcUAjOqMTaUsZP-F0EOSShVtDmEvh_QFmTnKPeVf3aEiCURPOoz6w3Y1SzYOfCAKBj4BT0PmkmyAw6FeXp38sDKjHTA-TBfdSO2hfJo8uF_4QcgzIcVpLa1W1wuv_SSlCxOY_Lx8YeYkFkzFPYmYQ-KkCfAoCDR0CrjUg2rXWRg0h0htP_ukKttzgEVA-WEymCUJhXIBdVWZzZuMmQSUpmLqq2clcnYR7DzqGWexwm2f1lxdH2erwinraEtWciO3Tl-imItoQPC2TIsDkzvF5UCbcmmtK6-2iQ","d81a5d1b5c65-ecg_infographic_spa-992")</script><script>(function() {
+  // Ensure this script is executed only once
+  if (window.firebaseAuthBridgeScriptLoaded) {
+    return;
+  }
+  window.firebaseAuthBridgeScriptLoaded = true;
+
+  let nextTokenPromiseId = 0;
+
+  // Stores { resolve, reject } for ongoing token requests
+  const pendingTokenPromises = {};
+
+  // Listen for messages from the Host Application
+  window.addEventListener('message', function(event) {
+
+    const messageData = event.data;
+
+  if (messageData && messageData.type === 'RESOLVE_NEW_FIREBASE_TOKEN') {
+      const { success, token, error, promiseId } = messageData ?? {};
+      if (pendingTokenPromises[promiseId]) {
+        if (success) {
+          pendingTokenPromises[promiseId].resolve(token);
+        } else {
+          pendingTokenPromises[promiseId].reject(new Error(error || 'Token refresh failed from host.'));
+        }
+        delete pendingTokenPromises[promiseId];
+      }
+    }
+  });
+
+  // Expose a function for the Generated App to request a new Firebase token
+  window.requestNewFirebaseToken = function() {
+    const currentPromiseId = nextTokenPromiseId++;
+    const promise = new Promise((resolve, reject) => {
+      pendingTokenPromises[currentPromiseId] = { resolve, reject };
+    });
+    if (window.parent && window.parent !== window) {
+      window.parent.postMessage({
+        type: 'REQUEST_NEW_FIREBASE_TOKEN',
+        promiseId: currentPromiseId
+      }, '*');
+    } else {
+      pendingTokenPromises[currentPromiseId].reject(new Error('No parent window to request token from.'));
+      delete pendingTokenPromises[currentPromiseId];
+    }
+    return promise;
+  };
+})();</script><script>let realOriginalGetUserMedia = null;
+if (navigator.mediaDevices && navigator.mediaDevices.getUserMedia) {
+  realOriginalGetUserMedia = navigator.mediaDevices.getUserMedia.bind(navigator.mediaDevices);
+}
+
+(function() {
+  if (navigator.mediaDevices && navigator.mediaDevices.__proto__) {
+    try {
+      Object.defineProperty(navigator.mediaDevices.__proto__, 'getUserMedia', {
+        get: function() {
+          return undefined; // Or throw an error
+        },
+        configurable: false
+      });
+    } catch (error) {
+      console.error("Error defining prototype getter:", error);
+    }
+  }
+})();
+
+(function() {
+  let originalGetUserMedia = realOriginalGetUserMedia;
+
+  const pendingMediaResolvers = {};
+  let nextMediaPromiseId = 0;
+
+  function interceptGetUserMedia() {
+    if (navigator.mediaDevices) {
+      Object.defineProperty(navigator.mediaDevices, 'getUserMedia', {
+        value: function(constraints) {
+          const mediaPromiseId = nextMediaPromiseId++;
+          const promise = new Promise((resolve, reject) => {
+            pendingMediaResolvers[mediaPromiseId] = (granted) => {
+              delete pendingMediaResolvers[mediaPromiseId];
+              if (granted) {
+                if (originalGetUserMedia) {
+                  originalGetUserMedia(constraints).then(resolve).catch(reject);
+                } else {
+                  reject(new Error("Original getUserMedia not available."));
+                }
+              } else {
+              reject(new DOMException('Permission denied', 'NotAllowedError'));
+            }
+          };
+        });
+
+        window.parent.postMessage({
+          type: 'requestMediaPermission',
+          constraints: constraints,
+          promiseId: mediaPromiseId,
+        }, '*');
+
+        return promise;
+      },
+      writable: false,
+      configurable: false
+    });
+    }
+  }
+
+  interceptGetUserMedia();
+
+  const observer = new MutationObserver(function(mutationsList, observer) {
+    for (const mutation of mutationsList) {
+      if (mutation.type === 'reconfigured' && mutation.name === 'getUserMedia' && mutation.object === navigator.mediaDevices) {
+        interceptGetUserMedia();
+      } else if (mutation.type === 'attributes' && mutation.attributeName === 'getUserMedia' && mutation.target === navigator.mediaDevices) {
+        interceptGetUserMedia();
+      } else if (mutation.type === 'childList' && mutation.addedNodes) {
+        mutation.addedNodes.forEach(node => {
+          if (node === navigator.mediaDevices) {
+            interceptGetUserMedia();
+          }
+        });
+      }
+    }
+  });
+
+  window.addEventListener('message', function(event) {
+    if (event.data) {
+      if (event.data.type === 'resolveMediaPermission') {
+        const { promiseId, granted } = event.data;
+        if (pendingMediaResolvers[promiseId]) {
+          pendingMediaResolvers[promiseId](granted);
+        }
+      }
+    }
+  });
+
+})();</script><script>((function(modelInformation) {
+  const originalFetch = window.fetch;
+  // TODO: b/421908508 - Move these out of the script and match all generative AI model calls.
+  let googleLlmBaseApiUrls = [
+    'https://generativelanguage.googleapis.com/v1beta/models/' + modelInformation.textModelName + ':streamGenerateContent',
+    'https://generativelanguage.googleapis.com/v1beta/models/' + modelInformation.textModelName + ':generateContent',
+    'https://generativelanguage.googleapis.com/v1beta/models/' + modelInformation.imageModelName + ':predict',
+    'https://generativelanguage.googleapis.com/v1beta/models/' + modelInformation.imageModelName + ':predictLongRunning',
+    'https://generativelanguage.googleapis.com/v1beta/models/' + modelInformation.videoModelName + ':predict',
+    'https://generativelanguage.googleapis.com/v1beta/models/' + modelInformation.videoModelName + ':predictLongRunning',
+  ];
+  modelInformation.deprecatedTextModelNames.forEach((modelName) => {
+    googleLlmBaseApiUrls.push(
+      'https://generativelanguage.googleapis.com/v1beta/models/' + modelName + ':streamGenerateContent',
+      'https://generativelanguage.googleapis.com/v1beta/models/' + modelName + ':generateContent',
+    );
+  });
+
+  const pendingFetchResolvers = {};
+  let nextPromiseId = 0;
+
+  function handleStringInput(input, optionsArgument) {
+    const actualUrl = input;
+    const fetchCallArgs = [actualUrl, optionsArgument];
+    const effectiveOptions = optionsArgument || {};
+    const bodyForApiKeyCheck = effectiveOptions.body;
+    const bodyForPostMessage = effectiveOptions.body;
+    return { actualUrl, fetchCallArgs, effectiveOptions, bodyForApiKeyCheck, bodyForPostMessage };
+  }
+
+  function handleRequestInput(input, optionsArgument) {
+    const actualUrl = input.url;
+    const fetchCallArgs = [input, optionsArgument];
+    const effectiveOptions = { method: input.method, headers: new Headers(input.headers) };
+    let bodyForApiKeyCheck;
+    let bodyForPostMessage;
+
+    if (optionsArgument) {
+      if (optionsArgument.method) effectiveOptions.method = optionsArgument.method;
+      if (optionsArgument.headers) effectiveOptions.headers = new Headers(optionsArgument.headers);
+      if ('body' in optionsArgument) {
+        bodyForApiKeyCheck = optionsArgument.body;
+        bodyForPostMessage = optionsArgument.body;
+      } else {
+        bodyForApiKeyCheck = undefined;
+        bodyForPostMessage = input.body;
+      }
+    } else {
+      bodyForApiKeyCheck = undefined;
+      bodyForPostMessage = input.body;
+    }
+    return { actualUrl, fetchCallArgs, effectiveOptions, bodyForApiKeyCheck, bodyForPostMessage };
+  }
+
+  window.fetch = function(input, optionsArgument) {
+    let actualUrl;
+    let fetchCallArgs;
+    let effectiveOptions = {};
+    let bodyForApiKeyCheck;
+    let bodyForPostMessage;
+
+    if (typeof input === 'string') {
+      ({actualUrl, fetchCallArgs, effectiveOptions, bodyForApiKeyCheck, bodyForPostMessage} = handleStringInput(input, optionsArgument));
+    } else if (input instanceof Request) {
+      ({actualUrl, fetchCallArgs, effectiveOptions, bodyForApiKeyCheck, bodyForPostMessage} = handleRequestInput(input, optionsArgument));
+    } else {
+      return originalFetch.apply(window, [input, optionsArgument]);
+    }
+
+    effectiveOptions.method = effectiveOptions.method || 'GET';
+    if (!effectiveOptions.headers) {
+      effectiveOptions.headers = new Headers();
+    }
+
+
+    if (typeof actualUrl === 'string' && googleLlmBaseApiUrls.some((url) => actualUrl.startsWith(url))) {
+      let apiKeyIsNull = true;
+
+      const regex = new RegExp("models/([^:]+)");
+      const modelNameMatch = actualUrl.match(regex);
+      const modelName = modelNameMatch ? modelNameMatch[1] : 'unspecified';
+
+
+      try {
+        const urlObject = new URL(actualUrl);  // Use URL object for robust parsing
+        const apiKeyParam = urlObject.searchParams.get('key');
+        if (apiKeyParam) {
+          apiKeyIsNull = false;
+        }
+      } catch (e) {
+        // Continue checks even if URL parsing fails
+      }
+
+      if (apiKeyIsNull && effectiveOptions.headers) {
+        const h = new Headers(effectiveOptions.headers);
+        const apiKeyHeaderValue = h.get('X-API-Key') || h.get('x-api-key');
+        if (apiKeyHeaderValue) {
+          apiKeyIsNull = false;
+          return originalFetch.apply(window, fetchCallArgs);
+        }
+      }
+
+      if (apiKeyIsNull && effectiveOptions.method && ['POST', 'PUT', 'PATCH'].includes(effectiveOptions.method.toUpperCase()) && typeof bodyForApiKeyCheck === 'string') {
+        try {
+          const bodyData = JSON.parse(bodyForApiKeyCheck);
+          if (bodyData && bodyData.apiKey) {
+            apiKeyIsNull = false;
+            return originalFetch.apply(window, fetchCallArgs);
+          }
+        } catch (e) {
+          // Ignore JSON parsing errors
+        }
+      }
+
+      if(apiKeyIsNull) {
+        const promiseId = nextPromiseId++;
+        const promise = new Promise((resolve) => {
+          pendingFetchResolvers[promiseId] = (resolvedResponse) => {
+            delete pendingFetchResolvers[promiseId];
+            resolve(resolvedResponse);
+          };
+        });
+
+        let serializedBodyForPostMessage;
+        if (typeof bodyForPostMessage === 'string' || bodyForPostMessage == null) {
+            serializedBodyForPostMessage = bodyForPostMessage;
+        } else if (bodyForPostMessage instanceof ReadableStream) {
+            serializedBodyForPostMessage = null;
+        } else {
+            try {
+                serializedBodyForPostMessage = JSON.stringify(bodyForPostMessage);
+            } catch (e) {
+                serializedBodyForPostMessage = null;
+            }
+        }
+
+        const messageOptions = {
+            method: effectiveOptions.method,
+            headers: Object.fromEntries(new Headers(effectiveOptions.headers).entries()),
+            body: serializedBodyForPostMessage
+        };
+
+        window.parent.postMessage({
+          type: 'requestFetch',
+          url: actualUrl,
+          modelName: modelName,
+          options: messageOptions,
+          promiseId: promiseId,
+        }, '*');
+
+        return promise;
+      }
+      return originalFetch.apply(window, fetchCallArgs);
+    }
+    return originalFetch.apply(window, fetchCallArgs);
+  };
+
+  window.addEventListener('message', function(event) {
+    if (event.data && event.data.type === 'resolveFetch') {
+      const { promiseId, response } = event.data;
+      if (pendingFetchResolvers[promiseId]) {
+        try {
+          const reconstructedResponse = new Response(response.body, {
+            status: response.status,
+            statusText: response.statusText,
+            headers: new Headers(response.headers),
+          });
+          pendingFetchResolvers[promiseId](reconstructedResponse);
+        } catch (error) {
+          pendingFetchResolvers[promiseId](new Response(null, { status: 500, statusText: "Interceptor Response Reconstruction Error" }));
+        }
+      }
+    }
+  });
+
+}))({"textModelName":"gemini-2.5-flash-preview-04-17","imageModelName":"imagen-3.0-generate-002","videoModelName":"veo-2.0-generate-001","deprecatedTextModelNames":["gemini-2.0-flash"]})</script><script>(function() {
+  const originalConsoleLog = console.log;
+  const originalConsoleError = console.error;
+
+    /**
+   * Normalizes an error event or a promise rejection reason into a structured error object.
+   * @param {*} errorEventOrReason The error object or reason.
+   * @return {object} Structured error data { message, name, stack }.
+   */
+  function getErrorObject(errorEventOrReason) {
+    if (errorEventOrReason instanceof Error) {
+      return {
+        message: errorEventOrReason.message,
+        name: errorEventOrReason.name,
+        stack: errorEventOrReason.stack,
+      };
+    }
+    // Fallback for non-Error objects.
+    try {
+      return {
+        message: JSON.stringify(errorEventOrReason),
+        name: 'UnknownErrorType',
+        stack: null,
+      };
+    } catch (e) {
+      return {
+        message: String(errorEventOrReason),
+        name: 'UnknownErrorTypeNonStringifiable',
+        stack: null,
+      };
+    }
+  }
+
+  /**
+   * Converts an array of arguments (from log/error) into a single string.
+   * Handles Error objects specially to include their message and stack.
+   * @param {Array<*>} args - Arguments passed to console methods.
+   * @return {string} A string representation of the arguments.
+   */
+  function stringifyArgs(args) {
+    return args
+      .map((arg) => {
+        if (arg instanceof Error) {
+          const {message, stack} = arg;
+          return `Error: ${message}${stack ? ('\nStack: ' + stack) : ''}`;
+        }
+        if (typeof arg === 'object' && arg !== null) {
+          try {
+            return JSON.stringify(arg);
+          } catch (error) {
+            return '[Circular Object]';
+          }
+        } else {
+          return String(arg);
+        }
+      })
+      .join(' ');
+  }
+
+  console.log = function(...args) {
+    const logString = stringifyArgs(args);
+    window.parent.postMessage({ type: 'log', message: logString }, '*');
+    originalConsoleLog.apply(console, args);
+  };
+
+  console.error = function(...args) {
+    let errorData;
+    if (args.length > 0 && args[0] instanceof Error) {
+      const err = args[0];
+      // If the first arg is an Error, capture its details.
+      errorData = {
+        type: 'error',
+        source: 'CONSOLE_ERROR',
+        ...getErrorObject(err),
+        rawArgsString: stringifyArgs(args.slice(1)),
+        timestamp: new Date().toISOString(),
+      };
+    } else {
+      // If not an Error object, treat all args as a general error message.
+      errorData = {
+        type: 'error',
+        source: 'CONSOLE_ERROR',
+        message: stringifyArgs(args),
+        name: 'ConsoleLoggedError',
+        stack: null,
+        timestamp: new Date().toISOString(),
+      };
+    }
+    window.parent.postMessage(errorData, '*');
+    originalConsoleError.apply(console, args);
+  };
+
+  // Listen for global unhandled synchronous errors.
+  window.addEventListener('error', function(event) {
+    const errorDetails = event.error ? getErrorObject(event.error) : {
+      message: event.message,
+      name: 'GlobalError',
+      stack: null,
+      filename: event.filename,
+      lineno: event.lineno,
+      colno: event.colno,
+    };
+
+    window.parent.postMessage({
+      type: 'error',
+      source: 'global',
+      ...errorDetails,
+      message: errorDetails.message || event.message,
+      timestamp: new Date().toISOString(),
+    }, '*');
+  });
+
+  // Listen for unhandled promise rejections (asynchronous errors).
+  window.addEventListener('unhandledrejection', function(event) {
+    const errorDetails = getErrorObject(event.reason);
+
+    window.parent.postMessage({
+      type: 'error',
+      source: 'unhandledrejection',
+      ...errorDetails,
+      message: errorDetails.message || 'Unhandled Promise Rejection',
+      timestamp: new Date().toISOString(),
+    }, '*');
+  });
+
+})();</script>
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Deep Research Report: ECG Data Augmentation Strategy</title>
+    <script src="https://cdn.tailwindcss.com/"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com/">
+    <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin="">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;900&amp;display=swap" rel="stylesheet">
+    <!-- 
+        Narrative Plan:
+        The infographic tells a linear story about solving a complex engineering problem.
+        1.  Introduction: State the core challenge - the "domain gap" between clean public data and a noisy real-world prototype.
+        2.  Problem Analysis: Break down the two main sources of error: Lead Displacement and Environmental Noise.
+        3.  The Solution: Introduce the two-stage augmentation pipeline as the strategic answer.
+        4.  Stage 1 Deep Dive: Detail the "Lead Mixing" technique for simulating physical lead shifts.
+        5.  Stage 2 Deep Dive: Detail the various noise injection techniques to mimic real-world interference.
+        6.  The Outcome & Validation: Showcase the massive scale of the virtual dataset created and explain the crucial A/B testing validation strategy.
+        7.  Conclusion: Summarize the strategic importance of this process for creating viable medical AI.
+    -->
+    <!-- 
+        Visualization Choices:
+        -   Big Number Stats: Goal=Inform. Vis=Large Text. Justification=Maximum impact for key figures (available data, resulting dataset size). Method=HTML/CSS.
+        -   Problem Diagram: Goal=Organize. Vis=HTML/CSS Diagram. Justification=Clearly visualizes the central conflict/gap. Method=HTML/CSS (No SVG).
+        -   Noise Sources Bar Chart: Goal=Compare. Vis=Bar Chart. Justification=Effectively compares the conceptual impact of discrete noise categories. Method=Chart.js (Canvas).
+        -   Augmentation Flowchart: Goal=Organize. Vis=HTML/CSS Flowchart. Justification=Best way to illustrate a multi-step process without using prohibited libraries. Method=HTML/CSS (No SVG/Mermaid JS).
+        -   Lead Mix Donut Chart: Goal=Inform. Vis=Donut Chart. Justification=Simple, clear way to show a proportional mix for a single augmentation example. Method=Chart.js (Canvas).
+        -   Precordial Mix Stacked Bar: Goal=Compare. Vis=Stacked Bar Chart. Justification=Perfectly shows the new composition of multiple leads (V2-V5) after augmentation. Method=Chart.js (Canvas).
+        -   Noise Characteristics Radar Chart: Goal=Compare. Vis=Radar Chart. Justification=Excellent for comparing multiple qualitative attributes across several categories (the noise types). Method=Chart.js (Canvas).
+        -   Validation Venn Diagram: Goal=Organize. Vis=HTML/CSS Venn Diagram. Justification=Classic, intuitive way to show the relationship and distinction between the two test sets. Method=HTML/CSS (No SVG).
+        -   Key Takeaways List: Goal=Organize. Vis=HTML List. Justification=Simple, scannable format for summary points. Method=HTML.
+        -   CONFIRMATION: No SVG graphics or Mermaid JS were used in this document. All diagrams are built with HTML and Tailwind CSS. All charts are rendered to Canvas via Chart.js.
+    -->
+    <!-- Color Palette Name: Brilliant Blues & Cyan -->
+    <style>
+        :root {
+            --color-bg: #F8F9FA;
+            --color-card: #FFFFFF;
+            --color-text-header: #1D3557;
+            --color-text-body: #457B9D;
+            --color-accent: #A8DADC;
+            --color-highlight1: #457B9D;
+            --color-highlight2: #56CFE1;
+            --color-highlight3: #48BFE3;
+            --color-highlight4: #64DFDF;
+            --color-highlight5: #E63946;
+        }
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: var(--color-bg);
+            color: var(--color-text-body);
+        }
+        h1, h2, h3, h4 {
+            color: var(--color-text-header);
+            font-weight: 700;
+        }
+        .stat-number {
+            font-weight: 900;
+            color: var(--color-highlight1);
+        }
+        .chart-container {
+            position: relative;
+            width: 100%;
+            max-width: 600px;
+            margin-left: auto;
+            margin-right: auto;
+            height: 350px;
+            max-height: 450px;
+        }
+        @media (max-width: 768px) {
+            .chart-container {
+                height: 300px;
+            }
+        }
+        .flow-arrow {
+            position: relative;
+            padding: 1.25rem 0;
+        }
+        .flow-arrow::after {
+            content: '▼';
+            position: absolute;
+            left: 50%;
+            bottom: 0;
+            transform: translateX(-50%);
+            color: var(--color-accent);
+            font-size: 1.5rem;
+            font-weight: 600;
+        }
+    </style>
+<style>*, ::before, ::after{--tw-border-spacing-x:0;--tw-border-spacing-y:0;--tw-translate-x:0;--tw-translate-y:0;--tw-rotate:0;--tw-skew-x:0;--tw-skew-y:0;--tw-scale-x:1;--tw-scale-y:1;--tw-pan-x: ;--tw-pan-y: ;--tw-pinch-zoom: ;--tw-scroll-snap-strictness:proximity;--tw-gradient-from-position: ;--tw-gradient-via-position: ;--tw-gradient-to-position: ;--tw-ordinal: ;--tw-slashed-zero: ;--tw-numeric-figure: ;--tw-numeric-spacing: ;--tw-numeric-fraction: ;--tw-ring-inset: ;--tw-ring-offset-width:0px;--tw-ring-offset-color:#fff;--tw-ring-color:rgb(59 130 246 / 0.5);--tw-ring-offset-shadow:0 0 #0000;--tw-ring-shadow:0 0 #0000;--tw-shadow:0 0 #0000;--tw-shadow-colored:0 0 #0000;--tw-blur: ;--tw-brightness: ;--tw-contrast: ;--tw-grayscale: ;--tw-hue-rotate: ;--tw-invert: ;--tw-saturate: ;--tw-sepia: ;--tw-drop-shadow: ;--tw-backdrop-blur: ;--tw-backdrop-brightness: ;--tw-backdrop-contrast: ;--tw-backdrop-grayscale: ;--tw-backdrop-hue-rotate: ;--tw-backdrop-invert: ;--tw-backdrop-opacity: ;--tw-backdrop-saturate: ;--tw-backdrop-sepia: ;--tw-contain-size: ;--tw-contain-layout: ;--tw-contain-paint: ;--tw-contain-style: }::backdrop{--tw-border-spacing-x:0;--tw-border-spacing-y:0;--tw-translate-x:0;--tw-translate-y:0;--tw-rotate:0;--tw-skew-x:0;--tw-skew-y:0;--tw-scale-x:1;--tw-scale-y:1;--tw-pan-x: ;--tw-pan-y: ;--tw-pinch-zoom: ;--tw-scroll-snap-strictness:proximity;--tw-gradient-from-position: ;--tw-gradient-via-position: ;--tw-gradient-to-position: ;--tw-ordinal: ;--tw-slashed-zero: ;--tw-numeric-figure: ;--tw-numeric-spacing: ;--tw-numeric-fraction: ;--tw-ring-inset: ;--tw-ring-offset-width:0px;--tw-ring-offset-color:#fff;--tw-ring-color:rgb(59 130 246 / 0.5);--tw-ring-offset-shadow:0 0 #0000;--tw-ring-shadow:0 0 #0000;--tw-shadow:0 0 #0000;--tw-shadow-colored:0 0 #0000;--tw-blur: ;--tw-brightness: ;--tw-contrast: ;--tw-grayscale: ;--tw-hue-rotate: ;--tw-invert: ;--tw-saturate: ;--tw-sepia: ;--tw-drop-shadow: ;--tw-backdrop-blur: ;--tw-backdrop-brightness: ;--tw-backdrop-contrast: ;--tw-backdrop-grayscale: ;--tw-backdrop-hue-rotate: ;--tw-backdrop-invert: ;--tw-backdrop-opacity: ;--tw-backdrop-saturate: ;--tw-backdrop-sepia: ;--tw-contain-size: ;--tw-contain-layout: ;--tw-contain-paint: ;--tw-contain-style: }/* ! tailwindcss v3.4.16 | MIT License | https://tailwindcss.com */*,::after,::before{box-sizing:border-box;border-width:0;border-style:solid;border-color:#e5e7eb}::after,::before{--tw-content:''}:host,html{line-height:1.5;-webkit-text-size-adjust:100%;-moz-tab-size:4;tab-size:4;font-family:ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";font-feature-settings:normal;font-variation-settings:normal;-webkit-tap-highlight-color:transparent}body{margin:0;line-height:inherit}hr{height:0;color:inherit;border-top-width:1px}abbr:where([title]){-webkit-text-decoration:underline dotted;text-decoration:underline dotted}h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight:inherit}a{color:inherit;text-decoration:inherit}b,strong{font-weight:bolder}code,kbd,pre,samp{font-family:ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;font-feature-settings:normal;font-variation-settings:normal;font-size:1em}small{font-size:80%}sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline}sub{bottom:-.25em}sup{top:-.5em}table{text-indent:0;border-color:inherit;border-collapse:collapse}button,input,optgroup,select,textarea{font-family:inherit;font-feature-settings:inherit;font-variation-settings:inherit;font-size:100%;font-weight:inherit;line-height:inherit;letter-spacing:inherit;color:inherit;margin:0;padding:0}button,select{text-transform:none}button,input:where([type=button]),input:where([type=reset]),input:where([type=submit]){-webkit-appearance:button;background-color:transparent;background-image:none}:-moz-focusring{outline:auto}:-moz-ui-invalid{box-shadow:none}progress{vertical-align:baseline}::-webkit-inner-spin-button,::-webkit-outer-spin-button{height:auto}[type=search]{-webkit-appearance:textfield;outline-offset:-2px}::-webkit-search-decoration{-webkit-appearance:none}::-webkit-file-upload-button{-webkit-appearance:button;font:inherit}summary{display:list-item}blockquote,dd,dl,figure,h1,h2,h3,h4,h5,h6,hr,p,pre{margin:0}fieldset{margin:0;padding:0}legend{padding:0}menu,ol,ul{list-style:none;margin:0;padding:0}dialog{padding:0}textarea{resize:vertical}input::placeholder,textarea::placeholder{opacity:1;color:#9ca3af}[role=button],button{cursor:pointer}:disabled{cursor:default}audio,canvas,embed,iframe,img,object,svg,video{display:block;vertical-align:middle}img,video{max-width:100%;height:auto}[hidden]:where(:not([hidden=until-found])){display:none}.container{width:100%}@media (min-width: 640px){.container{max-width:640px}}@media (min-width: 768px){.container{max-width:768px}}@media (min-width: 1024px){.container{max-width:1024px}}@media (min-width: 1280px){.container{max-width:1280px}}@media (min-width: 1536px){.container{max-width:1536px}}.absolute{position:absolute}.relative{position:relative}.mx-auto{margin-left:auto;margin-right:auto}.mb-12{margin-bottom:3rem}.mb-2{margin-bottom:0.5rem}.mb-4{margin-bottom:1rem}.mb-6{margin-bottom:1.5rem}.mb-8{margin-bottom:2rem}.mt-2{margin-top:0.5rem}.mt-4{margin-top:1rem}.flex{display:flex}.grid{display:grid}.h-32{height:8rem}.h-40{height:10rem}.w-32{width:8rem}.w-40{width:10rem}.w-full{width:100%}.max-w-3xl{max-width:48rem}.max-w-4xl{max-width:56rem}@keyframes pulse{50%{opacity:.5}}.animate-pulse{animation:pulse 2s cubic-bezier(0.4, 0, 0.6, 1) infinite}.grid-cols-1{grid-template-columns:repeat(1, minmax(0, 1fr))}.flex-col{flex-direction:column}.items-center{align-items:center}.justify-center{justify-content:center}.gap-8{gap:2rem}.space-x-2 > :not([hidden]) ~ :not([hidden]){--tw-space-x-reverse:0;margin-right:calc(0.5rem * var(--tw-space-x-reverse));margin-left:calc(0.5rem * calc(1 - var(--tw-space-x-reverse)))}.space-x-4 > :not([hidden]) ~ :not([hidden]){--tw-space-x-reverse:0;margin-right:calc(1rem * var(--tw-space-x-reverse));margin-left:calc(1rem * calc(1 - var(--tw-space-x-reverse)))}.space-y-12 > :not([hidden]) ~ :not([hidden]){--tw-space-y-reverse:0;margin-top:calc(3rem * calc(1 - var(--tw-space-y-reverse)));margin-bottom:calc(3rem * var(--tw-space-y-reverse))}.space-y-4 > :not([hidden]) ~ :not([hidden]){--tw-space-y-reverse:0;margin-top:calc(1rem * calc(1 - var(--tw-space-y-reverse)));margin-bottom:calc(1rem * var(--tw-space-y-reverse))}.rounded-2xl{border-radius:1rem}.rounded-full{border-radius:9999px}.rounded-lg{border-radius:0.5rem}.rounded-xl{border-radius:0.75rem}.border-2{border-width:2px}.border-dashed{border-style:dashed}.p-2{padding:0.5rem}.p-4{padding:1rem}.p-6{padding:1.5rem}.text-center{text-align:center}.text-2xl{font-size:1.5rem;line-height:2rem}.text-3xl{font-size:1.875rem;line-height:2.25rem}.text-4xl{font-size:2.25rem;line-height:2.5rem}.text-7xl{font-size:4.5rem;line-height:1}.text-lg{font-size:1.125rem;line-height:1.75rem}.text-sm{font-size:0.875rem;line-height:1.25rem}.text-xl{font-size:1.25rem;line-height:1.75rem}.font-black{font-weight:900}.font-bold{font-weight:700}.font-semibold{font-weight:600}.uppercase{text-transform:uppercase}.tracking-wider{letter-spacing:0.05em}.text-white{--tw-text-opacity:1;color:rgb(255 255 255 / var(--tw-text-opacity, 1))}.antialiased{-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}.shadow-lg{--tw-shadow:0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);--tw-shadow-colored:0 10px 15px -3px var(--tw-shadow-color), 0 4px 6px -4px var(--tw-shadow-color);box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow)}.shadow-md{--tw-shadow:0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);--tw-shadow-colored:0 4px 6px -1px var(--tw-shadow-color), 0 2px 4px -2px var(--tw-shadow-color);box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow)}@media (min-width: 768px){.md\:col-span-2{grid-column:span 2 / span 2}.md\:mb-16{margin-bottom:4rem}.md\:w-1\/2{width:50%}.md\:w-3\/4{width:75%}.md\:grid-cols-2{grid-template-columns:repeat(2, minmax(0, 1fr))}.md\:space-y-16 > :not([hidden]) ~ :not([hidden]){--tw-space-y-reverse:0;margin-top:calc(4rem * calc(1 - var(--tw-space-y-reverse)));margin-bottom:calc(4rem * var(--tw-space-y-reverse))}.md\:p-8{padding:2rem}.md\:text-left{text-align:left}.md\:text-6xl{font-size:3.75rem;line-height:1}.md\:text-8xl{font-size:6rem;line-height:1}.md\:text-xl{font-size:1.25rem;line-height:1.75rem}}</style></head>
+<body class="antialiased">
+
+    <div class="container mx-auto p-4 md:p-8">
+
+        <header class="text-center mb-12 md:mb-16">
+            <h1 class="text-4xl md:text-6xl font-black mb-2" style="color: var(--color-text-header);">Bridging the Domain Gap</h1>
+            <p class="text-lg md:text-xl max-w-4xl mx-auto" style="color: var(--color-text-body);">A Deep Research Report on Strategic ECG Data Augmentation for Real-World Viability</p>
+        </header>
+
+        <main class="space-y-12 md:space-y-16">
+
+            <section id="challenge" class="p-6 md:p-8 rounded-2xl shadow-lg" style="background-color: var(--color-card);">
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
+                    <div class="text-center md:text-left">
+                        <h2 class="text-3xl font-bold mb-4">The Challenge: From Lab to Reality</h2>
+                        <p class="mb-4">The development of high-performance deep learning models for ECG classification faces a critical hurdle: the "domain gap." While vast public datasets exist, they represent idealized, low-noise clinical environments. Our prototype ECG shirt, designed for ambulatory use, inevitably produces signals with more noise and electrode placement variability.</p>
+                        <p>This report outlines the strategy to synthetically adapt clean data to mimic real-world conditions, ensuring our model is robust, reliable, and ready for deployment.</p>
+                    </div>
+                    <div class="flex flex-col items-center justify-center space-y-4">
+                        <div class="text-center">
+                            <p class="text-lg font-semibold uppercase tracking-wider" style="color: var(--color-text-body);">Publicly Available Data</p>
+                            <p class="stat-number text-7xl">100,000+</p>
+                            <p class="font-semibold" style="color: var(--color-text-body);">12-Lead ECG Patient Records</p>
+                        </div>
+                        <div class="w-full flex items-center justify-center space-x-2 text-xl font-bold text-center">
+                            <div class="p-4 rounded-lg" style="background-color: var(--color-accent); color: var(--color-text-header);">Clean Lab Data</div>
+                            <div class="text-4xl" style="color: var(--color-highlight5);">≠</div>
+                            <div class="p-4 rounded-lg" style="background-color: var(--color-accent); color: var(--color-text-header);">Noisy Prototype Data</div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            
+            <section id="imperfections" class="md:col-span-2 p-6 md:p-8 rounded-2xl shadow-lg" style="background-color: var(--color-card);">
+                <h2 class="text-3xl font-bold text-center mb-8">Deconstructing Prototype Imperfections</h2>
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                    <div>
+                        <h3 class="text-2xl font-semibold mb-4 text-center">1. Lead Displacement</h3>
+                        <p class="mb-4">Unlike precise clinical placement, leads embedded in an elastic shirt can shift relative to anatomical landmarks. This displacement causes the electrode to record a mixture of signals from adjacent cardiac regions, altering the ECG morphology.</p>
+                        <div class="flex justify-center space-x-4">
+                             <div class="text-center p-4 border-2 border-dashed rounded-lg w-40" style="border-color: var(--color-highlight1);">
+                                <span class="text-4xl">📍</span>
+                                <p class="font-semibold mt-2" style="color: var(--color-text-header);">Ideal Placement (Fiducial-Based)</p>
+                            </div>
+                            <div class="text-center p-4 border-2 border-dashed rounded-lg w-40" style="border-color: var(--color-highlight5);">
+                                <span class="text-4xl animate-pulse">➡️</span>
+                                <p class="font-semibold mt-2" style="color: var(--color-text-header);">Actual Placement (Shirt-Based Shift)</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <h3 class="text-2xl font-semibold mb-4 text-center">2. Environmental &amp; Motion Noise</h3>
+                        <p class="mb-4">Non-gelled, dry electrodes in a wearable are susceptible to various noise sources that are less common in clinical settings. We must simulate these to build a resilient model.</p>
+                        <div class="chart-container" style="height: 280px;">
+                            <canvas id="noiseSourcesChart" width="910" height="455" style="display: block; box-sizing: border-box; height: 280px; width: 560px;"></canvas>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section id="pipeline" class="md:col-span-2 text-center p-6 md:p-8 rounded-2xl shadow-lg" style="background-color: var(--color-card);">
+                <h2 class="text-3xl font-bold mb-6">The Solution: A Two-Stage Augmentation Pipeline</h2>
+                <p class="max-w-3xl mx-auto mb-8">To bridge the domain gap, we apply a series of random, on-the-fly transformations to each clean ECG signal during training. This pipeline systematically introduces the imperfections we expect from our prototype.</p>
+                <div class="flex flex-col items-center">
+                    <div class="p-4 rounded-lg w-full md:w-1/2 text-center font-semibold" style="background-color: var(--color-accent); color: var(--color-text-header);">Input: Clean 12-Lead ECG</div>
+                    <div class="flow-arrow w-full"></div>
+                    <div class="p-6 rounded-xl w-full md:w-3/4 shadow-md" style="background-color: #e9ecef;">
+                        <h4 class="text-xl font-bold mb-2">Stage 1: Simulate Lead Displacement</h4>
+                        <p>A new signal is synthesized for each lead by linearly mixing it with its physically adjacent neighbors, controlled by small random coefficients.</p>
+                    </div>
+                    <div class="flow-arrow w-full"></div>
+                    <div class="p-6 rounded-xl w-full md:w-3/4 shadow-md" style="background-color: #e9ecef;">
+                        <h4 class="text-xl font-bold mb-2">Stage 2: Inject Realistic Noise</h4>
+                        <p>Various noise types (baseline wander, powerline, muscle artifacts, motion) are layered onto the signal to mimic real-world conditions.</p>
+                    </div>
+                    <div class="flow-arrow w-full"></div>
+                    <div class="p-4 rounded-lg w-full md:w-1/2 text-center font-semibold" style="background-color: var(--color-highlight1); color: var(--color-card);">Output: Augmented Training Sample</div>
+                </div>
+            </section>
+            
+            <section class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                <div class="p-6 md:p-8 rounded-2xl shadow-lg" style="background-color: var(--color-card);">
+                    <h3 class="text-2xl font-bold mb-4 text-center">Stage 1 Deep Dive: Lead Mixing</h3>
+                    <p class="mb-6 text-center">We simulate displacement by creating new leads that are a weighted average of their original and neighboring signals, effectively rotating the electrical axis slightly.</p>
+                    <div class="chart-container" style="height: 300px;">
+                        <canvas id="limbLeadChart" width="858" height="487" style="display: block; box-sizing: border-box; height: 300px; width: 528px;"></canvas>
+                    </div>
+                    <p class="text-sm text-center mt-2">Example: Augmenting Lead II with a small component from Lead I.</p>
+                </div>
+                 <div class="p-6 md:p-8 rounded-2xl shadow-lg" style="background-color: var(--color-card);">
+                    <h3 class="text-2xl font-bold mb-4 text-center">Precordial Lead Augmentation</h3>
+                    <p class="mb-6 text-center">For chest leads, we mix each lead with its direct neighbors (e.g., V3 is mixed with V2 and V4) to simulate shifts across the transverse plane.</p>
+                    <div class="chart-container" style="height: 300px;">
+                        <canvas id="precordialLeadChart" width="858" height="487" style="display: block; box-sizing: border-box; height: 300px; width: 528px;"></canvas>
+                    </div>
+                    <p class="text-sm text-center mt-2">Composition of augmented chest leads V2-V5.</p>
+                </div>
+            </section>
+
+            <section class="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
+                 <div class="p-6 md:p-8 rounded-2xl shadow-lg" style="background-color: var(--color-card);">
+                    <h3 class="text-2xl font-bold mb-4 text-center">Stage 2 Deep Dive: Noise Simulation</h3>
+                    <p class="mb-6">We layer multiple types of noise, each with randomized characteristics, to prepare the model for a wide range of real-world interference scenarios.</p>
+                    <div class="chart-container" style="height: 320px;">
+                        <canvas id="noiseRadarChart" width="858" height="520" style="display: block; box-sizing: border-box; height: 320px; width: 528px;"></canvas>
+                    </div>
+                </div>
+                <div class="p-6 md:p-8 rounded-2xl shadow-lg" style="background-color: var(--color-card);">
+                    <h3 class="text-2xl font-bold text-center mb-6">The Result: A Robust, Validated Model</h3>
+                    <div class="text-center mb-8">
+                        <p class="text-lg font-semibold uppercase tracking-wider" style="color: var(--color-text-body);">Effective Training Examples Generated</p>
+                        <p class="stat-number text-7xl md:text-8xl">10M+</p>
+                        <p class="font-semibold" style="color: var(--color-text-body);">(100k records x 100 epochs)</p>
+                    </div>
+                    <h4 class="text-xl font-bold text-center mb-4">Crucial Validation Strategy</h4>
+                    <p class="mb-4 text-center">Performance is measured against two distinct test sets to ensure true generalization.</p>
+                    <div class="relative w-full h-40 flex items-center justify-center">
+                        <div class="absolute w-32 h-32 rounded-full flex items-center justify-center text-center p-2" style="background-color: rgba(168, 218, 220, 0.7); left: 25%;">
+                            <span class="font-bold" style="color: var(--color-text-header);">Test Set A (Clean Data)</span>
+                        </div>
+                        <div class="absolute w-32 h-32 rounded-full flex items-center justify-center text-center p-2" style="background-color: rgba(69, 123, 157, 0.7); right: 25%;">
+                            <span class="font-bold text-white">Test Set B (Augmented Data)</span>
+                        </div>
+                    </div>
+                     <p class="text-center font-semibold mt-4">Model success is defined by its high performance on Test Set B.</p>
+                </div>
+            </section>
+
+            <footer class="text-center p-6 md:p-8 rounded-2xl shadow-lg" style="background-color: var(--color-card);">
+                <h2 class="text-3xl font-bold mb-4">Strategic Conclusion</h2>
+                <p class="max-w-4xl mx-auto">This comprehensive data augmentation strategy is not merely a data processing step; it is fundamental to the successful translation of a laboratory-grade algorithm into a commercially viable and clinically reliable medical device. By proactively teaching the model to anticipate and ignore the specific imperfections of its target hardware, we build in the robustness required for real-world performance and diagnostic confidence.</p>
+            </footer>
+
+        </main>
+    </div>
+
+<script>
+document.addEventListener('DOMContentLoaded', () => {
+
+    const chartColors = {
+        highlight1: 'rgba(69, 123, 157, 0.8)',
+        highlight2: 'rgba(86, 207, 225, 0.8)',
+        highlight3: 'rgba(72, 191, 227, 0.8)',
+        highlight4: 'rgba(100, 223, 223, 0.8)',
+        accent: 'rgba(168, 218, 220, 0.6)',
+        border1: 'rgb(69, 123, 157)',
+        border2: 'rgb(86, 207, 225)',
+        border3: 'rgb(72, 191, 227)',
+        border4: 'rgb(100, 223, 223)',
+    };
+    
+    const textHeaderColor = getComputedStyle(document.documentElement).getPropertyValue('--color-text-header').trim();
+    const textBodyColor = getComputedStyle(document.documentElement).getPropertyValue('--color-text-body').trim();
+
+    Chart.defaults.font.family = 'Inter';
+    Chart.defaults.color = textBodyColor;
+
+    function wrapLabel(label, maxWidth) {
+        const words = label.split(' ');
+        let lines = [];
+        let currentLine = '';
+        if (label.length <= maxWidth) {
+            return label;
+        }
+        for (const word of words) {
+            if ((currentLine + word).length > maxWidth) {
+                lines.push(currentLine.trim());
+                currentLine = '';
+            }
+            currentLine += word + ' ';
+        }
+        lines.push(currentLine.trim());
+        return lines;
+    }
+
+    const tooltipTitleCallback = (tooltipItems) => {
+        const item = tooltipItems[0];
+        let label = item.chart.data.labels[item.dataIndex];
+        if (Array.isArray(label)) {
+          return label.join(' ');
+        }
+        return label;
+    };
+    
+    const sharedChartOptions = {
+        responsive: true,
+        maintainAspectRatio: false,
+        plugins: {
+            legend: {
+                position: 'bottom',
+                labels: {
+                    color: textBodyColor,
+                    font: { size: 12 }
+                }
+            },
+            tooltip: {
+                callbacks: {
+                    title: tooltipTitleCallback
+                }
+            }
+        },
+        scales: {
+            x: {
+                ticks: { color: textBodyColor },
+                grid: { display: false }
+            },
+            y: {
+                ticks: { color: textBodyColor },
+                grid: { color: '#e0e0e0', borderDash: [2, 4] }
+            }
+        }
+    };
+
+    if (document.getElementById('noiseSourcesChart')) {
+        new Chart(document.getElementById('noiseSourcesChart'), {
+            type: 'bar',
+            data: {
+                labels: ['Baseline Wander', 'Powerline Interference', 'Muscle Artifacts (EMG)', 'Motion Artifacts'].map(l => wrapLabel(l, 16)),
+                datasets: [{
+                    label: 'Conceptual Impact / Frequency',
+                    data: [75, 50, 85, 95],
+                    backgroundColor: [chartColors.highlight1, chartColors.highlight2, chartColors.highlight3, chartColors.highlight4],
+                    borderColor: [chartColors.border1, chartColors.border2, chartColors.border3, chartColors.border4],
+                    borderWidth: 1
+                }]
+            },
+            options: {
+                ...sharedChartOptions,
+                plugins: {
+                    legend: { display: false },
+                    tooltip: { callbacks: { title: tooltipTitleCallback } }
+                },
+                indexAxis: 'y',
+                scales: {
+                     x: { ...sharedChartOptions.scales.x, title: { display: true, text: 'Conceptual Impact (Arbitrary Units)', color: textBodyColor } },
+                     y: { ...sharedChartOptions.scales.y, grid: { display: false } }
+                }
+            }
+        });
+    }
+
+    if (document.getElementById('limbLeadChart')) {
+        new Chart(document.getElementById('limbLeadChart'), {
+            type: 'doughnut',
+            data: {
+                labels: ['Original Lead II Signal', 'Injected Lead I Signal (α)'],
+                datasets: [{
+                    data: [90, 10],
+                    backgroundColor: [chartColors.highlight1, chartColors.accent],
+                    borderColor: [chartColors.border1, chartColors.border1],
+                    borderWidth: 1,
+                    hoverOffset: 4
+                }]
+            },
+            options: {
+                ...sharedChartOptions,
+                cutout: '60%',
+                scales: { x: { display: false }, y: { display: false } }
+            }
+        });
+    }
+
+    if (document.getElementById('precordialLeadChart')) {
+        new Chart(document.getElementById('precordialLeadChart'), {
+            type: 'bar',
+            data: {
+                labels: ['V2_aug', 'V3_aug', 'V4_aug', 'V5_aug'],
+                datasets: [
+                    {
+                        label: 'Original Lead Signal',
+                        data: [75, 70, 70, 75],
+                        backgroundColor: chartColors.highlight1,
+                    },
+                    {
+                        label: 'Neighbor 1 Mix',
+                        data: [15, 15, 15, 15],
+                        backgroundColor: chartColors.highlight2,
+                    },
+                     {
+                        label: 'Neighbor 2 Mix',
+                        data: [0, 15, 15, 0],
+                        backgroundColor: chartColors.highlight3,
+                    }
+                ]
+            },
+            options: {
+                 ...sharedChartOptions,
+                 scales: {
+                    x: { stacked: true, ...sharedChartOptions.scales.x },
+                    y: { stacked: true, ...sharedChartOptions.scales.y, title: {display: true, text: 'Signal Composition (%)'} }
+                },
+                 plugins: {
+                    legend: { position: 'bottom', labels: { boxWidth: 15, padding: 15 } },
+                    tooltip: { callbacks: { title: tooltipTitleCallback } }
+                }
+            }
+        });
+    }
+    
+    if (document.getElementById('noiseRadarChart')) {
+        new Chart(document.getElementById('noiseRadarChart'), {
+            type: 'radar',
+            data: {
+                labels: ['Frequency', 'Amplitude', 'Pattern (Periodic=1, Sporadic=10)', 'Difficulty to Filter'],
+                datasets: [{
+                    label: 'Baseline Wander',
+                    data: [1, 4, 2, 3],
+                    fill: true,
+                    backgroundColor: 'rgba(69, 123, 157, 0.2)',
+                    borderColor: 'rgb(69, 123, 157)',
+                    pointBackgroundColor: 'rgb(69, 123, 157)',
+                }, {
+                    label: 'Muscle Artifacts',
+                    data: [7, 6, 8, 7],
+                    fill: true,
+                    backgroundColor: 'rgba(86, 207, 225, 0.2)',
+                    borderColor: 'rgb(86, 207, 225)',
+                    pointBackgroundColor: 'rgb(86, 207, 225)',
+                }, {
+                    label: 'Motion Artifacts',
+                    data: [3, 9, 10, 9],
+                    fill: true,
+                    backgroundColor: 'rgba(230, 57, 70, 0.2)',
+                    borderColor: 'rgb(230, 57, 70)',
+                    pointBackgroundColor: 'rgb(230, 57, 70)',
+                }]
+            },
+            options: {
+                ...sharedChartOptions,
+                scales: {
+                    r: {
+                        angleLines: { color: '#ddd' },
+                        grid: { color: '#eee' },
+                        pointLabels: { font: { size: 12, weight: '600' }, color: textBodyColor },
+                        ticks: { display: false }
+                    }
+                }
+            }
+        });
+    }
+});
+</script>
+
+
+
+</body></html>
