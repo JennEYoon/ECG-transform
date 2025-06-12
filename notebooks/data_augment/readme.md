@@ -1,5 +1,6 @@
 # Data augmentation strategies  
-Uses AI, Claude Free & Pro, Gemini Pro, ChatGPT Free
+Uses AI, Claude Free & Pro (signup 6/11/2025), Gemini Pro (signup 6/11/2025), ChatGPT Free
+
 PTB-XL first 1000 sample  
 
 Main prompt:
