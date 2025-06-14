@@ -11,6 +11,7 @@
     - try 6 and 12 classes for higher accuracy.
     - compare datasets from different hospitals, systematic bias?
  * Stage 2C: data augmentation (public datasets), device data (convert to signal)
+    - Gemimi AI help - develop synthetic augmented data for v1-v6 node location variance, boy movement and shirt noise variance.  
     - Jason, collect abnormal heart data from Pt Reyes? When?
     - Jason, send me 1 ECG device, me to test user error data from device.
  * SciPy poster: June 2025, due June 30, 2025 Monday.     
