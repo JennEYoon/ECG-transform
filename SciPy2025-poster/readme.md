@@ -6,10 +6,10 @@
     July 9, 2025 6-7pm PT  
 ### To add: links for future info, Areteus.us and DatasciY.com/ECG for project page  
 
-
 Poster proposal accepted, April 28, 2025  
-      
 Poster due: June 30, 2025.  
+
+ * See feedback, poster template, guide emails - June 10?  
 
 To record videos for poster presentation (5-minute, 30-minute, Q&A possible topics)
 Final proceedings edit Oct 15, 2024. 
