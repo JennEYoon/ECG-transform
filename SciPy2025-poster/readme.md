@@ -9,7 +9,12 @@
 Poster proposal accepted, April 28, 2025  
 Poster due: June 30, 2025.  
 
- * See feedback, poster template, guide emails - June 10?  
+ * See feedback, poster template, guide emails - June 11 done June 16 M.
+    - Good one medical guy, Really like structure, flow, motivation, future experimentation.
+    - Story of general advances in ECG over many years, and ML tech advances.  
+    - Discuss experiments I used and compare w other research and tech stack.
+    - Of interest to general audience, great AI application in medicine, great way to simplify a larger problem (in medicine? sensor noisy readings? ECG signal usage for diagnosis?)   
+    - Negatives, not novel, not interesting to general developers, similar to other talks on classifiers & data acquisition problems. Not enough tech depth or maturity, product development, not enough sketch out of talk outline.  
 
 To record videos for poster presentation (5-minute, 30-minute, Q&A possible topics)
 Final proceedings edit Oct 15, 2024. 
