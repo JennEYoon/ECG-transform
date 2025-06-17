@@ -9,12 +9,16 @@
 Poster proposal accepted, April 28, 2025  
 Poster due: June 30, 2025.  
 
- * See feedback, poster template, guide emails - June 11 done June 16 M.
-    - Good one medical guy, Really like structure, flow, motivation, future experimentation.
-    - Story of general advances in ECG over many years, and ML tech advances.  
-    - Discuss experiments I used and compare w other research and tech stack.
+ * Review virtual poster format email - June 10.  
+   - to do.  
+ * See feedback email - June 11 done June 16 M.
+    - Good one medical guy, Topic really interesting and of interest to broad audience. Really like structure, flow, motivation, future experimentation.
+    - Story of general advances in ECG models and adata over many years.  
+    - Really like that I discuss experiments I used and compare w other research and tech stack.
     - Of interest to general audience, great AI application in medicine, great way to simplify a larger problem (in medicine? sensor noisy readings? ECG signal usage for diagnosis?)   
-    - Negatives, not novel, not interesting to general developers, similar to other talks on classifiers & data acquisition problems. Not enough tech depth or maturity, product development, not enough sketch out of talk outline.  
+    - Negatives, not novel, not interesting to general developers, similar to other talks on classifiers & data acquisition problems. Subject is too niche to ECGs, not interesting to general audience.
+    - Not enough tech depth or maturity, product under developed at this point, tech immature and lower quality compared to other scipy talks.  
+    - not enough sketch out of actual talk or prereqs and subject cues for audience, 
 
 To record videos for poster presentation (5-minute, 30-minute, Q&A possible topics)
 Final proceedings edit Oct 15, 2024. 
