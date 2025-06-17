@@ -18,7 +18,7 @@ Poster due: June 30, 2025.
     - Of interest to general audience, great AI application in medicine, great way to simplify a larger problem (in medicine? sensor noisy readings? ECG signal usage for diagnosis?)   
     - Negatives, not novel, not interesting to general developers, similar to other talks on classifiers & data acquisition problems. Subject is too niche to ECGs, not interesting to general audience.
     - Not enough tech depth or maturity, product under developed at this point, tech immature and lower quality compared to other scipy talks.  
-    - not enough sketch out of actual talk or prereqs and subject cues for audience, 
+    - not enough sketch out of actual talk and prereqs and subject guides for audience  
 
 To record videos for poster presentation (5-minute, 30-minute, Q&A possible topics)
 Final proceedings edit Oct 15, 2024. 
