@@ -1,3 +1,0 @@
-# data notes  
-
-Convert every 125 data into 0.5 second recording. How are different leads organized? 8 leads.
