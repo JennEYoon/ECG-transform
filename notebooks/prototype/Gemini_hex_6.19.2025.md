@@ -6,6 +6,8 @@ Based on the additional information you've provided, I have modified the Python 
 * **Block Header**: Each data block begins with a **20-byte header**, which should be removed before processing the data. The initial bytes of this header (`F4 12 FA FA 44 A4 00 00`) correspond to the provided device ID (`0000A444FAFA12F4`) in reverse byte order, confirming the little-endian architecture.
 * **Data Organization**: After stripping the 20-byte header, the remainder of the block contains the ECG data. For a standard block of 125 samples for 8 channels at 3 bytes per channel, this data portion should consist of 3000 bytes.  
 (125 x 3 x 8 = 3000) 
+* There is actually 1 channel of 3 bytes random number/status indicator. This can be stripped out or made into another channel.  
+* header 20 bytes + 125 samples x 27 bytes = 20 + 3375 = 3395 bytes per block (0.5 sec)
 * **Sample Representation**:
     * Each sample is a **3-byte (24-bit) signed integer**.
     * The byte order is **Little Endian**. This means for a 3-byte sequence `B1 B2 B3` read from the file, the correct value is formed by interpreting the hexadecimal number as `B3B2B1`.
@@ -51,8 +53,8 @@ def hex_to_float_ecg_updated(file_content):
         
         data_hex_values = hex_values[20:]
 
-        # The data portion of the block should contain 125 samples * 8 channels * 3 bytes/channel = 3000 bytes
-        if len(data_hex_values) != 3000:
+        # The data portion of the block should contain 125 samples * 9 channels * 3 bytes/channel = 3375 bytes
+        if len(data_hex_values) != 3375:
             print(f"Warning: Skipping a block with an unexpected data size ({len(data_hex_values)} bytes).")
             continue
 
@@ -72,10 +74,10 @@ def hex_to_float_ecg_updated(file_content):
             
             block_samples.append(float(value))
 
-        # Reshape the data to have 125 rows (samples) and 8 columns (channels)
+        # Reshape the data to have 125 rows (samples) and 9 columns (channels)
         # The data is interleaved, so this direct reshape is correct.
-        if len(block_samples) == 1000: # 125 samples * 8 channels
-            block_array = np.array(block_samples).reshape(125, 8)
+        if len(block_samples) == 1125: # 125 samples * 9 channels
+            block_array = np.array(block_samples).reshape(125, 9)
             all_blocks_data.append(block_array)
 
     if not all_blocks_data:

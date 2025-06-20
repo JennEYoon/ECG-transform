@@ -1,0 +1,36 @@
+https://www.rapidtables.com/convert/number/hex-to-decimal.html?x=5A9DE1
+
+Hex is base 16 number  
+
+5A9DE1  (6-digit hex is 24-bit number, 3 bytes/words of 8-bits.)
+2-digit hex is 8-bit, 4-digit hex is 16-bit, 6-digit hex is 24-bit    
+Each hex digit has 4-bits.  
+
+Ex convert positive and negative hex to decimal  
+Hex: 0000C0, Signed Decimal: 192
+Hex: E97DFD, Signed Decimal: -1475075
+
+
+To convert a 24-bit hex value to a signed integer, you first convert it to a standard integer using base 16. Then, you check if the value is negative based on the 24th bit. If it is, you subtract the maximum value for a 24-bit unsigned integer (2^24). Here's how you can do it:
+
+# Example 24-bit hex value (positive and negative examples)
+hex_positive = "0000C0"  # Example positive value
+hex_negative = "E97DFD"  # Example negative value
+
+# Function to convert 24-bit hex to signed integer
+def hex_24bit_to_signed_int(hex_string):
+    value = int(hex_string, 16)
+    # Check if the 24th bit is set (negative number)
+    if value & 0x800000:  # 0x800000 is 2^23, checking the most significant bit of 24
+        value -= 0x1000000 # Subtract 2^24
+    return value
+
+# Convert and print examples
+signed_positive = hex_24bit_to_signed_int(hex_positive)
+signed_negative = hex_24bit_to_signed_int(hex_negative)
+
+print(f"Hex: {hex_positive}, Signed Decimal: {signed_positive}")
+print(f"Hex: {hex_negative}, Signed Decimal: {signed_negative}")
+
+
+
