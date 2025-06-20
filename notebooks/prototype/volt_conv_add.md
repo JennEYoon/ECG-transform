@@ -150,7 +150,7 @@ raw_ecg_data = hex_to_raw_ecg(full_file_content_mock)
 if raw_ecg_data is not None:
     # 3. Set the reference voltage (V_REF). 
     #    This value MUST match your device's specification for accurate results.
-    #    Using 4.5V as an example.
+    #    Using 4.5V as an example. (Spec: 2.7V - 4.5 V)
     V_REFERENCE = 4.5  # Volts
 
     # 4. Convert the raw ADC values to voltage signals
