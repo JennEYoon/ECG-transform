@@ -15,4 +15,5 @@
    * Time file I/O read write. Is it really a problem? Test local GPU and Colab GPU.
    * Running model - may want to try paid Colab.
    * For Grace class, just use g1 folder, 1000 samples,x 10 heartbeats. 10K samples should get good performance.
-  
+
+  June 19, 2025 11:30PM -- clone to WSL
