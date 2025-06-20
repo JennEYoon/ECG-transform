@@ -2,6 +2,27 @@
 Q) Using the Output vs Signal file uploaded, please provide a Python code to convert ECG signals from previous step (hex to float python code) to ECG voltage signals
 <img src="fig1_Output_vs_Signal.jpg" width=600px > 
 
+> 🔧 Key Concepts:
+1. 24 Bits per Channel
+
+Each value (for a single channel) is represented using 24 bits (3 bytes).
+That gives a range of values from:
+−8,388,608 to +8,388,607 
+(because two’s complement with 24 bits has 
+2^23 | 2^23 negative values and 
+2^23 −1 | 2^23 −1 positive values).
+
+2. Two’s Complement
+
+This is a common format for representing signed integers in binary.
+The most significant bit (MSB) is the sign bit:
+0 = positive
+1 = negative
+
+3. MSB First
+
+The most significant byte comes first.
+This is big-endian byte order. X actually is Little Endian.  
 
 A) Of course. Using the technical specifications you provided, we can now convert the raw integer ADC (Analog-to-Digital Converter) values into their corresponding voltage signals.
 
