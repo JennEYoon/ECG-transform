@@ -11,6 +11,6 @@ Normal values (table)
 | P wave terminal negative deflection (in lead V1)	| ≤ 1 mV (mm)          |
 | Q wave	 	      |< 0.04 s (1 mm) and < 1/3 of R wave amplitude in the same lead  |
 
-<img src="normal_ecg_img.png" >
+<img src="normal_ecg_12leads.png" >
 Source: https://elentra.healthsci.queensu.ca/assets/modules/ECG/the_12_lead_ecg.html  
 
