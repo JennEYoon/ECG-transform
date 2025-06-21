@@ -1,9 +1,9 @@
 ## Normal ECG 
 
 Normal values (table)
-----------------------------------------
+| --------------- | ------------------------- |
 | Heart rate	 	 	| 60 - 100 bpm    |
-|PR interval	 	 	| 0.12 - 0.20 s   |
+| PR interval	 	 	| 0.12 - 0.20 s   |
 | QRS interval	 	| 	≤ 0.12 s      |
 | QT interval	 	 	| < half RR interval (males < 0.40 s; females < 0.44 s)  |
 | P wave amplitude (in lead II)	 	                	| ≤ 3 mV (mm)          |
