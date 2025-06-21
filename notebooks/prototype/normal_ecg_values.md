@@ -13,6 +13,7 @@
 
 ### Normal ECG signals, 1mm is 1mV  
 Source: https://elentra.healthsci.queensu.ca/assets/modules/ECG/the_12_lead_ecg.html  
+   
 <img src="normal_ecg_12leads.png" >
 
 #### Normal ECG, Pattern Description  
