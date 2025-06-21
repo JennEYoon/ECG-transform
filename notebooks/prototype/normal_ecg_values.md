@@ -1,7 +1,7 @@
 ## Normal ECG 
 
 #### Normal ECG values (table)
-| Item            | value                     |
+| Item            | value (1 mm is 1 mV)      |
 | --------------- | ------------------------- |
 | Heart rate	 	 	| 60 - 100 bpm              |
 | PR interval	 	 	| 0.12 - 0.20 s             |
