@@ -78,7 +78,9 @@ Header bytes are 20 not 16, in updated chip specs.
 Device ID 8 bytes, random init 4 bytes, Unix Date-time 8 bytes.  
 OK now everything fits in Feb 19 hex recording.  
 
-Today's 2 hex files, together is 7mb, I think not repeat yesterday's binary file.  
+Today's 2 hex files, together is 7mb, (Yesterday's binary file alone is 7MB, binary is 2x as big?)  
+ * How many blocks in 2 hex files? 30 x 10 sec recordings = 20 half sec block -> 1 recording, X 30 over 2 files.
+ * 600 half second blocks over 2 files.  
 So 15 samples, 10 seconds long, each block ends with "DONE". 125 numbers x 8 channels per half second, 300 hertz per second x 8 channels. Lead 1 to 8 in order, Rt.arm-Lf.arm, Rt.arm-Lf.leg, V1, V2, V3, V4, V5, V6.  
 
 Yesterday's binary unbroken text file, 7mb.  
