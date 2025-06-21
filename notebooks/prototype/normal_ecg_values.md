@@ -1,6 +1,6 @@
 ## Normal ECG 
 
-#### Normal ECG values (table)
+### Normal ECG values (table)
 | Item            | value (1 mm is 1 mV)      |
 | --------------- | ------------------------- |
 | Heart rate	 	 	| 60 - 100 bpm              |
@@ -11,11 +11,11 @@
 | P wave terminal negative deflection (in lead V1)	| ≤ 1 mV (mm)          |
 | Q wave	 	      |< 0.04 s (1 mm) and < 1/3 of R wave amplitude in the same lead  |
 
-#### Normal ECG signals, 1mm is 1mV  
+### Normal ECG signals, 1mm is 1mV  
 Source: https://elentra.healthsci.queensu.ca/assets/modules/ECG/the_12_lead_ecg.html  
 <img src="normal_ecg_12leads.png" >
 
-##### Normal ECG, Pattern Description  
+#### Normal ECG, Pattern Description  
 Source: https://elentra.healthsci.queensu.ca/assets/modules/ECG/normal_ecg.html  
 (Webpage copy)
 Good source for feature engineering.  
