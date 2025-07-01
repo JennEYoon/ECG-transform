@@ -15,6 +15,12 @@ Hospital-grade 12-signal ECG machines are bulky and expensive, while at-home dev
  * Image: Areteus ECG, close-up of processing chip, V1, and V2 contacts.    
    <img src="https://github.com/JennEYoon/ECG-transform/blob/main/images/ECG-device-sm.png" width=300px alt="image of processing chip and v1 v2 electrodes" >  
 
+### GIF, Data Augmentation:  
+
+<img src="images/wearable_ecg_V6_DRAMATIC_augmentation.gif" >
+
+
+
 ### 1. Quick Project Description:   
 
 This repo contains a deep learning project for a wearable, ECG prototype.   
