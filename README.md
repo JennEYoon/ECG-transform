@@ -1,5 +1,5 @@
 
-# AI for ECG prototype  
+# AI for Wearable ECG Prototype  
 
 Author: Jennifer E. Yoon   
 Timeline: <a href="_timeline.md" > _timeline.md </a>   
@@ -11,9 +11,11 @@ Company: Areteus (https://areteus.us/)
 Hospital-grade 12-signal ECG machines are bulky and expensive, while at-home devices capture only 1–6 asynchronous signals. The Areteus wearable ECG is designed for continuous home use, recording 12–19 synchronous signals. It is especially useful for detecting abnormal heartbeats during sleep and strenuous exercise.  
  * proposal: <a href="https://github.com/JennEYoon/ECG-transform/blob/main/SciPy2025-poster/application.md">application</a>  
  * conference: https://www.scipy2025.scipy.org/  
- * tags: #SciPy-2025  #ECG-prototype  #AI  #quantified-health  
+ * tags: #SciPy2025  #ECG-prototype  #AI  #quantified-health  
  * Image: Areteus ECG, close-up of processing chip, V1, and V2 contacts.    
    <img src="https://github.com/JennEYoon/ECG-transform/blob/main/images/ECG-device-sm.png" width=300px alt="image of processing chip and v1 v2 electrodes" >  
+
+> ***Click here <a href="SciPy2025-poster/scipy2025_poster_JYoon_AI_for_Wearable.jpg"> for poster. </a>
 
 ### GIF, Data Augmentation:  
 
