@@ -129,7 +129,7 @@ Test AI classification models, mix clean and dirty data.
 From step 4, Areteus device output & augmented dataset (for user error, signal error)   
 
 ### 6. Device Signals Testing and AI Model Refinement:  
-July 2025, Jason, Pt Reyes - testing Areteus device on volunteers with abnormal heart beats.  
+July-Sept 2025, Jason, Pt Reyes, California - testing Areteus device on volunteers with normal and abnormal heart beats.  
 
 ### 7. Deploy App on Cloud and Report Writing:  
 
