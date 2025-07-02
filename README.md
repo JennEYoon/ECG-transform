@@ -15,7 +15,7 @@ Hospital-grade 12-signal ECG machines are bulky and expensive, while at-home dev
  * Image: Areteus ECG, close-up of processing chip, V1, and V2 contacts.    
    <img src="https://github.com/JennEYoon/ECG-transform/blob/main/images/ECG-device-sm.png" width=300px alt="image of processing chip and v1 v2 electrodes" >  
 
-> ***Click here <a href="SciPy2025-poster/scipy2025_poster_JYoon_AI_for_Wearable.jpg"> for poster. </a>
+> ### Click here <a href="SciPy2025-poster/scipy2025_poster_JYoon_AI_for_Wearable.jpg"> ***for poster***. </a>
 
 ### GIF, Data Augmentation:  
 
