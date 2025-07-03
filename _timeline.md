@@ -11,12 +11,12 @@
     - try 6 and 12 classes for higher accuracy.
     - compare datasets from different hospitals, systematic bias?
  * Stage 2C: data augmentation (public datasets), device data (convert to signal)
-    - Gemimi AI help - develop synthetic augmented data for v1-v6 node location variance, boy movement and shirt noise variance.  
-    - Jason, collect abnormal heart data from Pt Reyes? When?
-    - Jason, send me 1 ECG device, me to test user error data from device.
+    - Gemimi AI deep research mode - develop synthetic augmented data for v1-v6 node location variance, body movement and shirt noise variance, powerline interference.  
+    - Jason, collect abnormal heart data from Pt Reyes? When? Delayed to August or later.
+    - Jason, to send me 1 ECG device, me to test user error data from device. Delayed    
  * SciPy poster: June 2025, due June 30, 2025 Monday.     
- * Develop Demo of final AI on hospital dataset: July - August 2025
- * Areteus device testing and AI model refinements: August - September 2025
+ * Develop Demo of final AI on hospital dataset: Later half of 2025
+ * Areteus device testing and AI model refinements: August - October 2025
  * Deploy Areteus AI app, live device signals & continuous AI classifications: Nov 2025 
    
 ### SciPy 2025 Conference:  
@@ -24,12 +24,10 @@
  * Accepted for virtual poster - April 26, 2025   
  * Build & test ResNet+SE model - May 20-31, 2025
    (use for class project, Stanford Tech 07)
- * Optional, submit article to SciPy Proceedings - no.  
-    - max 6000 words, Proceedings repo pull request.    
- * Submit poster to conference organizers - June 30, 2025 due
+ * Submit poster to conference organizers - June 30, 2025 done.  
     * image file virtual poster, small thumbnail image  
- * Create related videos, slide deck, blog post - to July 6th, 2025  
+ * Create short video, Run more augmented data tests - to July 8, 2025  
  * Present: July 9, 2025 6-7pm PT, 9-10pm ET, Gather, virtual meeting space.    
 
-### 
+
 
