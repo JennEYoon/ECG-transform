@@ -14,8 +14,8 @@
    (from public datasets to simulate noisy device data)  
     - Gemimi AI deep research mode - develop synthetic augmented data for v1-v6 node location variance, body movement and shirt noise variance, powerline interference.  
     - Jason, collect abnormal heart data from Pt Reyes? When? Delayed to August or later.
-    - Alondra 30 recordings 10 sec long, device output - May 2025
-      -> Fail, data garbage. Wasted 30 hours to convert hex machine output.  
+    - Alondra 30 recordings 10 sec long, device output - May 2025  
+      -> Fail, data is garbage. Wasted 30 hours to convert machine code.  
     - Jason to send me new device ECG recordings - Delayed. When?    
     - Jason, to send me 1 ECG device for me to test. Delayed indefinitely.   
  * SciPy poster: June 2025, due June 30, 2025 Monday.     
