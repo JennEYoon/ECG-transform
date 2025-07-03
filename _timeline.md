@@ -19,7 +19,7 @@
     - Jason to send me new device ECG recordings - Delayed. When?    
     - Jason, to send me 1 ECG device for me to test. Delayed indefinitely.   
  * Stage 3: SciPy poster: June 2025, due June 30, 2025 Monday.     
- * Stage 4A: Develop Demo of final AI on hospital dataset: August - October 2025
+ * Stage 4A: Develop Demo of AI model on hospital dataset: August - October 2025
  * Stage 4B: Areteus device testing and AI model refinements: August - October 2025
  * Stage 5: Deploy Areteus AI app, live device signals & continuous AI classifications: Nov 2025 
    
