@@ -18,10 +18,10 @@
       -> Fail, data is garbage. Wasted 30 hours to convert machine code output.  
     - Jason to send me new device ECG recordings - Delayed. When?    
     - Jason, to send me 1 ECG device for me to test. Delayed indefinitely.   
- * SciPy poster: June 2025, due June 30, 2025 Monday.     
- * Develop Demo of final AI on hospital dataset: Later half of 2025
- * Areteus device testing and AI model refinements: August - October 2025
- * Deploy Areteus AI app, live device signals & continuous AI classifications: Nov 2025 
+ * Stage 3: SciPy poster: June 2025, due June 30, 2025 Monday.     
+ * Stage 4A: Develop Demo of final AI on hospital dataset: August - October 2025
+ * Stage 4B: Areteus device testing and AI model refinements: August - October 2025
+ * Stage 5: Deploy Areteus AI app, live device signals & continuous AI classifications: Nov 2025 
    
 ### SciPy 2025 Conference:  
  * SciPy talk proposal submit - March 5-7, 2025
