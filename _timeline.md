@@ -26,11 +26,11 @@
 ### SciPy 2025 Conference:  
  * SciPy talk proposal submit - March 5-7, 2025
  * Accepted for virtual poster - April 26, 2025   
- * Build & test ResNet+SE model - May 20-31, 2025
-   (use for class project, Stanford Tech 07)
- * Submit poster to conference organizers - June 30, 2025 done.  
+ * Build & test ResNet+SE model - May 2025
+   (used for class project, Stanford Tech 07)
+ * Submit virtual poster to conference organizers - June 30, 2025 done.  
     * image file virtual poster, small thumbnail image  
- * Create short video, Run more augmented data tests - to July 8, 2025  
+ * Create a short video, Run more augmented data tests - to July 8, 2025  
  * Present: July 9, 2025 6-7pm PT, 9-10pm ET, Gather, virtual meeting space.    
 
 
