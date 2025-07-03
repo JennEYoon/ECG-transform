@@ -10,7 +10,7 @@
     - compare w Transformer-based 12-signal models.
     - try 6 and 12 classes for higher accuracy.
     - compare datasets from different hospitals, systematic bias?
- * Stage 2C: data augmentation (public datasets), device data (convert to signal)
+ * Stage 2C: data augmentation (from public datasets to simulate noisy device data)  
     - Gemimi AI deep research mode - develop synthetic augmented data for v1-v6 node location variance, body movement and shirt noise variance, powerline interference.  
     - Jason, collect abnormal heart data from Pt Reyes? When? Delayed to August or later.
     - Jason, to send me 1 ECG device, me to test user error data from device. Delayed    
