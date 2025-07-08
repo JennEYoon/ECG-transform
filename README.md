@@ -19,6 +19,7 @@ Hospital-grade 12-signal ECG machines are bulky and expensive, while at-home dev
   * GIF, Data Augmentation:   
        
    <img src="images/wearable_ecg_V6_DRAMATIC_augmentation.gif" >
+----------------------------------------------------------------------------    
 
 ### 1. Quick Project Description:   
 
