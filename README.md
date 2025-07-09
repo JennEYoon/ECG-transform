@@ -36,13 +36,12 @@ Areteus (https://www.areteus.us/) is developing a novel wearable ECG (heart rate
  * Device output data format: work in process.  
    - First file request, Alondra, single recording, 5 seconds long, hexadecimal format text file.
    - Second file request, Alondra, 30 recordings, 10 seconds long, hexadecimal and raw binary format text files.
-   - To convert to compatible machine learning input format.  
+   - To convert to compatible machine learning input format.
+   - Third data request, Jason, from current device output - WIP  
    
 2.B) Hospital ECG devices  
 
-2.C) Home-use ECG devices  
-
- *** To write up introductory information about device. ***   
+2.C) Home-use ECG devices    
 
 ### 3. Stage 1: Literature and Public Datasets Research:  
 
@@ -54,15 +53,9 @@ Areteus (https://www.areteus.us/) is developing a novel wearable ECG (heart rate
     - PTB (https://physionet.org/content/ptbdb/1.0.0/)  
 
 3.B) Related papers and Jupyter notebooks, using MIT-BIH and PTB datasets.  
- * ResNet Kim et al. :
- * Another paper :  
- * Survey paper, historical: 
+ * ResNet Kim et. al.
  * Simple CNN
- * Simple ResNet
  * Random Forest 
-
-3.C) Issues and Findings at this stage:  
-to write up  
 
 ### 4. Stage 2: Deeper Literature and Datasets Research, 12-signal models:  
 
@@ -83,30 +76,13 @@ To register V4R, use V3 in the right mid-clavicular line.
 
 Limb lead description:  to write  
 I:  , II   , III   , AVL   , AVR    AVF = to foot  
+Note only limb leads I and II are measured. The others a derived from I and II.  
 
 4.C) Selected large, 12-signal datasets:  
  * PTB-XL large dataset (Physikalisch-Technische Bundesanstalt)
  * SPH large dataset (Shandong Provincial Hospital)
 
-4.D) Selected papers and notebooks:  
- * ResNet+SE paper: Zhao et al
-   - Too many layers, custom large kernals. Initially try simpler ResNet + few SE blocks.  
-   - input to first convolutional layer is (12, 4096). 12-signals ARE input as 12-dim channel.  
-   - used random splitting and zero padding, has overlaps. I will use peak centering without overlap, and zero padding.
-   - 16 seconds, 257 hz. I will use 10 seconds and 125 Hz, PTB-XL (5000 hz, 10 sec).     
-   - Reduce prediction classes from 24 to 2 and 6 classes. Get higher accuracy when using  simpler model architecture? When using less layers or more standard sized kernel filters (3x3 or 5x5)? The large expansion of classes from 2 or 6 in previous stage to 24 seems to decrease overall model accuracy even with much more complex architecture and heavy use of custom kernels.  
-   - Notebook implementation: my customization  
-   - Dataset selection and processing choices:
- * Simple ResNet model for comparison:
-   - ResNet34, 20-50 epochs, 12-signals treated as 12-channel input data.  
- * Transformers+RNN:
-   - Notebook implementation:
-   - Datasets (same as previous)
- * Original ECGTransform model for comparison, on large, 12-signal datasets.
-    - Original ECGTransform model on PTB original dataset, with or without 12-channel depth.  
- * Simple CNN model on large datasets for comparison, 20-50 epochs        
-
-4.E.1) Data Issues, 12-signal public datasets:  
+4.D) Data Issues, 12-signal public datasets:  
 
 How to make full use of 12-signals in PTB data? How to split raw data into samples? What filter or processing should be used? What Python libraries might be useful?:  
 
@@ -116,21 +92,25 @@ Data processing choices, after discussions with Areteus:
    * library: wsfl - for ECG data processing, standarizing.   
    * library: scikit-learn - for testing my own data splitting and filtering methods.   
 
-4.E.2) Data Issues, Areteus device:  
+4.E) Data Issues, Areteus device:  
 Machine level data definition  
 Convert hex to numpy array  
 Convert binary to numpy array  
 Limb signals linear combinations from 8 leads, add definition & convert before running AI model.  
 Test AI classification model - proof of concept, that it works with device output data.  
 
-4.E.3) Data Issues, augmented datasets:  
+4.F) Data Issues, augmented datasets:  
 Build augmented datasets from public datasets, to mimic user error and signal interference & dropout.  
 Test for less than ideal data output.  
-Test AI classification models, mix clean and dirty data.  
+Test AI classification models with noisy augmented data 
 
+### 5. Early Findings:   
 
-### 5. Key Findings:   
-From step 4, Areteus device output & augmented dataset (for user error, signal error)   
+Noisy augmented dataset works well for diagnostic class inference.  
+Initial results are based on 1D-CNN model with PTBXL dataset with 6 diagnostic classes.   
+Original (89.07%) vs Augmented (84.9%) data had similar model test accuracy.  
+Both datasets were unfiltered with bandpass filter. Accuracy goes up about 5% after filter.  
+Model parameters changes output somewhat. In particular increasing the class number to 20-24 decrease model accuracy noticeably.  
 
 ### 6. Device Signals Testing and AI Model Refinement:  
 July-Sept 2025, Jason, Pt Reyes, California - testing Areteus device on volunteers with normal and abnormal heart beats.  
