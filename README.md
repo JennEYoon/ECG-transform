@@ -17,10 +17,14 @@ Hospital-grade 12-signal ECG machines are bulky and expensive, while at-home dev
       
    <img src="https://github.com/JennEYoon/ECG-transform/blob/main/images/ECG-device-sm.png" width=300px alt="image of processing chip and v1 v2 electrodes" >  
   * GIF, Data Augmentation:   
-       
-   <img src="images/wearable_ecg_V6_DRAMATIC_augmentation.gif" >
+    
+  >  <img src="images/wearable_ecg_V6_DRAMATIC_augmentation.gif" >
+
+  * Early Findings: 1D-CNN model, Original versus Augmented Data:    
+    See <a href="" >Early Findings</a>  
 ----------------------------------------------------------------------------    
 
+# The rest of repo  
 ### 1. Quick Project Description:   
 
 This repo contains a deep learning project for a wearable, ECG prototype.   
