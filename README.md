@@ -113,7 +113,8 @@ Test AI classification models with noisy augmented data
 
 ### 6. Device Signals Testing and AI Model Refinement:  
 
-Jason, Pt Reyes, California - testing Areteus device on volunteers with normal and abnormal heart beats.  
+ * Planned: Jason, Pt Reyes, California:
+   Testing Areteus device on volunteers with normal and abnormal heart beats.  
 
 ### 7. Deploy App on Cloud and Report Writing:  
 
