@@ -20,8 +20,7 @@ Hospital-grade 12-signal ECG machines are bulky and expensive, while at-home dev
   * GIF, Data Augmentation:   
     <img src="images/wearable_ecg_V6_DRAMATIC_augmentation.gif" width=800px>
 
-    
-=================================================================================   
+=========================================================================  
 
 # The rest of repo  
 ### 1. Quick Project Description:   
@@ -109,17 +108,19 @@ Test AI classification models with noisy augmented data
 Noisy augmented dataset works well for diagnostic class inference.  
 Initial results are based on 1D-CNN model with PTBXL dataset with 6 diagnostic classes.   
 Original (89.07%) vs Augmented (84.9%) data had similar model test accuracy.  
-Both datasets were unfiltered with bandpass filter. Accuracy goes up about 5% after filter.  
-Model parameters changes output somewhat. In particular increasing the class number to 20-24 decrease model accuracy noticeably.  
+Both datasets were unfiltered. Accuracy goes up about 5%-10% after applying noise filters.  
+Model parameters changes accuracy somewhat. 
+In particular increasing the class number to 20-24 decrease model accuracy dramatically.  
 
 ### 6. Device Signals Testing and AI Model Refinement:  
-July-Sept 2025, Jason, Pt Reyes, California - testing Areteus device on volunteers with normal and abnormal heart beats.  
+
+Jason, Pt Reyes, California - testing Areteus device on volunteers with normal and abnormal heart beats.  
 
 ### 7. Deploy App on Cloud and Report Writing:  
 
  * documentation - started
  * organization - started
- * Embedding visualization (notebooks, website, apps) - July - Oct, 2025     
- * Interactive python viz libraries (Plotly, Bokeh, Voila) - July - Oct, 2025   
+ * Embedding visualization (notebooks, website, apps) - August - Oct, 2025     
+ * Interactive python viz libraries (Plotly, Bokeh, Voila) - August - Oct, 2025   
 
 
