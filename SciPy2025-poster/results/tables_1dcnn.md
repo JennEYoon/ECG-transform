@@ -10,12 +10,12 @@ Final test accuracy: 89.07%
 
 | Class | Accuracy (%) | Sensitivity (%) | Specificity (%) |
 | :--- | :--- | :--- | :--- |
-| Sinus Rhythm (Normal) (was class 0) | 90.93 | 94.40 | 83.03 |
-| T-wave abnormal (was class 2) | 95.01 | 74.42 | 97.57 |
-| Atrial Fibrillation (was class 3) | 97.88 | 73.67 | 99.02 |
-| 1st degree AV block (was class 4) | 99.25 | 85.13 | 99.63 |
-| Left anterior fascicular block (was class 5) | 97.06 | 76.38 | 98.57 |
-| Other arrhythmias (was class 6) | 98.01 | 81.34 | 98.99 |
+| Sinus Rhythm (Normal)             | 90.93 | 94.40 | 83.03 |
+| T-wave abnormal                   | 95.01 | 74.42 | 97.57 |
+| Atrial Fibrillation  | 97.88 | 73.67 | 99.02 |
+| 1st degree AV block  | 99.25 | 85.13 | 99.63 |
+| Left anterior fascicular block  | 97.06 | 76.38 | 98.57 |
+| Other arrhythmias   | 98.01 | 81.34 | 98.99 |
 
 **Classification Report:**
 
