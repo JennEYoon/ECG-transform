@@ -1,6 +1,4 @@
-Of course, here is the content of your `readme.md` file with the tables formatted in markdown.
-
-# Results 1D-CNN
+# Results Tables, 1D-CNN
 
 Summary Table, Specificity, Sensitivity, Accuracy by class and by model.
 
