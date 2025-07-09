@@ -109,7 +109,7 @@ Noisy augmented dataset works well for diagnostic class inference.
 Initial results are based on 1D-CNN model with PTBXL dataset with 6 diagnostic classes.   
 Original (89.1%) vs Augmented (84.9%) model test accuracies were in similar range.  
 Both datasets were unfiltered. Accuracy goes up about 5%-10% after applying noise filters.  
-Model parameters changes accuracy somewhat.   
+Model parameters change test accuracy somewhat.   
 In particular increasing the class number to 20-24 decreases model test accuracy dramatically.  
 
 ### 6. Device Signals Testing and AI Model Refinement:  
