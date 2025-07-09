@@ -25,7 +25,7 @@ Classification Report:
                T-wave abnormal (was class 2)       0.79      0.74      0.77      3155
            Atrial Fibrillation (was class 3)       0.78      0.74      0.76      1280
            1st degree AV block (was class 4)       0.86      0.85      0.86       753
-Left anterior fascicular block (was class 5)       0.80      0.76      0.78      1943
+Left anterior fascicular block (was class 5)       0.80      0.76      0.78      1943  
              Other arrhythmias (was class 6)       0.83      0.81      0.82      1597
 
                                     accuracy                           0.89     28593
