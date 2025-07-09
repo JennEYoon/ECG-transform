@@ -1,4 +1,3 @@
-
 # AI for Wearable ECG Prototype  
 
 Author: Jennifer E. Yoon   
@@ -7,7 +6,7 @@ Company: Areteus (https://areteus.us/)
 
 ### SciPy 2025: virtual poster presentation, July 9, 2025    
  * See Final Poster: <a href="SciPy2025-poster/scipy2025_poster_JYoon_AI_for_Wearable.jpg">SciPy Poster</a>
- * See <a href="" >Early Findings</a>
+ * See <a href="https://github.com/JennEYoon/ECG-transform/blob/main/SciPy2025-poster/results/tables_1dcnn.md" >Early Findings</a>
  
  * Title: AI for wearable ECG prototype - quantified health  
  * Proposed Abstract: I will share my experience customizing AI models for a wearable ECG (electrocardiogram) prototype, including Transformers, ResNets, and Random Forests. While intended for data science students and practitioners, anyone interested in wearable devices or quantified health is welcome. Listeners will gain practical insights to apply in their own AI projects.  
@@ -19,8 +18,7 @@ Hospital-grade 12-signal ECG machines are bulky and expensive, while at-home dev
       
    <img src="https://github.com/JennEYoon/ECG-transform/blob/main/images/ECG-device-sm.png" width=300px alt="image of processing chip and v1 v2 electrodes" >  
   * GIF, Data Augmentation:   
-    
-    * <img src="images/wearable_ecg_V6_DRAMATIC_augmentation.gif" width=600px>
+    <img src="images/wearable_ecg_V6_DRAMATIC_augmentation.gif" width=800px>
 
     
 =================================================================================   
