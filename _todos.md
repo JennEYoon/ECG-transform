@@ -1,11 +1,31 @@
 # To Dos   
 
-### To Dos May-June 2025
+### ToDos July 13, 2025:  
+Connections:  
+ * Grace, ask for recommendation
+ * SciPy people - contact, review project repos
+ * Sanhita - contacted, to review 1-2 papers for proceedings.  
 
- * call Alondra, get more samples - done.  
- * reformat device output sample, convert to csv.
- * SciPy - get dates, formats info. links to poster info, May 13 email. View author video too, optional.   
- * Grace class final project, May 31, 2025 due. Doesn't have to be finished, send link. Finish before class on Monday, June 2nd.  
+Post SciPy - finish landing page for external audience.  
+ * Run simple time-series model w aug data, post results table.  
+
+Applicarion on web:  
+ * Create simple clasifier app, choose data source as ptbxl g1 or augmented data g1
+   Later add SPH and also Areteus live data, if any  
+
+Marketing: 
+ * Post at other websites, present at Meetups.  
+
+Models more runs: - create results page  
+ * Run time-serie model, orig data, aug data
+ * Run filtered on aug data, time-series, 1dcnn
+ * Run filteres on original data, time-series, 1dcnn
+ * Expand dataset to SPH g1
+ * Expand datasets to all PTBXL
+ * Expand dataset to all SPH
+ * Expand dataset to joint SPH and PTBXL
+
+### To Dos May-June 2025
    * ResNet + SE notebooks, visualizations. Some interactive charts.   
    * What story are you telling? most important.
    * What is one new thing not covered in class? Whole project is new methods.   
