@@ -40,6 +40,8 @@ Final Test Accuracy: 84.91%
 
 **Per-Class Sensitivity and Specificity**
 
+ * Add accuracy bt class.
+   
 | Class | Sensitivity (Recall) | Specificity |
 | :--- | :--- | :--- |
 | (0) Sinus Rhythm (Normal) | 0.9316 | 0.7471 |
