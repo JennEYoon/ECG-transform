@@ -40,7 +40,7 @@ Final Test Accuracy: 84.91%
 
 **Per-Class Sensitivity and Specificity**
 
- * Add accuracy bt class.
+ * Add accuracy by class.
    
 | Class | Sensitivity (Recall) | Specificity |
 | :--- | :--- | :--- |
@@ -66,3 +66,6 @@ Final Test Accuracy: 84.91%
 | **accuracy** | | | **0.85** | **28737** |
 | **macro avg** | **0.77** | **0.72** | **0.74** | **28737** |
 | **weighted avg** | **0.84** | **0.85** | **0.85** | **28737** |
+
+*** Add ofrmula for calculating metrics, compare.  
+
