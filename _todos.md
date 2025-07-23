@@ -2,23 +2,27 @@
 
 ### ToDos July 13, 2025:  
 Connections:  
- * Grace, ask for recommendation
- * SciPy people - contact, review project repos
+ * Grace, ask for LinkedIn recommendation
+ * SciPy people - contacts, networked  
  * Sanhita - contacted, to review 1-2 papers for proceedings.
    - 2 papers assigned, finish this Saturday July 26, 2025  
 
-Post SciPy - finish landing page for external audience. 
+### ToDos July 23, 2025:  
+Coding:  
+ * finish landing page for external audience. 
    July 31 to finish.   
  * Run simple time-series model w aug data, post results table.  
 
 ### Todos Future:  
 
-Application on web:  
+Application on web - August, for job search:  
  * Create simple clasifier app, choose data source as ptbxl g1 or augmented data g1
    Later add SPH and also Areteus live data, if any  
 
 Marketing: 
- * Post at other websites, present at Meetups.  
+ * Post at my websites, present at local Meetups.
+ * Create documentation for other readers to repo. Package repo for showing.
+ * Maybe create a new repo with smaller size, demonstration pages w poster onply?  
 
 Models more runs: - create results page  
  * Run time-serie model, orig data, aug data
