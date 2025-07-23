@@ -4,12 +4,16 @@
 Connections:  
  * Grace, ask for recommendation
  * SciPy people - contact, review project repos
- * Sanhita - contacted, to review 1-2 papers for proceedings.  
+ * Sanhita - contacted, to review 1-2 papers for proceedings.
+   - 2 papers assigned, finish this Saturday July 26, 2025  
 
-Post SciPy - finish landing page for external audience.  
+Post SciPy - finish landing page for external audience. 
+   July 31 to finish.   
  * Run simple time-series model w aug data, post results table.  
 
-Applicarion on web:  
+### Todos Future:  
+
+Application on web:  
  * Create simple clasifier app, choose data source as ptbxl g1 or augmented data g1
    Later add SPH and also Areteus live data, if any  
 
@@ -25,6 +29,10 @@ Models more runs: - create results page
  * Expand dataset to all SPH
  * Expand dataset to joint SPH and PTBXL
 
+----   
+
+### June 19, 2025 11:30PM -- clone to WSL, local repo moved.  
+
 ### To Dos May-June 2025
    * ResNet + SE notebooks, visualizations. Some interactive charts.   
    * What story are you telling? most important.
@@ -36,4 +44,4 @@ Models more runs: - create results page
    * Running model - may want to try paid Colab.
    * For Grace class, just use g1 folder, 1000 samples,x 10 heartbeats. 10K samples should get good performance.
 
-  June 19, 2025 11:30PM -- clone to WSL
+
