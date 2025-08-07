@@ -11,7 +11,12 @@ Connections:
 Coding:  
  * finish landing page for external audience. 
    July 31 to finish.   
- * Run simple time-series model w aug data, post results table.  
+ * Run simple time-series model w aug data, post results table.
+ * Run filteres data for 1DCNN and time-series model, hospital data & augmented data
+ * Run SEResNet model, replace 34 for 18.
+ * Ask AI how to adopt it for my dataset.
+ * Read results from literature search on wearables augmentation.
+ * Send eng letter, timesheet, and bill to Jason, payable only if he starts making money.  
 
 ### Todos Future:  
 
