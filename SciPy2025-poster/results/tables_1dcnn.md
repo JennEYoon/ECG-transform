@@ -67,5 +67,5 @@ Final Test Accuracy: 84.91%
 | **macro avg** | **0.77** | **0.72** | **0.74** | **28737** |
 | **weighted avg** | **0.84** | **0.85** | **0.85** | **28737** |
 
-*** Add ofrmula for calculating metrics, compare.  
+**PDF, 1D-CNN Results: https://github.com/JennEYoon/ECG-transform/blob/main/SciPy2025-poster/results/Result_AugD.pdf  
 
