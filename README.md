@@ -9,8 +9,15 @@ Company: Areteus (https://areteus.us/)
  * See <a href="https://github.com/JennEYoon/ECG-transform/blob/main/SciPy2025-poster/results/tables_1dcnn.md" >Early Findings</a>
  
  * Title: AI for Wearable ECG Prototype: Quantified Health  
- * Proposed Abstract: I will share my experience customizing AI models for a wearable ECG (electrocardiogram) prototype, including Transformers, ResNets, and Random Forests. While intended for data science students and practitioners, anyone interested in wearable devices or quantified health is welcome. Listeners will gain practical insights to apply in their own AI projects.  
-Hospital-grade 12-signal ECG machines are bulky and expensive, while at-home devices capture only 1–6 asynchronous signals. The Areteus wearable ECG is designed for continuous home use, recording 12–19 synchronous signals. It is especially useful for detecting abnormal heartbeats during sleep and strenuous exercise.
+ * Abstract:
+   We are exploring how to apply deep learning models and data augmentation methods to a 12-lead ECG prototype embedded in a T-shirt built by Areteus. 
+ 
+    Combining wearable ECG devices with deep learning may enable the at-home detection of abnormal heartbeats. This technology could expand access for at-risk heart patients, high-performance athletes, and clinicians serving low-income communities. While a formal diagnosis still requires a physician, wearable ECGs can support early warnings and continuous at-home monitoring. 
+ 
+    For preliminary testing, we use a one-dimensional convolutional neural network (1D-CNN). The model's input data is sliced into one-heartbeat windows, centered using the maximum value, and zero-padded on both sides. To simulate real-world conditions, high-quality 12-lead hospital ECG data was aggressively augmented to mimic artifacts such as chest lead movement, electrical noise from muscle activity, signal drops from poor contact, baseline wander, and powerline interference. 
+ 
+    Early findings from the simple 1D-CNN model are promising. Even with aggressively augmented, noisy ECG data, the model achieved high diagnostic classification accuracy, sensitivity, and specificity. Future research will include exploring time-series and ResNet-SE models. Real-world testing of the T-shirt prototype is also planned with volunteers in Point Reyes, California. 
+    
 
  * conference: https://www.scipy2025.scipy.org/  
  * tags: #SciPy2025  #ECG-prototype  #AI  #quantified-health  
