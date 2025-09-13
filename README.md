@@ -5,7 +5,7 @@ Timeline: <a href="_timeline.md" > _timeline.md </a>
 Company: Areteus (https://areteus.us/)   
 
 ### SciPy 2025: virtual poster presentation, July 9, 2025    
- * See Final Poster: <a href="SciPy2025-poster/scipy2025_poster_JYoon_AI_for_Wearable.jpg">SciPy Poster</a>
+ * See Final Poster: <a href="https://github.com/JennEYoon/ECG-transform/blob/main/SciPy2025-poster/yoonj/poster_JYoon_final_9.13_update.png">SciPy Poster</a>
  * See <a href="https://github.com/JennEYoon/ECG-transform/blob/main/SciPy2025-poster/results/tables_1dcnn.md" >Early Findings</a>
  
  * Title: AI for wearable ECG prototype - quantified health  
