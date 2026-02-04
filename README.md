@@ -127,7 +127,7 @@ Test AI classification models with noisy augmented data
 
  * documentation - started
  * organization - started
- * Embedding visualization (notebooks, website, apps) - August - Oct, 2025     
- * Interactive python viz libraries (Plotly, Bokeh, Voila) - August - Oct, 2025   
+ * Embedding visualization (notebooks, website, apps) - later 2026     
+ * Interactive python viz libraries (Plotly, Bokeh, Voila) - later 2026    
 
 
