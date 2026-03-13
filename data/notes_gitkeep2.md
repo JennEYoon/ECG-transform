@@ -22,4 +22,4 @@ local file only.
 local file only. Private dataset  
 To parse and convert into usable signal  
 All raw data files were garbage. Need new device data files.  
-
+*** Fail data recordings, July 2025 ***  
