@@ -21,5 +21,5 @@ local file only.
 ### Prototype data file - Alondra   
 local file only. Private dataset  
 To parse and convert into usable signal  
-
+All raw data files were garbage. Need new device data files.  
 

@@ -1,0 +1,9 @@
+ecg_4canales_3 4 250 15000
+ecg_4canales_3.dat 16 32767.0(0)/mV 16 0 7128 64162 0 Lead_1
+ecg_4canales_3.dat 16 32767.0(0)/mV 16 0 -12531 24824 0 Lead_2
+ecg_4canales_3.dat 16 32767.0(0)/mV 16 0 -14030 54458 0 V2
+ecg_4canales_3.dat 16 32767.0(0)/mV 16 0 12835 17929 0 V5
+Sex: Male
+Age: 26
+Date: 12/03/26
+Time: 4:05pm
