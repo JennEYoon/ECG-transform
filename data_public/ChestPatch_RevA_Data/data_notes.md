@@ -6,4 +6,4 @@ Diagnosis class, assumed all normal.
 250 hertz, millivolts  
 
 Memo writer: Jennifer Yoon   
-Files received from Rodrigo on Friday, March 13, 2026.  
+Files received from Ricardo on Friday, March 13, 2026.  
