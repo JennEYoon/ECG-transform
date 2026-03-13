@@ -1,5 +1,9 @@
 # demo_2026  
 Google Drive folder updated, March 13, 2026 Friday 5:30 am.  
+Shared with Ricardo Ang, Jason Yoon  
+Owner Jennifer Yoon
+
+Re: Ricardo's request for processed data a label csv file for Edge-AI models he is working on.  
 
 Uploaded *.csv file for labels, split posisitions.  
 Uploaded processed g1 ptbxl dataset (augmented, noise simulation).  
