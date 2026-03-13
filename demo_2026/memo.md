@@ -5,7 +5,7 @@ Owner Jennifer Yoon
 
 Re: Ricardo's request for processed data a label csv file for Edge-AI models he is working on.  
 
-Uploaded *.csv file for labels, split posisitions.  
+Uploaded *.csv file for labels, peak positions (heart beat centering).  
 Uploaded processed g1 ptbxl dataset (augmented, noise simulation).  
 Uploaded ptb-xl.zip, all 22 folders original data folders.  
 
