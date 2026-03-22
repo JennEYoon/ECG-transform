@@ -1,0 +1,9 @@
+[2026-03-20 3:44 PM EDT]
+
+Here is a summary of all the Python scripts generated during our session to build out your 1D CNN inference pipeline:
+
+1.  **Initial Data Inspection Script:** A monolithic script (`load_and_inspect_ecg`) designed to load your `.npy` test files, read the corresponding `.hea` metadata, calculate signal statistics (min, max, average), and plot the 4 channels.
+2.  **Refactored Data Inspection Pipeline:** A refactored, modularized version of the first script. It broke the logic down into single-responsibility functions (`load_controller`, `extract_metadata`, `load_signal_array`, `plot_signals`, etc.) incorporating `pathlib` and strict type hinting for a more robust data engineering pipeline.
+3.  **Single-Lead Controller Generator (Option 1):** A script (`generate_controller_csv`) built to dynamically generate the master CSV controller file by detecting R-peaks on a single reference lead (Limb II) and applying those exact time-steps to the other 3 channels.
+4.  **Independent Channel Controller Generator (Option 2):** A robust script (`generate_independent_controller`) designed to recursively scan a folder for incoming `.npy` files and perform independent peak detection on every channel using dynamic amplitude thresholding. 
+5.  **Inference and Visualization Pipeline:** The final script (`run_inference`, `generate_report`) that loads the continuous signals based on the master controller CSV, segments them into peak-centered zero-padded windows, passes them through a PyTorch model tensor structure, and generates a formatted diagnostic probability table alongside a stacked bar chart.
