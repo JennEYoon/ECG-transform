@@ -5,5 +5,5 @@ ecg_4canales_1.dat 16 32767.0(0)/mV 16 0 -18666 55492 0 V2
 ecg_4canales_1.dat 16 32767.0(0)/mV 16 0 5061 48611 0 V5
 Age: 25
 Sex: Male
-Date: 12/06/26
+Date: 12/06/26 # error, should be 12/03/26  March 12, 2026
 Time: 3:13pm
