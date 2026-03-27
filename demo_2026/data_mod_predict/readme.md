@@ -2,8 +2,8 @@
 Date: March 27, 2026 Friday  
 Author: Jennifer Yoon
 
-Contents:
-ECG prototype data files pre-processed.  
+**Description:**    
+ECG prototype data, modified for use in prediction model.  
 Split into 10 second lengths, 125 hertz down sampled.   
 Verified units millivolts, max +1.0 to min -1.0 range.  
 4 channels, I, II, V2, V5, in that order.  
