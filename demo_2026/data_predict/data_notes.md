@@ -18,9 +18,9 @@ This is then converted to .dat and .hea formats using "wfdb" Python library.
 May not need .dat file. Only No difference w .npy data?  
 
 ### Comments on raw data:  
-Limb I has many sharp spikes in down (negative) direction, that does not march w heart beat times. May need to sync peaks to Limb II or some other channel. V2 has baseline wonder that seems large. All channels have spikes and low waves. Seems like contact error and powerline interference. Baseline wonder is didd of Limb I and II leads not flattening out. Still, main signals surprisingly clear for first batch of real data from device.  
+Limb I has many sharp spikes in down (negative) direction, that does not march w heart beat times. May need to sync peaks to Limb II or some other channel. V2 has baseline wonder that seems large. All channels have spikes and low waves. Seems like contact error and powerline interference. Baseline wonder exists in Limb I and II. Still, main signals surprisingly clear for first batch of real data from device.  
 
-Examine .dat after processing by wsfd. What is different? Denoising filtering???   
+Examine .dat after processing by wfdb. What is the different? Denoising filtering???   
 
 
 
