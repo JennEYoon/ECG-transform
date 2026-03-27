@@ -9,7 +9,8 @@ Files received from Ricardo on Friday, March 13, 2026.
  * Diagnosis class, assumed all normal.  
  * 250 hertz, millivolts
  * Recording length 60 seconds exactly, all four.
- * min -1.0 to max +1.0, float 16 bits.  
+ * min -1.0 to max +1.0, float 16 bits. All 4 channels, all 4 files.
+ * shape numpy file, [15000, 4] # Note, to transpose when input to 1dcnn model.  
 
 ### Update: March 18, 2026.  
 Note .npy is the first collection from ARM chip (signals are in C code). 
