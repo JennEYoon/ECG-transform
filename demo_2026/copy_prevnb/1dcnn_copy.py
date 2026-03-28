@@ -2,6 +2,21 @@
 # ECG signals, expect (row, 186) input datasets. Peak centered window size 186, at 125 herts sampling rate. 
 # labels on 187th column. 
 
+# Import main PyTorch libraries
+import torch
+import torch.nn as nn
+import torch.optim as optim
+from torch.utils.data import TensorDataset, DataLoader
+
+# Convert data to PyTorch tensors
+X_train_tensor = torch.tensor(X_train.values, dtype=torch.float32).unsqueeze(1)  # Add channel dimension
+y_train_tensor = torch.tensor(y_train.values, dtype=torch.long)
+X_test_tensor = torch.tensor(X_test.values, dtype=torch.float32).unsqueeze(1)  # Add channel dimension
+y_test_tensor = torch.tensor(y_test.values, dtype=torch.long)
+
+# Create DataLoader for training and testing data
+train_dataset = TensorDataset(X_train_tensor, y_train_tens
+
 # Define the model
 class ECGNet(nn.Module):
     def __init__(self, num_classes):
