@@ -35,8 +35,8 @@ If you bypass external devices, the MAX78000 must connect to the user's home Wi-
 
  * The Connection: You must use persistent connections (WebSockets or MQTT) initialized right at boot-up. Standard HTTP handshakes every few seconds will crash the chip.
 
-### Option 3: The Zero-Install Web App Gateway (Browser-Based)
-This option allows users to simply visit a website on their phone or laptop, avoiding app store downloads entirely.
+#### SoftAP (software access point) with pop-up capture  
+Option 2 may be helped by using an easy way to connect to wifi connection in device. Use local phone with cellular network or computer with shared wifi network. (see separate file)  
 
  * The Connection: The browser connects to the MAX78000 using the Web Bluetooth API (or local Wi-Fi WebSockets).
 
