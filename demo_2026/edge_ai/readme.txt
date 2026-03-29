@@ -3,5 +3,5 @@ Edge-AI
 Jennifer Yoon
 March 29, 2026 Saturday, 4pm - 10pm.  
 Exploring possible coding options.  
-Post training conversion - option A.  
-On-device training conversion - option B.  
+Post training conversion (input float32 .pth) - option A.  
+During training conversion (train new uint8 .pth) - option B.  
