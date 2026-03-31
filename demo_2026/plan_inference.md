@@ -10,11 +10,12 @@ Various plans hashed out. I will use channel-agnostic 1dcnn with existing traine
  * Load .npy file, load .hea file.
  * Test file to make sure it's in usable format, data range is usable.
  * Rescale to 125 hertz, millivolts
- * Text processing .hea file for user ID, filename, channel name/id index. 
- * Create .csv file with peak centering and file name + channel name for each signal.
- * Inputs: controller .csv file, resampled input data files.
- * Load .pth file (trained 1dcnn weights)
- * Run eval, produce table & plots, write to output file with prediction and probabilities.
+ * Text processing .hea file for user ID, filename, channel name/id index.
+   ***steps as of March 27, 2026 F***  
+> * Create .csv file with peak centering and file name + channel name for each signal.
+> * Inputs: controller .csv file, resampled input data files.
+> * Load .pth file (trained 1dcnn weights)
+> * Run eval, produce table & plots, write to output file with prediction and probabilities.
  * Write message log - run-time success, error messages.
  * Save logs, model updates.  
 
@@ -27,3 +28,6 @@ My Colab instance should be able to read directly from firebase db and execute t
 Event handlers to start a Colab notebook, execute, write results.  
 For abnormal heart-beats, based on on-chip edge-AI prediction, will start another event handler to run a 2nd model to verify abnormal heart-beats. No delay processing. Send warnings to user's phone.   
 
+### March 28 and 29, Connection points   
+AI edge, Firebase, MAX78000 chip specs, Google auth.  
+12 hours.  
