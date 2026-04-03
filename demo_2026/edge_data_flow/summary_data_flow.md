@@ -1,7 +1,7 @@
 # Summary Data Flow, from Edge Device to Wifi to Firebase db (No USB).     
 Date: April 3, 2026 Friday  
-Author: Jennifer Yoon
-Reviewed with Jason Yoon  
+Author: Jennifer Yoon  
+Reviewed with Jason Yoon   
 
 ### Device Onboarding (Wi-Fi Provisioning without Bluetooth)  
 For initial demo units lacking Bluetooth, getting the device onto the user's home internet securely requires the SoftAP / Captive Portal method. This is the industry standard for headless IoT setup.  
