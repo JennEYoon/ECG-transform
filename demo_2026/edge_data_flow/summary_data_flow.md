@@ -12,9 +12,9 @@ For initial demo units lacking Bluetooth, getting the device onto the user's hom
  * Cons: cannot be connected continuously via wifi, webpage auto time-out, battery runs out on device.  
 
 ### Resources/Constraints, MAX78000 microcontroller:  
- * 512K Flash Memory
+ * 512K Flash Memory (50-60% reserved for Edge-AI prediction model)  
  * But has Micro SD card connector, for more memory storage.
- * 100 millisecond sampling rate, data output, in binary
+ * 100 millisecond sampling rate, data output is in binary
 
 ### Proposed data flow:  
  * Device samples 100 millisecond ecg sensor data in binary, and buffers 3.0 second chunks into local memory.  
