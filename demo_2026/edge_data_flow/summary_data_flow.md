@@ -36,5 +36,4 @@ For initial demo units lacking Bluetooth, getting the device onto the user's hom
  * AMD MAX78000, device chip    
 
 ### Comparison, Google Firebase and other databases:  
-<a href="https://github.com/JennEYoon/ECG-transform/blob/main/demo_2026/edge_data_flow/Google_database_comparison.png" width = 600px >chart</a>
-![Chart: Google Databases](Google_database_comparison.png)
+<a href="https://github.com/JennEYoon/ECG-transform/blob/main/demo_2026/edge_data_flow/Google_database_comparison.png" width = 400px >chart</a>
