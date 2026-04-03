@@ -41,7 +41,5 @@ For initial demo units lacking Bluetooth, getting the device onto the user's hom
 * Google Cloud Identity Platform (HIPPA compliant). Note Firebase Auth is not HIPPA compliant    
 * AMD MAX78000, device chip    
 
-### Comparison, Google Firebase and other databases:
-
-> <img src="https://github.com/JennEYoon/ECG-transform/blob/main/demo_2026/edge_data_flow/Google_database_comparison.png" width = 800px />  
+### Comparison, Google Firebase and other databases:   
 <img src="Google_database_comparison.png" width = 800px />  
