@@ -30,7 +30,7 @@ For initial demo units lacking Bluetooth, getting the device onto the user's hom
  * Note2: 100 millisecond stream is too fast for Real-time Firebase or Firebase Store to handle. Some chuncking is needed. 1.5 second is our standard window size for one heart-beat in our AI models. 3.0 seconds gives us 2 full windows to feed to our AI models. The 3.0 second chunk may contain 2-5 heart-beats at rest (40-100 bpm).   
 
 ### Services Mentioned:  
- * Google FireStore db (No SQL) and Firebase Real-Time db (No SQL)  
+ * Google FireStore db (No SQL, documents) and Firebase Real-Time db (No SQL, JSON tree)  
  * Google Vertex AI - used for ecg diagnostic classification.    
  * Google Cloud Identity Platform (HIPPA compliant). Note Firebase Auth is not HIPPA compliant    
  * AMD MAX78000, device chip    
