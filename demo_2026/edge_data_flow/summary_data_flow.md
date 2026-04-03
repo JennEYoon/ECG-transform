@@ -18,7 +18,7 @@ For initial demo units lacking Bluetooth, getting the device onto the user's hom
 
 ### Proposed data flow:  
  * Device samples 100 millisecond ecg sensor data in binary, and buffers 3.0 second chunks into local memory.  
- * All samples are timestamped. Streamed data can be out of order. Some fault tolerance and buffering during data stream.   
+ * All samples are timestamped. Streamed data can be out of order. Some fault tolerance and buffering expected.    
  * Device streams via Wifi connection (initially no Bluetooth) directly to Firebase Store db.
  * Authentication already handled via SoftAP when device was turned on (wifi connection)
  * Use Firebase Store (not real-time) to receive 3.0 second chunks in binary.
