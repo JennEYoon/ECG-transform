@@ -27,6 +27,7 @@ For initial demo units lacking Bluetooth, getting the device onto the user's hom
  * Assemble necessary time-chunks and run AI model(s). This can be at Firebase or at Vertex AI end.
  * Results and charts sent to user's web page (or saved on device micro SD memory).
  * Note: Only Firebase Store is HIPPA compliant. Real-time Firebase stream is not.
+ * Note2: 100 millisecond stream is too fast for Real-time Firebase or Firebase Store to handle. Some chuncking is needed. 1.5 second is our standard window size for one heart-beat in our AI models. 3.0 seconds gives us 2 full heart-beat windows. The 3.0 second window will usually contain 2-4 heart-beats.   
 
    
 
