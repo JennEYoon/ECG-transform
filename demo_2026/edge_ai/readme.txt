@@ -6,3 +6,7 @@ March 29, 2026 Saturday, 4pm - 10pm.
 Exploring possible coding options.  
 Post training conversion (input float32 .pth) - option A.  
 During training conversion (train new uint8 .pth) - option B.  
+
+### call with Ricardo, Check-in on Edge AI   
+April 8, 2026 Wed. Quick WhatsApp chat.  
+
