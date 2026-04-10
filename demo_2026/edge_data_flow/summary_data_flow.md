@@ -49,7 +49,8 @@ Instead of streaming raw binary chunks directly to Firestore, a cleaner approach
 * Also Areteus needs to sign a Business Agreement with Google Cloud Platform to meet HIPPA compliance.  
 * AMD MAX78000, device chip
 * Google Cloud Storage -- JY verified on list of HIPPA compliant products.  
-* Google HIPPA Compliance documentation: https://cloud.google.com/security/compliance/hipaa  
+* Google HIPPA Compliance documentation: https://cloud.google.com/security/compliance/hipaa
+* Also these notes are for potential HIPPA compliance, lots of other processes need to be met to fully satisfy HIPPA compliance.  
 
 ### Comparison, Google Firebase and other databases:   
 <img src="Google_database_comparison.png" width = 800px />  
