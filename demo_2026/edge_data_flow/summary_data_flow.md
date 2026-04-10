@@ -30,9 +30,9 @@ For initial demo units lacking Bluetooth, getting the device onto the user's hom
 * Authentication already handled via SoftAP when device was turned on (wifi connection)
 * Use Firebase Store (not real-time) to receive 3.0 second chunks in binary.
 * Firebase convert binary to float-16 (later may change to float-8), and scale to millivolts.
-* On Google Cloud Platform, have event listener and event handler to call Vertex AI session (Javascript? or interactive Python?)  
-* Assemble necessary time-chunks (10 or 12sec chunks in numpy for matlab file format) and run AI model(s). This can be at Firebase or at Vertex AI end.
-* Analysis Results and charts sent to user's web page (or saved on device micro SD memory).
+* On Google Cloud Platform, have event listener and event handler to call Vertex AI session (Javascript? or interactive Python?)
+* Assemble necessary time-chunks (10 or 12sec chunks in numpy or matlab file format) and run AI model(s). This can be at Firebase or at Vertex AI end. AI will save results to a specified folder on Google Cloud Platform.  
+* Analysis Results and charts will be sent to user's web page (or saved on device's micro SD memory).
 * Note1: Only Firebase Store is HIPPA compliant. Real-time Firebase stream is not. (gcs bucket is also HIPPA compliant)
 * Note2: 100 millisecond stream is too fast for Real-time Firebase or Firebase Store to handle. Some chuncking is needed. 1.5 second is our standard window size for one heart-beat in our AI models. 3.0 seconds gives us 2 full windows to feed to our AI models. The 3.0 second chunk may contain 2-5 heart-beats at rest (40-100 bpm). A good compromise without being too large for device to handle.  
 
