@@ -24,7 +24,7 @@ For initial demo units lacking Bluetooth, getting the device onto the user's hom
 
 * Device samples 100 millisecond ecg sensor data in binary, and buffers 3.0 second chunks into local memory.  
 * All samples are timestamped. Streamed data can be out of order. Some fault tolerance and buffering expected.    
-* Device streams via Wifi connection (initially no Bluetooth) directly to Firebase Store db (or to Google Cloud Services bucket, a ***gcs bucket*** per Rebecca).
+* Device streams via Wifi connection (initially no Bluetooth) directly to Firebase Store db (or to Google Cloud Storage bucket, a ***gcs bucket*** per Rebecca).
 * Authentication already handled via SoftAP when device was turned on (wifi connection)
 * Use Firebase Store (not real-time) to receive 3.0 second chunks in binary.
 * Firebase convert binary to float-16 (later may change to float-8), and scale to millivolts.
