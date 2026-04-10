@@ -19,7 +19,7 @@ For initial demo units lacking Bluetooth, getting the device onto the user's hom
 
 * 512K Flash Memory (50-60% reserved for Edge-AI prediction model)  
 * But has Micro SD card connector, for more memory storage.
-* 100 millisecond sampling rate, data output is in binary (but current sampling is at 250 hertz)  
+* 100 millisecond (0.10 second) sampling rate, data output is in binary (but current sampling is at 250 hertz)  
 
 ### Proposed data flow:
 
