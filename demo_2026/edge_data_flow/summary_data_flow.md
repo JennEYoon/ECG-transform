@@ -19,7 +19,7 @@ For initial demo units lacking Bluetooth, getting the device onto the user's hom
 
 * 512K Flash Memory (50-60% reserved for Edge-AI prediction model)  
 * But has Micro SD card connector, for more memory storage.
-* 100 millisecond (0.10 second) is one packet of device data length
+* 100 millisecond (0.10 second) is one packet of device output length
 * 250 hertz (250 samples per second) is currently specified sampling speed (can go up to 1000 hertz?)  
 
 ### Proposed data flow:
