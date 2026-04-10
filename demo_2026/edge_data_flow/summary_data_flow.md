@@ -35,13 +35,19 @@ For initial demo units lacking Bluetooth, getting the device onto the user's hom
 * Note2: 100 millisecond stream is too fast for Real-time Firebase or Firebase Store to handle. Some chuncking is needed. 1.5 second is our standard window size for one heart-beat in our AI models. 3.0 seconds gives us 2 full windows to feed to our AI models. The 3.0 second chunk may contain 2-5 heart-beats at rest (40-100 bpm).
 * Input to AI models need to be of fixed length (10 seconds currently, can be changed to 12 seconds) and in an approved file format, e.g. numpy, matlab, pytorch.  
 
+### Proposed Alternative: GCS Bucket as Raw Data Landing Zone  
+Update by Rebecca, April 10, 2026   
+
+Instead of streaming raw binary chunks directly to Firestore, a cleaner approach would be to use a Google Cloud Storage (GCS) bucket as the initial landing zone for data coming off the MAX78000 device. In this model, the device uploads each 3-second binary chunk to a GCS bucket via a signed URL, which automatically triggers a Cloud Function. That function handles the binary-to-float-16 conversion and millivolt scaling, then writes only the clean, structured data into Firestore, keeping raw binary storage completely separate from the application database. This separation has several advantages: GCS is better suited for raw binary files than Firestore, it provides a natural audit trail of unprocessed data, it makes the conversion step explicit and testable, and GCS is HIPAA eligible under Google's BAA, meaning it fits within the same compliance framework already in use. The rest of the pipeline, Firestore trigger, Cloud Function event handler, Vertex AI inference, and web app delivery, remains unchanged.
+
 ### Services Mentioned:
 
 * Google FireStore db (No SQL, documents) and Firebase Real-Time db (No SQL, JSON tree)  
 * Google Vertex AI - used for ecg diagnostic classification.    
 * Google Cloud Identity Platform (HIPPA compliant). Note Firebase Auth is not HIPPA compliant
-* Also Areteus needs to sign a Business Agreement with Google Cloud Platform to meet HIPPA compliance is medical data usage.  
-* AMD MAX78000, device chip    
+* Also Areteus needs to sign a Business Agreement with Google Cloud Platform to meet HIPPA compliance.  
+* AMD MAX78000, device chip
+* Google Cloud Storage bucket (gcs bucket)  
 
 ### Comparison, Google Firebase and other databases:   
 <img src="Google_database_comparison.png" width = 800px />  
