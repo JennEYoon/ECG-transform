@@ -48,7 +48,8 @@ Instead of streaming raw binary chunks directly to Firestore, a cleaner approach
 * Google Cloud Identity Platform (HIPPA compliant). Note Firebase Auth is not HIPPA compliant
 * Also Areteus needs to sign a Business Agreement with Google Cloud Platform to meet HIPPA compliance.  
 * AMD MAX78000, device chip
-* Google Cloud Storage bucket (gcs bucket)  
+* Google Cloud Storage -- JY verified on list of HIPPA compliant products.  
+* Google HIPPA Compliance documentation: https://cloud.google.com/security/compliance/hipaa  
 
 ### Comparison, Google Firebase and other databases:   
 <img src="Google_database_comparison.png" width = 800px />  
