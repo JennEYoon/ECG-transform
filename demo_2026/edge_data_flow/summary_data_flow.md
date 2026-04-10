@@ -12,7 +12,8 @@ For initial demo units lacking Bluetooth, getting the device onto the user's hom
 * Step 2 (User Connects): The user connects their smartphone or computer to this setup network.
 * Step 3 (Captive Portal): The device intercepts the connection and automatically opens a local webpage on the user's screen (similar to hotel Wi-Fi logins).
 * Step 4 (Handshake): The user selects their home Wi-Fi network from a list and enters their password. The device saves these credentials, turns off its setup network, and connects to the internet to begin streaming.
-* Cons: cannot be connected continuously via wifi, webpage auto time-out, battery runs out on device.  
+* Cons: cannot be connected continuously via wifi, webpage auto time-out, battery runs out on device.
+* Memo: 2 factor authentication is required with user data, to meet HIPPA compliance.  
 
 ### Resources/Constraints, MAX78000 microcontroller:
 
