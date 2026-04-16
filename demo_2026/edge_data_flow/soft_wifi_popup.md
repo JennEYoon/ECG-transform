@@ -19,6 +19,7 @@ Here is exactly what the user will do. It requires no IP addresses, no router se
 5.  **Launch:** The user clicks "Save & Connect." The MAX78000 saves the password, shuts down its "Setup" Wi-Fi network, and permanently connects to the user's home router. The user can now open your web app gateway and start the demo.
 
 *Note: If you have the budget for these demo units, the absolute "lowest-tech" zero-friction option is to mail them a cheap, pre-configured 4G/LTE mobile Wi-Fi hotspot in the box along with the chip. They just turn both devices on, and the chip connects automatically.*
+  X No, Don't want to add to unit cost.  
+  MicroSD card already adds $20 to cost.  
 
-I have updated your architecture document below to include this crucial onboarding step for your Wi-Fi-only demo phase. ### Where? Didn't seem to save update ###  
-
+  
