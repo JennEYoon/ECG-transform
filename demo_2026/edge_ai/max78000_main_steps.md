@@ -38,5 +38,5 @@ The MAX78000 synthesizer tool (ai8xize) accepts the PyTorch checkpoint or Tensor
 The MAX78000 synthesizer automatically generates the C code, which can be compiled and executed on the MAX78000. The C code includes Application Programming Interface (API) calls to load the weights as well as the provided sample data to the hardware to execute an inference on the sample data and compare the classification outcome with the expected result as a pass/fail sanity test. This generated C code can be used as an example to create own applications. Figure 4 shows the overall development flow of the MAX78000.
 
 Figure 4. Development flow of the MAX78000.
-
+<img src="fig4_dev_workflow.png" width=800px?
 Figure 4. Development flow of the MAX78000.
