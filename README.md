@@ -19,7 +19,8 @@ Company: Areteus (https://areteus.us/)
     Early findings from the simple 1D-CNN model are promising. Even with aggressively augmented, noisy ECG data, the model achieved high diagnostic classification accuracy, sensitivity, and specificity. Future research will include exploring time-series and ResNet-SE models. Real-world testing of the T-shirt prototype is also planned with volunteers in Point Reyes, California. 
     
 
- * conference: https://www.scipy2025.scipy.org/  
+ * conference: https://www.scipy2025.scipy.org/
+ * proceedings, published poster:  to add link  
  * tags: #SciPy2025  #ECG-prototype  #AI  #quantified-health  
  * Image: Areteus ECG, close-up of processing chip, V1, and V2 contacts.
       
