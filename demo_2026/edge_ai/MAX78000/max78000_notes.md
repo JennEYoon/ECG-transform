@@ -6,6 +6,8 @@ Received in mail Wed. April 22, 2026. Cursory inspection. Chip seems complete, b
 
 Found AMD software. Base chip is in C/C++ and needs to be compiled. DOES have Python converter to chip-aware C/C++. Recommend PyTorch (not TFLite) with chip. Built-in neural engine is optimized for PyTorch. Lots of learning to get up to speed! Start with demo, voiced numbers recognition, YouTube.   
 
+Equally fine with Tensorflow-Keras models. Gemini seems misleading, not necessarily optimized for PyTorch. No need for TFLite, use full TF-Keras, and included software to convert to quantized C/C++ models.   
+
 > Gemini: Train your 1D CNN in PyTorch using the ai8x-training repository (link: https://github.com/analogdevicesinc/ai8x-training). This repo contains "wrappers" that ensure your model layers (convolution, activation, etc.) are compatible with the MAX78000 hardware.
 
 > **YouTube Demo: Spoken Digit Recognition**
