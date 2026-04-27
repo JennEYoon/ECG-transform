@@ -12,3 +12,6 @@ April 8, 2026 Wed. Quick WhatsApp chat.
 
 ### call with Jason, Rebecca April 24, 2026 Friday 2pm/4pm ET.  
 Check in on status, data flow to edge-ai.   
+
+### Control of this project transferred to Rebecca, as of 4/24/2026.  
+She is in charge of working on data flow issues and coordinating with hardware team and Edge AI.   
