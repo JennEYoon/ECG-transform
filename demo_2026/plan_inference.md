@@ -31,3 +31,14 @@ For abnormal heart-beats, based on on-chip edge-AI prediction, will start anothe
 ### March 28 and 29, Connection points   
 AI edge, Firebase, MAX78000 chip specs, Google auth.  
 12 hours.  
+
+### April 28, 2026 TU 5pm  
+Back to working on inference models.  
+
+Next steps: create csv file with window size 186 long and 125 herts (downsample from 250 hertz) numpy data format.  
+Run eval() using pre-trained model, weights. How to load pretrained model .pth?  
+If necessary can re-train model.  
+Run more diagnostics on eval().  
+
+
+
