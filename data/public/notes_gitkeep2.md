@@ -6,6 +6,11 @@ Gitignore command used at root. Files saved to local computer repo only.
 Google Drive: shared data, notebook folders:  
 hidden link. Jan 23, 2025 by Jennifer Yoon
 
+### May 2026 note, 1dCNN copy saved to "data" folder.  
+Not viewable on Github, not uploaded. Part of .gitignore.  
+Local machine ROG has ptbxl g1 original downsampled and millivolts units scaled.  
+Lacal machine ROG has augmented data models, July 9, 2025 version.  
+
 ### original ECGTransform dataset, MIT, PTB  
 Added ECGTransForm_dataset to git repo  
 
