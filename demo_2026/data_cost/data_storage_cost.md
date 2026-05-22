@@ -1,12 +1,8 @@
 # Google Data Storage cost
 
-Region
+Region:  Mexico (northamerica-south1)
+Period:  Monthly
 
-Mexico (northamerica-south1)
-
-Hourly
-
-Monthly
 Standard storage
 
 Nearline storage
