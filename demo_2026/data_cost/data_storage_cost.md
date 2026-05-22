@@ -1,5 +1,6 @@
 # Google Data Storage cost
 Date: as of May 22, 2026  
+Author: Jennifer Yoon  
 
 Region:  Mexico (northamerica-south1)  
 column 2: cost in USD for 1 gibibyte per month   
