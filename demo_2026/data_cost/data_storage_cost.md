@@ -5,7 +5,7 @@ Region:  Mexico (northamerica-south1)
 column 2: cost in USD for 1 gibibyte per month   
 column 2: estimated 18.168 gibibypes per month per user  
 
-| header 1 | header 2 | header 3 |  
+| storage types | cost per 1 gibibyte | cost per user per month |  
 | ------------------- | ------------------------- | ---------------------------- |  
 | Standard storage:    | $0.026 (for 1 gibibyte)   | $ 0.472 per month per user  |  
 | Nearline storage:    | $0.018    | $ 0.327  |  
