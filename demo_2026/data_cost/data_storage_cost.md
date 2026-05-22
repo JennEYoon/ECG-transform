@@ -1,4 +1,5 @@
 # Google Data Storage cost
+Date: as of May 22, 2026  
 
 Region:  Mexico (northamerica-south1)  
 Units/Time: per 1 gibibyte, per month   
@@ -9,7 +10,7 @@ Units/Time: per 1 gibibyte, per month
  * Archive storage:      $0.0027    $ 0.049   
  * Rapid Cache store:    $0.120012  $ 2.180  
 
-### Device raw data storage estimate, per user, per month   
+### Device raw data storage estimate, per month, per user   
 
 24 bit, 10 channels (12-signal ECG only), 250 herts (samples per sec)  
   = 60,000 bits per second  
