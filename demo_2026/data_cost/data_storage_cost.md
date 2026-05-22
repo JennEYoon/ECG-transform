@@ -9,4 +9,6 @@ Units/Time: per 1 gibibyte, per month
  * Archive storage:  $0.0027
  * Rapid Cache storage:  $0.120012  
 
+### Device raw data storage estimate, per user, per month   
+
 
