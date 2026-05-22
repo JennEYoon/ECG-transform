@@ -16,10 +16,10 @@ Units/Time: per 1 gibibyte, per month
   divide by 8 bits in a byte  
   = 7,600 bytes per second  
   
-1 month = 60 sec x 60 min x 24 hours x 30 days = 2,592,000 seconds
-= 19.440 gigabyte per month per user  
+1 month = 60 sec x 60 min x 24 hours x 30 days = 2,592,000 seconds  
+  x 7,600 bytes/sec = 19.440 gigabyte per month per user  
 1 Gigibyte (2^30) ~ 1.07 Gigabyte (10^9)  
 
-19.44 divide by 1.07 = ***18.168 gibitype per user per month***.  
+19.44 divide by 1.07 = ***18.168 gibibype per month per user***.  
 
 
