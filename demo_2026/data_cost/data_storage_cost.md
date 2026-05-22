@@ -17,5 +17,4 @@ Archive storage
 
 Rapid Cache storage
 
-$0.000035616 / 1 gibibyte hour	$0.000024658 / 1 gibibyte hour	$0.000008219 / 1 gibibyte hour	$0.000003699 / 1 gibibyte hour	$0.0001644 / 1 gibibyte hour
-
+$0.026 / 1 gibibyte month	$0.018 / 1 gibibyte month	$0.006 / 1 gibibyte month	$0.0027 / 1 gibibyte month	$0.120012 / 1 gibibyte month
