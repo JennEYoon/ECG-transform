@@ -51,3 +51,20 @@ call, plan 3.5h today.
 Need to get 1dcnn inference to work.  
 Try loading a small sample abnormal files from ptbxl augmented.  
 Then try 4 user recording. File already converter to .mat, 10 secs long, 125 herts, -1 to +1 volts range.  
+
+### Inputs, Env, June 6, 2026 Saturday:  
+Directory, inference data modified rescaled (data processing)  
+Model structure, from training notebook - specify parameters (186 data columns, 187th is label, lead agnostic, batch size, training epochs) 
+Controller peak centering csv file (data processing)  
+Try using csv file for data to make it easier to run 1dcnn. Same as MIT dataset from Kaggle.   
+
+Run first on PTBXL out of sample as inference data. Abnormal files select about 10 in all 5 categories.  
+Next run Areteus ddevice output data. Code all as normal class.  
+Try using csv files to make it easier, but matlab file format ok for now.  
+Finish this weekend, Saturday and Sunday.  
+
+
+
+
+
+...   
