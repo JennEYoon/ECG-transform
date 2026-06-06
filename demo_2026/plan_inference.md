@@ -63,6 +63,17 @@ Next run Areteus ddevice output data. Code all as normal class.
 Try using csv files to make it easier, but matlab file format ok for now.  
 Finish this weekend, Saturday and Sunday.  
 
+Note on Env:  
+Large files are not uploaded to GitHub. Google drive and local drive Ubuntu side has data.  
+Workflow requires Ubuntu, but connection may be not solid. Copy everything over to Windows C repo??  
+
+Colab: only 1 notebook live, but can use 2 different accounts and 2 different browser windows to see 2 notebooks at once.  
+Also can add 2nd notebook to the bottom of 1st, use Outline to quickly move up & down.  
+Save large files to Google Drive and cp from link address.  
+Upload inference data folder, ptbxl inference sample data folder.  
+
+AI - try AI Studio or Gemini CLI.  
+Also run local Jupyter Lab and use AI on browser.  
 
 
 
