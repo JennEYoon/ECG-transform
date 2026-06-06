@@ -46,3 +46,8 @@ Run more diagnostics on eval().
  * Try train quantized aware, then  
  * Try post-train weights quantization and layer fusion.  
 
+### June 5 F:  
+call, plan 3.5h today.  
+Need to get 1dcnn inference to work.  
+Try loading a small sample abnormal files from ptbxl augmented.  
+Then try 4 user recording. File already converter to .mat, 10 secs long, 125 herts, -1 to +1 volts range.  
