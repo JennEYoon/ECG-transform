@@ -11,9 +11,9 @@ Various plans hashed out. I will use channel-agnostic 1dcnn with existing traine
  * Test file to make sure it's in usable format, data range is usable.
  * Rescale to 125 hertz, millivolts
  * Text processing .hea file for user ID, filename, channel name/id index.  
-   ***steps as of March 27, 2026 F***  
-> * Create .csv file with peak centering and file name + channel name for each signal.
-> * Inputs: controller .csv file, resampled input data files.
+ * ***steps as of March 27, 2026 F*** 
+> * Create .csv file with peak centering and file name + channel name for each signal. - done  
+> * Inputs: controller .csv file, resampled input data files.- done  
 > * Load .pth file (trained 1dcnn weights)
 > * Run eval, produce table & plots, write to output file with prediction and probabilities.
  * Write message log - run-time success, error messages.
