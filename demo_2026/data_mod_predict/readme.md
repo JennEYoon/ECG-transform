@@ -13,5 +13,8 @@ MatLab format .mat
 Data type 16 bit float.  
 
 ## todo 6/18/2026 9pm;  
-
-
+Create csv file for model input   
+[beat, 186]
+[beat, 186]
+format. Some columns before or after can have file id, channel id, diagnostic class info.  
+Match .csv file for MIT-BIH exercise.   
