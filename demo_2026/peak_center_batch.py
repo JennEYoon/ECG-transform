@@ -10,8 +10,8 @@ HALF_WINDOW = 125
 INPUT_FOLDER = "./data_mod_predict/"
 OUTPUT_CSV = "cnn_ready_predict_v3.csv"
 # output beats, not just metadata.   
-# Areteus device recordings, sampled April 2026. 
-DATASET = "AR2026.04.csv"   
+# Areteus device recordings, sampled March 2026. 
+DATASET = "AR2026.03.csv"   
 LEADS = ["I", "II", "V2", "V5"]
 
 def process_all_files():
