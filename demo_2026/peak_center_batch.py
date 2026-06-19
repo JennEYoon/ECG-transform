@@ -5,14 +5,18 @@ import pandas as pd
 import os
 
 # Configuration
-WINDOW_SIZE = 250  # I thought I already downsampled to 125 hertz? To check  
-HALF_WINDOW = 125
+WINDOW_SIZE = 250  
+HALF_WINDOW = 125  
+LEADS = ["I", "II", "V2", "V5"]
+# I thought I already downsampled to 125 hertz? To check  
+# Some heartbeats more than 1 second, so cropped? Maybe correct window sizes. 
 INPUT_FOLDER = "./data_mod_predict/"
-OUTPUT_CSV = "cnn_ready_predict_v3.csv"
+OUTPUT_CSV = "cnn_ready_metadata_v4.csv"
+DATASET = "AR2026.03.csv"   
 # output beats, not just metadata.   
 # Areteus device recordings, sampled March 2026. 
-DATASET = "AR2026.03.csv"   
-LEADS = ["I", "II", "V2", "V5"]
+
+
 
 def process_all_files():
     all_rows = []
