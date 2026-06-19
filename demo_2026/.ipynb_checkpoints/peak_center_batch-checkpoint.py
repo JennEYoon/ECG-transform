@@ -1,0 +1,93 @@
+import numpy as np
+import scipy.io as sio
+import scipy.signal as signal
+import pandas as pd
+import os
+
+# Configuration
+WINDOW_SIZE = 250  
+HALF_WINDOW = 125  
+LEADS = ["I", "II", "V2", "V5"]
+BEAT_SIZE= 186
+# I thought I already downsampled to 125 hertz? To check  
+# Some heartbeats more than 1 second, so cropped? Maybe correct window sizes. 
+INPUT_FOLDER = "./data_mod_predict/"
+OUTPUT_CSV = "cnn_ready_metadata_v4.csv"
+DATASET = "AR2026.03.csv"   
+# output beats, not just metadata.   
+# Areteus device recordings, sampled March 2026. 
+
+
+
+def process_all_files():
+    all_rows = []
+    
+    # Ensure directory exists
+    if not os.path.exists(INPUT_FOLDER):
+        print(f"Error: Folder {INPUT_FOLDER} not found.")
+        return
+
+    mat_files = [f for f in os.listdir(INPUT_FOLDER) if f.endswith(".mat")]
+    
+    for file_name in mat_files:
+        # 1. Load Data (Expected shape: 4, 1250)
+        mat_data = sio.loadmat(os.path.join(INPUT_FOLDER, file_name))
+        val = mat_data['val']
+        
+        # 2. Parse IDs (U001_S002.mat -> 001, 002)
+        u_idx = file_name.split('_')[0][1:]
+        s_idx = file_name.split('_')[1][1:4]
+
+        # 3. Peak Detection on Lead II (Index 1)  
+        # Use lead II to time peaks for all channels
+        # distance=75 at 125Hz ensures ~0.6s between beats
+        peaks, _ = signal.find_peaks(val[1,:], distance=75, height=np.mean(val[1,:]))
+
+        # 4. Create window metadata, beats?
+        for win_idx, peak_pos in enumerate(peaks):
+            # Calculate indices for the sample window
+            win_start = peak_pos - HALF_WINDOW
+            win_end = peak_pos + HALF_WINDOW
+            
+            for lead_name in LEADS:
+                all_rows.append({
+                    "filename": file_name,
+                    "user_idx": u_idx,
+                    "sample_idx": s_idx,
+                    "lead_name": lead_name,
+                    "window_idx": win_idx,
+                    "peak_position": peak_pos,
+                    "win_start": win_start,
+                    "win_end": win_end
+                })
+                # Save heart beat, for each peak, lead, file.  
+                # peak center, zero pad left and right, if less than 186  
+                beat = np.zeros(BEAT_SIZE) # zero fill first 
+                win_length = win_end - win_start
+                pad = max(0, BEAT_SIZE - win_length) // 2
+                crop = max(0, win_length - BEAT_SIZE) // 2  
+                center = BEAT_SIZE // 2 
+                start = # calculate if either pad or crop > 0, use, else use window length.  
+                end = # calculate  
+                beat[center:end] = val[lead_name, peak_pos:end]
+                beat[start:center] = val[lead_name, start:peak_pos]
+                print(beat)  
+                # plot beat  
+                all_beats.append(beat)
+    
+    # 5. Export Metadata to CSV
+    df = pd.DataFrame(all_rows)
+    df.to_csv(OUTPUT_CSV, index=False)
+    
+    total_beats = len(all_rows) // 4
+    print(f"Success: Processed {len(mat_files)} files.")
+    print(f"Total heart-beats identified: {total_beats}")
+    print(f"Metadata saved to: {OUTPUT_CSV}")
+
+    # 6. Export heart beats values to csv  
+    df2 = pd.DataFrame(all_beats)  
+    df2.to_csv(DATASET)
+    print(f"Heart beats data saved to: {DATASET}")
+
+if __name__ == "__main__":
+    process_all_files()
