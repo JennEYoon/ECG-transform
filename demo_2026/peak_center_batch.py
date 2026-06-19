@@ -8,6 +8,7 @@ import os
 WINDOW_SIZE = 250  
 HALF_WINDOW = 125  
 LEADS = ["I", "II", "V2", "V5"]
+BEAT_SIZE= 186
 # I thought I already downsampled to 125 hertz? To check  
 # Some heartbeats more than 1 second, so cropped? Maybe correct window sizes. 
 INPUT_FOLDER = "./data_mod_predict/"
@@ -63,7 +64,7 @@ def process_all_files():
                 # peak center, zero pad left and right, if less than 186  
                 beat = np.zeros(186) # zero pad first 
                 win_length = win_end - win_start
-                pad = (186 - win_length) // 2
+                pad = (BEAT_SIZE - win_length) // 2
                 beat[distance:win_length] = val[lead_name, peak_pos:win_end]
                 beat[pad:distance] = val[lead_name, win_start:peak_pos]
                 print(beat)  
@@ -79,9 +80,10 @@ def process_all_files():
     print(f"Total heart-beats identified: {total_beats}")
     print(f"Metadata saved to: {OUTPUT_CSV}")
 
-    # 6. Export beats dataset to csv  
+    # 6. Export heart beats values to csv  
     df2 = pd.DataFrame(all_beats)  
-    df2.to_csv(DDATASET)
+    df2.to_csv(DATASET)
+    print(f"Heart beats data saved to: {DATASET}")
 
 if __name__ == "__main__":
     process_all_files()
