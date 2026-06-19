@@ -62,14 +62,18 @@ def process_all_files():
                 })
                 # Save heart beat, for each peak, lead, file.  
                 # peak center, zero pad left and right, if less than 186  
-                beat = np.zeros(186) # zero pad first 
+                beat = np.zeros(BEAT_SIZE) # zero fill first 
                 win_length = win_end - win_start
-                pad = (BEAT_SIZE - win_length) // 2
-                beat[distance:win_length] = val[lead_name, peak_pos:win_end]
-                beat[pad:distance] = val[lead_name, win_start:peak_pos]
+                pad = max(0, BEAT_SIZE - win_length) // 2
+                crop = max(0, win_length - BEAT_SIZE) // 2  
+                center = BEAT_SIZE // 2 
+                start = # calculate if either pad or crop > 0, use, else use window length.  
+                end = # calculate  
+                beat[center:end] = val[lead_name, peak_pos:end]
+                beat[start:center] = val[lead_name, start:peak_pos]
                 print(beat)  
+                # plot beat  
                 all_beats.append(beat)
-
     
     # 5. Export Metadata to CSV
     df = pd.DataFrame(all_rows)
