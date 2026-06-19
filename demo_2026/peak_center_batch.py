@@ -5,7 +5,7 @@ import pandas as pd
 import os
 
 # Configuration
-WINDOW_SIZE = 250  
+WINDOW_SIZE = 250  # I thought I already downsampled to 125 hertz? To check  
 HALF_WINDOW = 125
 INPUT_FOLDER = "./data_mod_predict/"
 OUTPUT_CSV = "cnn_ready_predict_v3.csv"
@@ -33,13 +33,14 @@ def process_all_files():
         u_idx = file_name.split('_')[0][1:]
         s_idx = file_name.split('_')[1][1:4]
 
-        # 3. Peak Detection on Lead II (Index 1)
+        # 3. Peak Detection on Lead II (Index 1)  
+        # Use lead II to time peaks for all channels
         # distance=75 at 125Hz ensures ~0.6s between beats
         peaks, _ = signal.find_peaks(val[1,:], distance=75, height=np.mean(val[1,:]))
 
-        # 4. Create window metadata
+        # 4. Create window metadata, beats?
         for win_idx, peak_pos in enumerate(peaks):
-            # Calculate indices for the 250-sample window
+            # Calculate indices for the sample window
             win_start = peak_pos - HALF_WINDOW
             win_end = peak_pos + HALF_WINDOW
             
@@ -54,8 +55,18 @@ def process_all_files():
                     "win_start": win_start,
                     "win_end": win_end
                 })
-                
-    # 5. Export to CSV
+                # Save heart beat, for each peak, lead, file.  
+                # peak center, zero pad left and right, if less than 186  
+                beat = np.zeros(186) # zero pad first 
+                win_length = win_end - win_start
+                pad = (186 - win_length) // 2
+                beat[distance:win_length] = val[lead_name, peak_pos:win_end]
+                beat[pad:distance] = val[lead_name, win_start:peak_pos]
+                print(beat)  
+                all_beats.append(beat)
+
+    
+    # 5. Export Metadata to CSV
     df = pd.DataFrame(all_rows)
     df.to_csv(OUTPUT_CSV, index=False)
     
@@ -63,6 +74,10 @@ def process_all_files():
     print(f"Success: Processed {len(mat_files)} files.")
     print(f"Total heart-beats identified: {total_beats}")
     print(f"Metadata saved to: {OUTPUT_CSV}")
+
+    # 6. Export beats dataset to csv  
+    df2 = pd.DataFrame(all_beats)  
+    df2.to_csv(DDATASET)
 
 if __name__ == "__main__":
     process_all_files()
