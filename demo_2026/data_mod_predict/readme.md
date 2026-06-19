@@ -12,7 +12,7 @@ Has 4 user files, U000 to U003.
 MatLab format .mat  
 Data type 16 bit float.  
 
-## todo 6/18/2026 9pm;  
+## todo 6/18/2026 9:15pm:   
 Create csv file for model input   
 [beat, 186]
 [beat, 186]
