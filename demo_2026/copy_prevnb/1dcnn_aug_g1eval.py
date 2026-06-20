@@ -9,7 +9,7 @@ Output: Trained 1D CNN model for PTBXL arrhythmia classification
 Classes: 0-6 based on PTBXL_class_labels.csv
 - 0: Sinus Rhythm (Normal)
 - 1: Left-axis Deviation  
-- 2: T-wave abnormal
+# 2: T-wave abnormal
 - 3: Atrial Fibrillation
 - 4: 1st degree AV block
 - 5: Left anterior fascicular block
