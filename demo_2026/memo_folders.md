@@ -15,6 +15,10 @@ repos1/ecg_augdata/augments/large_files/g1_aug/
 Contains HR00001_aug.mat to HR00999_aug.mat
 This is the latest version 17. July 9, 2025 last modified.
 
+### Local computer setup environment   
+On wsl2: ecg conda env, jupyter lab installed.  
+use for libraries, notebook, scripts, terminal commands, gemini on chrome.  
+
 ### Github repo synced, ECG-transform/demo_2026/    
 Working files and data for prediction 1dcnn modle, input device recordings.  
 Pre-process original device recordings into saved pytorch model and weights format.  
