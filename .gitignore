@@ -8,9 +8,12 @@ desktop.ini
 
 # ignore all folder  
 /data/*  
+/model_saved/*
 
 # except rule  
 !/data/notes_gitkeep*.*
-!/data/public/*  
+!/data/public/*
+!/model_saved/readme.md  
 
 *.Zone_Identifier
+*:Zone.Identifier 

@@ -1,0 +1,2 @@
+\\wsl.localhost\Ubuntu\home\jyoon\repos1\ECG-transform\data\1dcnn_saved\
+ptbxl_ecg_model_v13.pth
