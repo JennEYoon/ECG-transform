@@ -31,3 +31,4 @@ Will be 12 channels. Get new device recordings in various lengths.
 Device output 100 ms, 0.01 sec.  
 Need to be saged on a local computer to assemble into longer lengths.  
 Later use cloud to assemble. Find out latency. Buffering and redunancy, Rebecca?  
+Rebecca studying schematic for easy ECG device. Which chip?  
