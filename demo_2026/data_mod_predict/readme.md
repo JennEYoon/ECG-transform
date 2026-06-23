@@ -24,5 +24,5 @@ Run 1dcnn inf model.
 Enlarge dataset, run using known abnormal classes from ptbxl.  
 Create script to process more datasets. Run models on more datasets.  
 
-
+After getting a model to run, need to refactor code to make it easy to maintain and understand. Also make batch processing easier.  
 
