@@ -26,3 +26,8 @@ Create script to process more datasets. Run models on more datasets.
 
 After getting a model to run, need to refactor code to make it easy to maintain and understand. Also make batch processing easier.  
 
+### July plan, next version simple ECG device  
+Will be 12 channels. Get new device recordings in various lengths.  
+Device output 100 ms, 0.01 sec.  
+Need to be saged on a local computer to assemble into longer lengths.  
+Later use cloud to assemble. Find out latency. Buffering and redunancy, Rebecca?  
