@@ -20,3 +20,9 @@ format. Some columns before or after can have file id, channel id, diagnostic cl
 Match .csv file for MIT-BIH exercise.   
 
 ### 6/23 TU  
+Run 1dcnn inf model.  
+Enlarge dataset, run using known abnormal classes from ptbxl.  
+Create script to process more datasets. Run models on more datasets.  
+
+
+
