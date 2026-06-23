@@ -18,3 +18,5 @@ Create csv file for model input
 [beat, 186]   
 format. Some columns before or after can have file id, channel id, diagnostic class info.  
 Match .csv file for MIT-BIH exercise.   
+
+### 6/23 TU  
