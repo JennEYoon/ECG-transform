@@ -1,2 +1,9 @@
 \\wsl.localhost\Ubuntu\home\jyoon\repos1\ECG-transform\data\1dcnn_saved\
 ptbxl_ecg_model_v13.pth
+
+copied to subdirection  
+/demo_2026/inf_trials/saved_models/
+ptbxl_ecg_model_v13.pth
+
+Q is class numbers and names read from trained pth file?  
+Inference must use same classes as training/testing.  
