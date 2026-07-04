@@ -1,7 +1,7 @@
 \\wsl.localhost\Ubuntu\home\jyoon\repos1\ECG-transform\data\1dcnn_saved\
 ptbxl_ecg_model_v13.pth
 
-copied to subdirection  
+copied to subdirection - .gitignore, not uploaded to GitHub 
 /demo_2026/inf_trials/saved_models/
 ptbxl_ecg_model_v13.pth
 
