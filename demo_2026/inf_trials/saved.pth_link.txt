@@ -7,3 +7,4 @@ ptbxl_ecg_model_v13.pth
 
 Q is class numbers and names read from trained pth file?  
 Inference must use same classes as training/testing.  
+A. Yes. Class number and definition is from training file.  
