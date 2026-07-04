@@ -74,8 +74,11 @@ Upload inference data folder, ptbxl inference sample data folder.
 
 AI - try AI Studio or Gemini CLI.  
 Also run local Jupyter Lab and use AI on browser.  
-
-
-
-
 ...   
+
+### July 3, 2026 Friday:  
+Success! 1dcnn model inference works on Areteus dataset from March 2026 Ricardo.  
+All segments normal heart classification, even though data had a lot of spikey noise. Trining model was on heavily augmented data with spikes introducted randomly. 4 channels, 60 seconds, converted to 125 hertz/sec, 4 subjects. All young male from Mexico in good health.  
+
+
+
