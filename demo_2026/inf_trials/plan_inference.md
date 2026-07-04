@@ -80,5 +80,9 @@ Also run local Jupyter Lab and use AI on browser.
 Success! 1dcnn model inference works on Areteus dataset from March 2026 Ricardo.  
 All segments normal heart classification, even though data had a lot of spikey noise. Trining model was on heavily augmented data with spikes introducted randomly. 4 channels, 60 seconds, converted to 125 hertz/sec, 4 subjects. All young male from Mexico in good health.  
 
+ * Todo1: Run inference on known abnormal class hearts, from ptbxl. Try g2 folder.
+ * Optimize script for data processing and model data loading/training and inference from trained .pth model.
+ * Time-series model, train on 4-channels at once, not split into 186 columns but use whole 10-second recordings.
 
+   
 
