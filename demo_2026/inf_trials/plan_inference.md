@@ -82,7 +82,7 @@ All segments normal heart classification, even though data had a lot of spikey n
 
  * Todo1: Run inference on known abnormal class hearts, from ptbxl. Try g2 folder.
  * Optimize script for data processing and model data loading/training and inference from trained .pth model.
- * Time-series model, train on 4-channels at once, not split into 186 columns but use whole 10-second recordings.
+ * Time-series model, train on 4-channels at once, not split into 186 columns but use whole 10-second recordings. -- next week July
 
    
 
