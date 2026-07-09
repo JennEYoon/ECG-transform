@@ -8,6 +8,12 @@ Describe situation, Q& A.
 ### July 8th   
 Messages w Rebecca, Axel. Plan 1h  
 Think +2h  
-
+Create sample files using Areteus march 2026 device recording and ptbxl augmented recordings abnormal classes.  
+Chop into 1 second, 3 seconds, and 10 seconds segments. 
+Data pre-processing, refactor to autodetect lengths. Have minimum length test.  
+If valid, run process.  
+Create 186 column csv data and meta data (user id, file id, peak location)  
+Run inference, and group results by user. Minimum is one full heart beat.  
+Process until end of feed. Timeout?  
 
 
