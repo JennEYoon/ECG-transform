@@ -2,7 +2,9 @@
 
 Use augmented data g1_aug, ptbxl  
 
-Start: July 7, 2026 Tuesday 11pm EST  
+Start: July 9, 2026 Thursday.  
+Tomorrow, meet ReBecca, Axel, Jason.  
+Discuss data pipeline, device to cloud.  
 
 
 
