@@ -7,3 +7,7 @@ Describe situation, Q& A.
 
 ### July 8th   
 Messages w Rebecca, Axel. Plan 1h  
+Think +2h  
+
+
+
