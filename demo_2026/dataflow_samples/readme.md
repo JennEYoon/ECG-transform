@@ -1,5 +1,4 @@
 # samples, dataflow for Rebecca  
-
 Sunday July 12, 2026 update.    
 
 ### Sample 1: 
