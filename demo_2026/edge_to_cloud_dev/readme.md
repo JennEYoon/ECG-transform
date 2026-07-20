@@ -13,3 +13,5 @@ To send actual device recording from prior version ECG device to rebecca. Sample
 
 > Next Action: 1dcnn inference on cloud, input one gcs file, output diagnostic class name to another gcs file.
 
+issues: data packet buffering from edge to cloud, then cloud to stitch together into 10 seconds, then classification label pass correctly to user UI on user phone app.  
+
