@@ -1,6 +1,8 @@
 # data flow prototype, from edge to cloud  
 
 start date: July 20, 2026 Monday  
+author: Jennifer Yoon  
+
 
 Rebecca provides sample data files last week. JSON text and numpy readable binary file, smaller storage space.  
 
