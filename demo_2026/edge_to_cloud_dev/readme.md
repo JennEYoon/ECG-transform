@@ -11,3 +11,5 @@ Rebecca provides sample data files last week. JSON text and numpy readable binar
 Review and get back to Rebecca.  
 To send actual device recording from prior version ECG device to rebecca. Sample from ptbxl to rebecca so she can see.  
 
+> Next Action: 1dcnn inference on cloud, input one gcs file, output diagnostic class name to another gcs file.
+
