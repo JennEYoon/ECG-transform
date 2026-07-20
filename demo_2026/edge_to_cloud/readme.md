@@ -7,5 +7,5 @@ Rebecca provides sample data files last week. JSON text and numpy readable binar
 10 second recording multi channels simulated data 250 hertz amplitude +1.0 to -1.0. Integer string text (signed?), to convert to float 16. includes meta data in same file. Device output amplitude already converted to millivolts using ground power output signal.  
 
 Review and get back to Rebecca.  
-To send actual device recording from prior version ECG device to rebecca. Sample from ptbsl to rebecca so she can see.  
+To send actual device recording from prior version ECG device to rebecca. Sample from ptbxl to rebecca so she can see.  
 
