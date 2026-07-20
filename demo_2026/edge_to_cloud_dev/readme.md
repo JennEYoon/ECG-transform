@@ -1,4 +1,4 @@
-# data flow prototype, from edge to cloud  
+# data flow development, from edge to cloud  
 
 start date: July 20, 2026 Monday  
 author: Jennifer Yoon  
